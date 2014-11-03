@@ -1,0 +1,227 @@
+/* 
+    Created on : 2014-10-31, 15:53:16
+    Author     : Lirun
+*/
+.left{
+  background: url("../img/left-donation.png") 0% 0% no-repeat #000;
+}
+.purchase{
+  padding: 20px 40px 10px;
+  height:auto;
+}
+.purchase-header{
+  padding: 20px 10px 20px;
+  border-bottom: 1px solid #CCC;
+}
+.purchase-header .media-body{
+  text-align: justify;
+  padding: 20px 0 0 20px;
+  font-size: 12px;
+}
+#myPurchase .row{
+  margin-bottom: 15px;
+}
+.purchase .row p{
+  margin: 0;
+}
+.purchase .row-title{
+  margin: 40px 0;
+}
+.purchase .row-title p{
+  color: #333;
+}
+#myPurchase .row .col-lg-7{
+  padding-left: 50px;
+}
+.row .col-lg-5{
+  color: #a7a7a7;
+}
+.purchase .row .form-control,
+.purchase .row select,
+.purchase .row textarea{
+  width: 279px;
+  border-radius: 0;
+}
+.purchase .row .form-control{
+  float: left;
+}
+.purchase .row .input-group-addon{
+  width: 97px;
+  background-color: #a7a7a7;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 0;
+  color: #fff;
+  float: left;
+}
+.purchase .row .input-group{
+  display: block;
+}
+.purchase .row select{
+  height: 30px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.purchase .row textarea{
+  border: 1px solid #ccc;
+  max-width: 278px;
+  max-height: 159px;
+  min-width: 278px;
+  min-height: 159px;
+}
+.purchase .row .form-control:focus{
+  border-color: #f58a1a;
+  box-shadow: none;
+}
+.purchase .row .change-bc{
+  background-color: #f58a1a;
+  border-color: #f58a1a;
+}
+.brand-hint{
+  margin-right: 20px;
+}
+.brand-hint:hover{
+  color: #33b5f9;
+  text-decoration: underline;
+}
+.submit{
+  width:99px;
+  height: 42px;
+  background: url("../img/submit.png") no-repeat 0 0 transparent;
+  display: inline-block;
+  cursor: pointer;
+  border:1px solid transparent;
+  margin-left: 180px;
+}
+.submit:hover{
+  background: url("../img/submitt.png") no-repeat 0 0 transparent;
+}
+.push{
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  padding-top: 30px;
+  font-size: 12px;
+}
+.push p{
+  margin-bottom: 0;
+}
+.push > .table{
+  margin-top: 20px;
+}
+.push > .table > tbody > tr > td{
+  border-bottom: 1px dashed #ccc;
+  border-top: 0;
+}
+.push > .table  tr > th{
+  background-color: #f58a1a;
+  color: #fff;
+}
+.pushed{
+  color: #00a900;
+}
+.pay{
+  color: #ff0f00;
+  margin-right: 10px;
+}
+#order{
+  font-size: 12px;
+}
+#order p{
+  margin-bottom: 10px;
+}
+#order .check-group{
+  display: inline-block;
+  margin: 0 30px 0 10px;
+}
+#order > .row{
+  margin: 10px 0 50px;
+}
+#order .media-body{
+  border-left: 1px solid #a7a7a7;
+  padding: 10px 10px 0;
+}
+#order .media a{
+  border-top: 10px solid #f7f7f7;
+  border-bottom: 10px solid #f7f7f7;
+  margin: 10px;
+}
+.btn-group > button{
+  display: block;
+  width: 90px;
+  height:25px;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #a7a7a7;
+}
+.btn-group button:last-child{
+  margin-top: 30px;
+}
+.btn-group .return{
+  background-color: #ea5520;
+  border-color: transparent;
+  color: #fff;
+}
+.judge{
+  width: 65px;
+  height:25px;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #a7a7a7;
+}
+.order-header{
+  padding-top: 100px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+}
+.pay-time,
+.order-number{
+  color: #a7a7a7;
+}
+.total{
+  color: #f00;
+}
+.returning{
+  color: #ca0000;
+}
+.complete{
+  color: #4f9901;
+}
+.unit-price{
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 5px;
+}
+.logistics{
+  color: #33b5f9;
+  text-decoration: underline;
+}
+#order table{
+  width: 100%;
+  border: 1px solid #A7A7A7;
+  margin-bottom: 30px;
+}
+#order table tr:first-child{
+  border-bottom: 1px solid #A7A7A7;
+}
+#order table tr:last-child td{
+  border-left: 1px solid #A7A7A7;
+}
+#order table tr:last-child td:nth-last-child(-n+1){
+  text-align: center;
+}
+#order table tr:first-child  td{
+  padding: 5px 0;
+}
+#order .content1{
+  width: 70%;
+}
+#order .content2{
+  text-align: center;
+  width: 13%;
+}
+#order .content2 p:first-child{
+  margin-bottom: 30px;
+}
+#order .content3{
+  width: 17%;
+}

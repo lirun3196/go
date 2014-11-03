@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>近期采购</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/purchase.css">
+  <link rel="stylesheet" href="css/swiper.css">
+</head>
+<body>
+  <div class="wraper">
+      <div class="left"></div>
+      <div class="right">
+        <div class="menu">
+          <img src="img/cloud.png" alt="" class="cloud">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <img src="img/logo-fig.png" alt="">
+            </li>
+            <li class="list-group-item">
+              <div class="logo-boy">
+                <img src="img/logo-boy.png" alt="">
+              </div>
+            </li>
+            <li class="list-group-item">
+              <img src="img/menu-bar.png" alt="">
+            </li>
+            <li class="list-group-item version">V.1.0.2 版本</li>
+            <li class="list-group-item">
+              <div class="user-info clearfix">
+                <img src="img/user.png" alt="">
+                <ul>
+                  <li>I&nbsp;&nbsp;&nbsp;&nbsp;D：红衣红发</li>
+                  <li>称号：赤发鬼</li>
+                  <li>派系：<span class="tianGang">天罡</span></li>
+                  <li>等级：28</li>
+                </ul>
+                <button>升级</button>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="perfection">
+                <span class="change-per"></span>
+                <span class="perfectness">完善度</span>
+                <span class="percentage">50%</span> 
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-wealth gold">
+                <span class="type gold"><b>金币</b></span>
+                <span class="amount gold">9999999999999</span>
+                <span><a href="#" class="recharge gold">充值</a></span>
+                </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-wealth point">
+                <span class="type point">积分</span>
+                <span class="amount point">9999999999999</span>
+                <span><a href="#" class="recharge point">兑换</a></span>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <a href="#"><div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-con.png" alt=""></span>
+                <span class="menu-item-title">好友动态</span>
+                <span class="menu-item-status">新的动态36</span>
+              </div></a>
+            </li>
+            <li class="list-group-item">
+              <a href="#"><div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-love.png" alt=""></span>
+                <span class="menu-item-title">特别关注</span>
+                <span class="menu-item-status special">[24/46]</span>
+                </div></a>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-person.png" alt=""></span>
+                <span class="menu-item-title">与我相关</span>
+                <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-cake.png" alt=""></span>
+                <span class="menu-item-title">生日提醒</span>
+                <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="" alt=""></span>
+                <span class="menu-item-title">我的装备</span>
+                <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-book.png" alt=""></span>
+                <span class="menu-item-title">江湖秘籍</span>
+               <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="" alt=""></span>
+                <span class="menu-item-title">江湖擂台</span>
+                <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+          </ul>
+          <div class="nav-menu">
+          <ul>
+            <li><a href="#"><img src="img/menu-nav1.png" alt=""></a></li>
+            <li><a href="#"><img src="img/menu-nav2.png" alt=""></a></li>
+            <li><a href="#"><img src="img/menu-nav3.png" alt=""></a></li>
+            <li><a href="#"><img src="img/menu-nav4.png" alt=""></a></li>
+          </ul>
+        </div> 
+        </div>
+        <div class="content">
+          <div class="main cl">
+            <ul class="nav nav-pills" role="tablist">
+              <li role="presentation" class="active"><a href="#">个人设置</a></li>
+              <li role="presentation"><a href="#">我的收藏</a></li>
+              <li role="presentation"><a href="#">安全中心</a></li>
+              <li role="presentation"><a href="#">客服服务</a></li>
+            </ul>
+            <div class="ad">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/ad1.png" alt="广告图"></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/ad2.png" alt="广告图"></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/ad3.png" alt="广告图"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="nav-center">
+              <li><img src="img/center-donate.png" alt=""><a href="index.html">我的江湖</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="mall.html">江湖商城</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="mission.html">江湖任务</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="donation.html">我的捐赠</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="purchase.html"  class="center-active">近期采购</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="fund.html">我的基金</a></li>
+            </ul>
+            <div class="section purchase">
+              <img src="img/purchase.png" alt="">
+              <ul class="nav nav-tabs bold">
+                <li class="active"><a href="#myPurchase" data-toggle="tab">我要采购</a></li>
+                <li><a href="#order" data-toggle="tab">采购订单</a></li>
+              </ul>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane active" id="myPurchase">
+                  <div class="purchase-header">
+                    <div class="media">
+                      <a class="pull-left" href="#">
+                        <img class="media-object" src="img/purchase-h.png" alt="">
+                      </a>
+                      <div class="media-body">
+                        <span class="bold">近期采购，</span>用户可提前充值，以远
+                        低于市场的价格预定某件商品，预定成功后该商品将处于锁定状
+                        态，锁定时间长短因商品而异，锁定时间到期后我们将为用户办
+                        理邮寄服务。用户因故取消购买，充值金额将如数退还给用户。
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row row-title">
+                    <div class="col-lg-7">
+                      <p class="bold">请输入您要采购物品的信息！</p>
+                    </div>
+                    <div class="col-lg-5">
+                      <p class="bold">智能提示</p>
+                    </div>
+                  </div>
+                  <form action="">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon">名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称</span>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <p class="hint">Midea/美的 MB-WFS4017TM 4L智能涡轮圆灶釜电饭煲</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon">商品类型</span>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <a href="#" class="brand-hint">apple</a><a href="#" class="brand-hint">apple</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon">品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;牌</span>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <a href="#" class="brand-hint">apple</a><a href="#" class="brand-hint">apple</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon">价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+                    <div class="col-lg-5"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon">购买时间</span>
+                        <select name="buyNow">
+                          <option value="1">立刻(全价)</option>
+                          <option value="2">半年期(8折)</option>
+                          <option value="3">一年期(7折)</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-5"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <div class="input-group input-group-sm">
+                        <span class="input-group-addon">备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注</span>
+                        <textarea rows="7" ></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-5"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <button class="submit"></button>
+                    </div>
+                    <div class="col-lg-5"></div>
+                  </div>
+                    </form>
+                  <div class="push">
+                    <p class="bold">推送中订单</p>
+                    <table class="table">
+                  <tbody>
+                  <tr>
+                    <th>订单号</th>
+                    <th>名称</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                  </tr>
+                  <tr>
+                    <td><p>Midea/美的 MB-WFS4017TM 4L智能涡轮圆灶釜电饭煲 </p></td>
+                    <td><p>等待推送</p></td>
+                    <td><p><a href="#">取消</a></p></td>
+                    <td><p></p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Midea/美的 MB-WFS4017TM 4L智能涡轮圆灶釜电饭煲 </p></td>
+                    <td><p class="pushed">已经推送</p></td>
+                    <td><p><a href="#">取消</a></p></td>
+                    <td><p></p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Midea/美的 MB-WFS4017TM 4L智能涡轮圆灶釜电饭煲 </p></td>
+                    <td><p class="pushed">已经开放采购</p></td>
+                    <td><p><a href="#" class="pay">付款</a><a href="#">取消</a></p></td>
+                    <td><p></p></td>
+                  </tr>
+                </tbody>
+              </table>
+                  </div>
+                    <div class="row">
+                      <div class="col-lg-2"></div>
+                      <div class="page col-lg-10">
+                        <ul>
+                          <li><a href="#">&laquo;</a></li>
+                          <li><a href="#" class="pageActive">1</a></li>
+                          <li><a href="#">2</a></li>
+                          <li><a href="#">3</a></li>
+                          <li><a href="#">4</a></li>
+                          <li><a href="#">5</a></li>
+                          <li><a href="#">&raquo;</a></li>
+                        </ul>
+                        <label>跳转<input type="text" class="page-number">页</label>
+                      </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="order">
+                  <div class="order-header">
+                    <p class="bold">已付款采购订单</p>
+                  </div>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td colspan="3">
+                          <div class="check-group">
+                          <label class="checkbox-inline" for="checkbox1">
+                            <span class="checkIcon checkIconed"></span>
+                            <input type="checkbox" checked id="checkbox1">付款时间：<time class="pay-time">2014-10-25 12:00:00 </time>
+                          </label>
+                        </div>
+                        <span>订单编号：</span><span class="order-number">CQJB-002B-201230011</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="content1">
+                          <div class="media">
+                            <a class="pull-left" href="#">
+                              <img class="media-object" src="img/purchase-h.png" alt="">
+                            </a>
+                            <div class="media-body">
+                              <p><span class="bold">物品名称：</span>雷蛇Razer 北海巨妖7.1 头戴式USB游戏耳机</p>
+                              <p><span class="bold">购买时间：</span>2014-12-25</p>
+                              <p><span class="bold">数量：  </span>2个</p>
+                              <p><span class="bold">类型：  </span>黑色</p>
+                              <p class="unit-price"><span class="bold">单价：  </span>50000积分<span class="money">1500金币</span></p>
+                              <p><span class="total">总价</span>：<span>150000积分</span><span class="money">1500金币</span></p>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="content2">
+                          <p>已发货</p>
+                          <p><a href="#" class="logistics">查看物流</a></p>
+                        </td>
+                        <td class="content3">
+                          <div class="btn-group">
+                            <button>确认收货</button>
+                            <button class="return">退货</button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td colspan="3">
+                          <div class="check-group">
+                          <label class="checkbox-inline" for="checkbox1">
+                            <span class="checkIcon checkIconed"></span>
+                            <input type="checkbox" checked id="checkbox1">付款时间：<time class="pay-time">2014-10-25 12:00:00 </time>
+                          </label>
+                        </div>
+                        <span>订单编号：</span><span class="order-number">CQJB-002B-201230011</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="content1">
+                          <div class="media">
+                            <a class="pull-left" href="#">
+                              <img class="media-object" src="img/purchase-h.png" alt="">
+                            </a>
+                            <div class="media-body">
+                              <p><span class="bold">物品名称：</span>雷蛇Razer 北海巨妖7.1 头戴式USB游戏耳机</p>
+                              <p><span class="bold">购买时间：</span>2014-12-25</p>
+                              <p><span class="bold">数量：  </span>2个</p>
+                              <p><span class="bold">类型：  </span>黑色</p>
+                              <p class="unit-price"><span class="bold">单价：  </span>50000积分<span class="money">1500金币</span></p>
+                              <p><span class="total">总价</span>：<span>150000积分</span><span class="money">1500金币</span></p>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="content2">
+                          <p class="complete">交易完成</p>
+                          <button class="judge">评价</button>
+                        </td>
+                        <td class="content3">
+                          <div class="btn-group">
+                            <button>确认收货</button>
+                            <button class="return">退货</button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="row">
+                  <div class="col-lg-2"></div>
+                  <div class="page col-lg-10">
+                    <ul>
+                      <li><a href="#">&laquo;</a></li>
+                      <li><a href="#" class="pageActive">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                      <li><a href="#">&raquo;</a></li>
+                    </ul>
+                    <label>跳转<input type="text" class="page-number">页</label>
+                  </div>
+                </div>
+              </div><!-- end of tab-content-->
+            </div>
+                    
+          </div><!-- end of main -->
+        </div><!-- end of content -->
+        <div class="ribbon">
+          <ul>
+            <li><a href="#" class="r1">签到有礼</a></li>
+            <li><a href="#" class="r2">免费抢购</a></li>
+            <li><a href="#" class="r3">每日抽奖</a></li>
+            <li><a href="#" class="r4">系统消息</a></li>
+          </ul>
+        </div> 
+      </div><!-- end of right -->
+    </div><!-- end of wraper -->
+  <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="img/logo-fig.png" alt="">
+          </div>
+          <div class="col-lg-8 col-lg-offset-1 footer-info">
+            <p class="company">北京(重庆)老男孩科技有限公司</p>
+            <p>
+              <span><img src="img/phone.png" alt="">023-67886226</span>
+              <span><img src="img/net.png" alt=""><a href="http://www.bjlnh.com" target="_blank">www.bjlnh.com</a></span>
+              <span><img src="img/home.png" alt="">重庆北部新区金渝大道85号汉国中心B栋20F</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/purchase.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>      
+</body>
+</html>

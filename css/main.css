@@ -1,0 +1,619 @@
+/* 
+    Created on : 2014-10-24, 16:04:02
+    Author     : Lirun
+*/
+body{
+/*  width:100%;*/
+  background: url("../img/slash.jpg") 180px 0 repeat; 
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a:focus,a:active{
+  outline: none;
+}
+.cl:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0px;
+  visibility: hidden;
+  height: 0px;
+}
+/*等级称号颜色，用拼音以驼峰方式命名*/
+.tianGang{
+  color: #ca5f00;
+}
+.diSha{
+  color: #0085ca;
+}
+.money{
+  color: #ca5f00;
+  padding: 0 3px;
+}
+.gold{
+  color: #e2d41b;
+}
+.bold{
+  font-weight: bolder;
+}
+.row{
+  margin: 0;
+}
+.wraper{
+  height: 1580px;
+}
+.left,.right,.menu,.content{
+  float: left;
+  height: 1580px;
+}
+.left{
+  width:180px;
+}
+.right{
+  width: 1350px;
+}
+.menu{
+  width: 280px;
+  background: url('../img/line.jpg') repeat scroll 0% 0% transparent;
+  box-shadow: -10px 0px 10px 0px rgba(8, 8, 8, 0.85);
+}
+.cloud{
+  margin-left: -50px;
+}
+.logo-boy{
+  margin: 15px 0 5px;
+}
+.list-group-item{
+  position: relative;
+  display: block;
+  padding: 0 20px;
+  margin-bottom: -1px;
+  background-color: transparent;
+  border:none;
+  text-align: center;
+}
+/*进度条*/
+.perfection{
+  background: url("../img/wealth.png") repeat scroll 240px -10px transparent;
+  height: 12px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 0.857142em;
+  font-weight: bolder;
+  text-align: left;
+  position: relative;
+}
+.perfectness{
+  left: 5px;
+  top: -10px;
+  position: absolute;
+}
+.percentage{
+  position:  absolute;
+  top: -9px;
+  left: 210px;
+}
+.change-per{
+  background: url("../img/wealth.png") repeat scroll 240px 1px transparent;
+  width: 50%;
+  height: 12px;
+  display: inline-block;
+}
+.menu-wealth{
+  height: 35px;
+  border-radius: 4px;
+  text-align: left;
+  margin-top: 10px;
+}
+.menu-wealth .type,
+.menu-wealth .amount,
+.menu-wealth .recharge{ 
+  display: inline-block;
+  line-height: 35px;
+}
+.menu-wealth .type{
+  width: 60px;
+  height: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.menu-wealth .amount{
+  width: 130px;
+  text-align: right;
+  padding-right: 5px;
+}
+.menu-wealth .recharge{
+  text-decoration: underline;
+}
+/*金币*/
+.menu-wealth.gold{
+  background: url('../img/wealth.png') 240px 75px repeat scroll transparent;
+}
+.menu-wealth .amount.gold{
+  color: #F9AC33;
+}
+.menu-wealth .recharge.gold{
+  color: #f00;
+}
+/*积分*/
+.menu-wealth.point{
+  background:url('../img/wealth.png') 240px 133px repeat scroll transparent;
+}
+.menu-wealth .amount.point{
+  color: #e9e9e9;
+}
+.menu-wealth .recharge.point{
+  color: #ff7e00;
+}
+.version{
+  font-size: 0.857142em;
+  color:#ffedb1;
+}
+.menu-item{
+  display: block;
+  background: url("../img/menu-item-bg.png") 0% 0% no-repeat;
+  height: 41px;
+  margin-top: 25px;
+  color:#f9ac33;
+  position: relative;
+}
+.menu-item:hover{
+  background: url("../img/menu-item-hover.png") 0% 0% no-repeat;
+  color: #000;
+}
+.menu-item-icon,
+.menu-item-title,
+.menu-item-status{
+  display: inline-block;
+}
+.menu-item-title{
+  font-size: 1.142857em;
+  font-weight: bold;
+  vertical-align: -8px;
+  width: 105px;
+  text-align: right;
+}
+.menu-item-status{
+  font-size: 0.857142em;
+  color: #f00;
+  width: 100px;
+  text-align: right;
+  vertical-align: -14px;
+}
+.special{
+  color: #fff;
+  font-weight: bolder;
+}
+.menu-item-icon{
+  position: absolute;
+  left: 6px;
+  top: 5px;
+}
+/*用户信息*/
+.user-info{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 8px;
+  border-right: 2px solid rgba(0, 0, 0, 0.43);
+  box-shadow: 2px 0px rgba(249, 172, 51, 0.4);
+  height: 80px;
+  width: 240px;
+  font-size: 0.857142em;
+  color: #fff;
+  position: relative;
+  margin: 25px 0 10px;
+}
+.user-info>img{
+  max-width: 80px;
+  max-height: 80px;
+  float: left;
+}
+.user-info>button{
+  width: 42px;
+  height:20px;
+  color: #000;
+  background-color: #F9AC33;
+  font-size: 0.857142em;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #BF7004;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.user-info>button:hover{
+  background-color: #BF7004;
+}
+.user-info ul{
+  float: left;
+  margin-left: 10px;
+  text-align: left;
+}
+.user-info li{
+  margin-bottom: 2px;
+}
+/*红底板块底部导航*/
+.nav-menu{
+  margin: 150px auto 0;
+  width: 50%;
+  text-align: center;
+}
+.nav-menu li{
+  margin-bottom: 20px;
+}
+.nav-menu a{
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+.nav-menu a:hover{
+  background-color: rgba(0,0,0,0.5);
+}
+/*内容展示板块*/
+.content{
+  width: 1070px; 
+}
+.main{
+  margin-left: 40px;
+  width: 912px;
+}
+/*顶部导航：更改bootstrap默认样式，后期定制事可更改*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #000;
+}
+.nav.nav-pills{
+  margin: 10px 0 40px;
+  float: right;
+  display: inline-block;
+}
+.nav.nav-pills a{
+  color: #000;
+  padding: 5px 15px;
+}
+/*广告*/
+.ad{
+  width: 912px;
+  height: 100px;
+  clear: both;
+}
+/*中部导航*/
+.nav-center{
+  position: relative;
+  left: 240px;
+  width:782px;
+  height: 84px;
+  margin-top: 20px;
+  background-image: url("../img/nav-center.png");
+}
+.nav-center li{
+  display: inline-block;
+}
+.nav-center li a{
+  display: inline-block;
+  font-size: 1.14286em;
+  line-height: 84px;
+  color: #fff;
+  font-weight: bolder;
+  padding: 0 15px;
+}
+.nav-center li a:hover{
+  color: #F9AC33;
+}
+.nav-center .center-active{
+  color: #F9AC33;
+}
+.nav-center img{
+  display: none;
+  max-width: 65px;
+  max-height: 44px;
+}
+.nav-center .show-img{
+  display: inline-block;
+}
+
+/*内容板块公共部分*/
+.section{
+  position: relative;
+  width: 912px;
+  height: 240px;
+  padding: 30px 15px 20px 20px;
+  margin-top: 65px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.section>img{
+  position: absolute;
+  top: -50px;
+  left: 10px;
+}
+.section-items{
+  display: none;
+}
+.show-item{
+  display: inline-block;
+  -webkit-animation:fadeIn 1s .2s ease both;
+          animation:fadeIn 1s .2s ease both;
+}
+@-webkit-keyframes fadeIn{
+0%{opacity:0;}
+100%{opacity:1;}
+}
+@keyframes fadeIn{
+0%{opacity:0;}
+100%{opacity:1;}
+}
+.section-item{
+  position: relative;
+  width: 135px;
+  height: 185px;
+  padding-top: 10px;
+  margin-right: 18px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+.alias{
+  font-weight: bold;
+  margin: 5px 0;
+  display: inline-block;
+}
+.section-desc{
+  width: 85px;
+  height: 185px;
+  margin-left: 5px;
+  padding-top: 10px;
+  display: inline-block;
+  font-size: 0.857142em;
+}
+
+.section-desc .change{
+  margin-top: 80px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+/*渐进增强：“换一组”的旋转效果,IE低版本无效*/
+.change>img:hover{
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear;
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-ms-keyframes fa-spin {
+  0% {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.change .bold{
+  display: block;
+}
+.action{
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  width: 43px;
+  height: 44px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+.level{
+  font-size: 0.857142em;
+  margin: 0;
+}
+/* 彩带 */
+.ribbon{
+  position: fixed;
+  top: 40%;
+  right: -85px;
+  width: 118px;
+  height: 193px;
+  font-weight: bolder;
+  background-image: url("../img/ribbon.png");
+}
+.ribbon:hover{
+  right: -20px;
+}
+.ribbon ul{
+  position: relative;
+  top: 40px;
+  left: 35px;
+}
+.ribbon a:hover{
+  color: #fff;
+  cursor: pointer;
+}
+.r1,.r3,.r2,.r4{
+  display: inline-block;
+}
+.r1,.r3{
+  color: #F9AC33;
+  margin-bottom: 20px;
+}
+.r2,.r4{
+  color: #710a07;
+  margin-bottom: 15px;
+}
+
+/*tab*/
+ .nav.nav-tabs{
+  position: absolute;
+  left: 400px;
+  top: -45px;
+}
+.nav-tabs > li{
+  margin-left: 10px;
+}
+.nav-tabs > li > a{
+  background-color: #eee;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.142857em;
+}
+
+/*checkbox*/
+.check-group input[type="checkbox"]{
+  opacity: 0;
+  margin: 0;
+}
+.checkbox-inline{
+  position: relative;
+}
+.checkIcon{
+  background: url('../img/check.png') no-repeat scroll 0px 0px transparent;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+}
+.checkIconed{
+  background: url('../img/checked.png') no-repeat scroll 0px 0px transparent;
+}
+
+/*分页*/
+.page-number{
+  width: 27px;
+  height:27px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+}
+.page{
+  color: #000;
+  text-align: right;
+  font-size: 12px;
+}
+.page > ul{
+  display: inline-block;
+}
+.page > label{
+  margin-left: 20px;
+}
+.page > ul > li{
+  display: inline-block;
+}
+.page > ul > li:first-child a{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.page > ul > li:last-child a{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.page > ul > li > a{
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+}
+.page > ul > li > a:hover{
+  background-color: #efefef;
+}
+.page .pageActive{
+  background-color: #efefef;
+}
+
+/*footer*/
+.footer{
+  width: 100%;
+  min-width: 1350px;
+  height: 120px;
+  background-color: #000;
+  font-size: 0.92857em;
+  clear: both;
+}
+.container{
+  width: 880px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.footer span{
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 21px;
+}
+.footer-info{
+  color: #ddd9be;
+}
+.footer-info img{
+  margin-right: 3px;
+}
+.footer-info a{
+  color: #ddd9be;
+}
+.footer-info a:hover{
+  text-decoration: underline;
+}
+.company{
+  color: #cb342a;
+}
+/* "换一组"图片样式 */
+.section-item > img{
+  width: 118px;
+  height: 118px;
+  display: inline-block;
+}
+//点击→轮播
+.donate-carousel{
+  margin-top: 20px;
+}
+.leftArrow,
+.rightArrow{
+  width: 10%;
+  float: left;
+  padding-top: 100px;
+}
+.rightArrow{
+  text-align: right;
+}
+.crouselWidth{
+  width: 80%;
+  height: 248px;
+  float: left;
+  overflow: hidden;
+}
+.crouselContent{
+  position: relative;
+  width: 1390px;
+  height: 248px;
+  left:0;
+}
+.innerWidth{
+  float: left;
+  position: relative;
+}
+/*模态框*/
+.modal-content{
+  
+}

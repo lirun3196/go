@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>个人用户中心</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.css">
+  </head>
+  <body>
+    <div class="wraper">
+      <div class="left"></div>
+      <div class="right">
+        <div class="menu">
+          <img src="img/cloud.png" alt="" class="cloud">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <img src="img/logo-fig.png" alt="">
+            </li>
+            <li class="list-group-item">
+              <div class="logo-boy">
+                <img src="img/logo-boy.png" alt="">
+              </div>
+            </li>
+            <li class="list-group-item">
+              <img src="img/menu-bar.png" alt="">
+            </li>
+            <li class="list-group-item version">V.1.0.2 版本</li>
+            <li class="list-group-item">
+              <div class="user-info clearfix">
+                <img src="img/user.png" alt="">
+                <ul>
+                  <li>I&nbsp;&nbsp;&nbsp;&nbsp;D：红衣红发</li>
+                  <li>称号：赤发鬼</li>
+                  <li>派系：<span class="tianGang">天罡</span></li>
+                  <li>等级：28</li>
+                </ul>
+                <button data-toggle="modal" data-target=".upgrade">升级</button>
+                <div class="modal fade upgrade" tabindex="-1" role="dialog" aria-hidden="true">
+                  <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="perfection">
+                <span class="change-per"></span>
+                <span class="perfectness">完善度</span>
+                <span class="percentage">50%</span> 
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-wealth gold">
+                <span class="type gold">金币</span>
+                <span class="amount gold">9999999999999</span>
+                <span><a href="#" class="recharge gold">充值</a></span>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-wealth point">
+                <span class="type point">积分</span>
+                <span class="amount point">9999999999999</span>
+                <span><a href="#" class="recharge point" data-toggle="modal" data-target=".exchange">兑换</a></span>
+              </div>
+              <div class="modal fade exchange" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                  <div class="modal-content">
+                    
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-con.png" alt=""></span>
+                <span class="menu-item-title">好友动态</span>
+                <a href="#"><span class="menu-item-status">新的动态36</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-love.png" alt=""></span>
+                <span class="menu-item-title">特别关注</span>
+                <a href="#"><span class="menu-item-status special">[24/46]</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-person.png" alt=""></span>
+                <span class="menu-item-title">与我相关</span>
+                <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-cake.png" alt=""></span>
+                <span class="menu-item-title">生日提醒</span>
+                <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="" alt=""></span>
+                <span class="menu-item-title">我的装备</span>
+                <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-book.png" alt=""></span>
+                <span class="menu-item-title">江湖秘籍</span>
+               <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="" alt=""></span>
+                <span class="menu-item-title">江湖擂台</span>
+                <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+          </ul>
+          <div class="nav-menu">
+          <ul>
+            <li><a href="#"><img src="img/menu-nav1.png" alt=""></a></li>
+            <li><a href="#"><img src="img/menu-nav2.png" alt=""></a></li>
+            <li><a href="#"><img src="img/menu-nav3.png" alt=""></a></li>
+            <li><a href="#"><img src="img/menu-nav4.png" alt=""></a></li>
+          </ul>
+        </div> 
+        </div>
+        <div class="content">
+          <div class="main cl">
+            <ul class="nav nav-pills" role="tablist">
+              <li role="presentation" class="active"><a href="#">个人设置</a></li>
+              <li role="presentation"><a href="#">我的收藏</a></li>
+              <li role="presentation"><a href="#">安全中心</a></li>
+              <li role="presentation"><a href="#">客服服务</a></li>
+            </ul>
+            <div class="ad">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/ad1.png" alt="广告图"></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/ad2.png" alt="广告图"></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"><img src="img/ad3.png" alt="广告图"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="nav-center">
+              <li><img src="img/center-index.png" alt=""><a href="index.html"  class="center-active">我的江湖</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="mall.html">江湖商城</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="mission.html">江湖任务</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="donation.html">我的捐赠</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="purchase.html">近期采购</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="fund.html">我的基金</a></li>
+            </ul>
+            <div class="section jhq">
+              <img src="img/jhq.png" alt="">
+              <div class="section-items show-item">
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <p class="level"><span class="tianGang">天罡</span>36级</p>
+                <span class="alias">一流打手武松</span>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <p class="level"><span class="tianGang">天罡</span>36级</p>
+                <span class="alias">一流打手武松</span>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <p class="level"><span class="tianGang">天罡</span>36级</p>
+                <span class="alias">一流打手武松</span>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend2.png" alt="">
+                <p class="level"><span class="diSha">地煞</span>36级</p>
+                <span class="alias">黑老大阮二哥</span>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <p class="level"><span class="tianGang">天罡</span>36级</p>
+                <span class="alias">一流打手武松</span>
+                <span class="action"></span>
+              </div>
+              </div>
+              
+              <div class="section-items">
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <p class="level"><span class="tianGang">天罡</span>36级</p>
+                <span class="alias">一流打dfff手武松</span>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <p class="level"><span class="tianGang">天罡</span>36级</p>
+                <span class="alias">一流打手武松</span>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <p class="level"><span class="tianGang">天罡</span>36级</p>
+                <span class="alias">一流打手武松</span>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend2.png" alt="">
+                <p class="level"><span class="diSha">地煞</span>36级</p>
+                <span class="alias">黑老大阮二哥</span>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <p class="level"><span class="tianGang">天罡</span>36级</p>
+                <span class="alias">一流打手武松</span>
+                <span class="action"></span>
+              </div>
+              </div>
+              
+              <div class="section-desc">
+                <p><span class="bold">江湖圈，</span>LNH智慧团给你推荐适合你的好友。</p>
+                <div class="change">
+                  <img src="img/change.png" alt="">
+                  <span class="bold">换一组</span>
+                </div>
+              </div>         
+            </div>
+            <div class="section sh">
+              <img src="img/storehouse.png" alt="">
+              <div class="section-items show-item">
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <span class="alias">一流打手武武松松</span>
+                <p class="level"><span>4000积分</span><span class="money">5金币</span></p>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <span class="alias">一流打手武武松松</span>
+                <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <span class="alias">一流打手武武松松</span>
+                <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend2.png" alt="">
+                <span class="alias">一流打手武武松松</span>
+                <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <span class="alias">一流打手武武松松</span>
+                <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                <span class="action"></span>
+              </div>
+              </div>
+              
+              <div class="section-items">
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <span class="alias">一流打手武武松松</span>
+                <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <span class="alias">一流打手武武松松</span>
+                <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <span class="alias">一流打手武武松松</span>
+                <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend2.png" alt="">
+                <span class="alias">一流打手武武松松</span>
+                <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                <span class="action"></span>
+              </div>
+              <div class="section-item">
+                <img src="img/friend.png" alt="">
+                <span class="alias">一流打手武武松松</span>
+                <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                <span class="action"></span>
+              </div>
+              </div>
+              
+              <div class="section-desc">
+                <p><span class="bold">装备库，</span>LNH智慧团给你推荐最需要的物品。</p>
+                <div class="change">
+                  <img src="img/change.png" alt="">
+                  <span class="bold">换一组</span>
+                </div>
+              </div>
+            </div>
+            <div class="section eso">
+              <img src="img/esoterica.png" alt="">            
+              <div class="section-items show-item">
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend2.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+              </div>
+              
+              <div class="section-items">
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend2.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+              </div>
+              
+              <div class="section-desc">
+                <p><span class="bold">秘籍册，</span>LNH智慧团给你推荐最实用的优惠卷。</p>
+                <div class="change">
+                  <img src="img/change.png" alt="">
+                  <span class="bold">换一组</span>
+                </div>
+              </div>
+            </div>
+            <div class="section mission">
+              <img src="img/mission.png" alt="">
+              <div class="section-items show-item">
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend2.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+              </div>
+              
+              <div class="section-items">
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend2.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+              </div>
+              
+              <div class="section-desc">
+                <p><span class="bold">江湖任务，</span>LNH智慧团给你推荐最适合你的江湖任务。</p>
+                <div class="change">
+                  <img src="img/change.png" alt="">
+                  <span class="bold">换一组</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- end of main -->
+        </div><!-- end of content -->
+        <div class="ribbon">
+          <ul>
+            <li><a href="#" class="r1">签到有礼</a></li>
+            <li><a href="#" class="r2">免费抢购</a></li>
+            <li><a href="#" class="r3">每日抽奖</a></li>
+            <li><a href="#" class="r4">系统消息</a></li>
+          </ul>
+        </div> 
+      </div><!-- end of right -->
+    </div><!-- end of wraper -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="img/logo-fig.png" alt="">
+          </div>
+          <div class="col-lg-8 col-lg-offset-1 footer-info">
+            <p class="company">北京(重庆)老男孩科技有限公司</p>
+            <p>
+              <span><img src="img/phone.png" alt="">023-67886226</span>
+              <span><img src="img/net.png" alt=""><a href="http://www.bjlnh.com" target="_blank">www.bjlnh.com</a></span>
+              <span><img src="img/home.png" alt="">重庆北部新区金渝大道85号汉国中心B栋20F</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      <script src="js/vendor/jquery-1.11.1.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/swiper.min.js"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+  </body>
+</html>

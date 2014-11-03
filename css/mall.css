@@ -1,0 +1,133 @@
+/* 
+    Created on : 2014-10-28, 17:15:47
+    Author     : Lirun
+*/
+.left{
+    background: url("../img/left-mall.png") 0% 0% no-repeat #000;
+}
+/*推荐商品(recom)*/
+.recom .section-item:hover{
+  background-color: #f9ac33;
+}
+.recom .action{
+  background-image: url("../img/cart-grey.png");
+}
+.recom .action:hover{
+  background-image: url("../img/cartt.png");
+}
+.recom .actioned{
+  background-image: url("../img/cart.png");
+}
+.recom .section-desc .change{
+  margin-top: 65px;
+}
+/*江湖商城*/
+.section.mall{
+  height: auto;
+  padding: 30px 40px 30px;
+}
+.mall .section-item:hover{
+  background-color: #f9ac33;
+}
+.mall .action{
+  background-image: url("../img/cart-grey.png");
+}
+.mall .action:hover{
+  background-image: url("../img/cartt.png");
+}
+.mall .actioned{
+  background-image: url("../img/cart.png");
+}
+.mall .section-items{
+  margin-top: 15px;
+}
+.mall .section-item{
+  margin-right: 27px;
+  margin-top:20px 
+}
+.mall .section-item:last-child{
+  margin-right: 0;
+}
+.mall-header .row,
+.mall-footer .row{
+  margin: 0;
+}
+/*商城头部搜索框*/
+.mall-header{
+  padding: 0 0 30px;
+  border-bottom: 2px solid #ccc;
+  width: 830px;
+}
+.mall-header .input-group-addon{
+  padding: 0px 12px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  background-color: transparent;
+  border-style: dashed;
+}
+.mall-header .input-group{
+  padding-top: 10px;
+}
+.mall .form-control{
+  border: 1px dashed #ccc;
+  border-right: none;
+  border-left: none;
+  border-radius: 18px;
+  height: 40px;
+}
+.mall .input-group-btn{
+  font-size: 1em;
+  color: #fff;
+}
+.caret{
+  margin-left: 10px;
+  border-top: 10px solid;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  color: #fff;
+}
+.dropdown-menu{
+  width: 100px;
+  padding: 30px 0 20px;
+  margin-top:-18px; 
+  text-align: center;
+  background-color: #f9ac33;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 1px 3px 10px rgba(74, 69, 69, 1);
+  box-shadow: 1px 3px 10px #4a4545;
+}
+.dropdown-menu>li>a{
+  color: #fff;
+}
+.dropdown-menu>li>a:hover{
+  background-color: rgba(0,0,0,0.3);
+  background-color: #ae7824;
+  color: #fff;
+}
+.searchBtn{
+  width: 100px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  background-color: #f9ac33;
+  position: relative;
+  z-index: 1001;
+}
+/*商城底部*/
+.mall-footer{
+  font-size: 0.85714em;
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+}
+.mall-footer p{
+  margin: 0;
+}
+.mall-footer .col-lg-4{
+  padding-top: 10px;
+}
+.mall-footer .col-lg-5{
+  padding-top: 5px;
+}

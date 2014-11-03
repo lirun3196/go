@@ -1,0 +1,211 @@
+/* CSS Document */
+.left{
+    background: url("../img/left-mall.png") 0% 0% no-repeat #000;
+}
+
+/*江湖任务*/
+.RiverTask{
+  height: auto;
+}
+.RiverTask .nav {
+    position: absolute;
+    left: 400px;
+    top: -45px;
+}
+.nav-tabs > li{
+  margin-left: 10px;
+}
+.nav-tabs > li > a{
+  background-color: #eee;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.142857em;
+}
+.RiverTask-header .media-body {
+    font-size: 0.85714em;
+    padding-left: 40px;
+    text-align: justify;
+    line-height: 23px;
+}
+.RiverTask-header {
+    padding: 15px 0px 0px;
+    border-bottom: 1px solid #CCC;
+}
+.RiverTask-middle {
+    padding: 15px 0px 15px;
+    border-bottom: 1px dotted #CCC;
+	position:relative;
+}
+.RiverTask-middle .media{
+	width:700px;
+}
+.redbig{
+color:#FF0000;
+font-size:14px;
+}
+/*筛选任务*/
+.content_top{
+width: 100%;
+height: 45px;
+background-color: #F8F8F8;
+border-radius: 5px;
+margin-top: 5px;
+}
+.check-group{
+vertical-align: middle;
+margin: 0 auto;
+padding: auto;
+padding-top: 13px;
+}
+.classify{
+font-weight: bolder;
+float: left;
+margin: 0 120px;
+}
+.checkbox-inline {
+    position: relative;
+}
+.checkIcon {
+    background: url('../img/check.png') no-repeat scroll 0px 0px transparent;
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    left: 0px;
+}
+.checkIconed {
+    background: url('../img/checked.png') no-repeat scroll 0px 0px transparent;
+}
+.check-group input[type="checkbox"] {
+    opacity: 0;
+    margin: 0px;
+}
+.contop{
+font-weight:bold;
+color:#2e1d1d;
+font-size:14px;
+}
+.contop a:hover{
+color:#f9ae36;
+}
+.conmiddle{
+color:#aaaaaa;
+}
+.conbottom{
+color:#424242;
+font-weight:bold;
+}
+
+.receive{
+right: 50px;
+top: 20px;
+position: absolute;
+width: 43px;
+height: 44px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image:url("../img/receiver_red.png");
+}
+ .receive:hover{
+background-image:url("../img/receiver_red_hover.png");
+}
+.Timecontent{
+position: absolute;
+top: 22px;
+left: 20px;
+text-align: center;
+}
+.time{
+font-size:12px;
+}
+.bold{
+font-size:14px;
+font-weight:bold;
+}
+/*全部查看*/
+.all{
+color:#534949;
+}
+/*英雄*/
+.hero{
+color:#e28a51;
+}
+/*职业*/
+.Occupation{
+color:#00ae00;
+}
+/*普通*/
+.Ordinary{
+color:#6f6f6f;
+}
+
+/*页数*/
+.RiverTask-footer {
+	font-size: 0.85714em;
+    padding-top: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #CCC;
+}
+.RiverTask-footer .col-lg-5 {
+    padding-top: 5px;
+	margin-left: 376px;
+}
+.page-number {
+    width: 27px;
+  height:27px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+}
+.page {
+    color: #000;
+}
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.page li {
+    display: inline-block;
+}
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.page li:first-child a{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.page li:last-child a{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.page a {
+    color: #000;
+    border: 1px solid #DDD;
+    padding: 6px 12px;
+    margin-left: -4px;
+}
+.page .pageActive {
+    background-color: #EFEFEF;
+}
+.page a:hover{
+  background-color: #efefef;
+}
+
+/*推荐任务*/
+.Recomtask .section-item:hover{
+  background-color: #f9ac33;
+}
+.Recomtask .action{
+  background-image: url("../img/cart-grey.png");
+}
+.Recomtask .action:hover{
+  background-image: url("../img/cartt.png");
+}
+.Recomtask .actioned{
+  background-image: url("../img/cart.png");
+}
+.Recomtask .section-desc .change{
+  margin-top: 65px;
+}

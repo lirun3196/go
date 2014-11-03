@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>主页</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+  <div class="">
+    <div class="">
+      <div class="menu">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <img src="img/logo-fig.png" alt="">
+          </li>
+          <li class="list-group-item">
+            <div class="logo-boy">
+              <img src="img/logo-boy.png" alt="">
+            </div>
+          </li>
+          <li class="list-group-item">
+            <img src="img/menu-bar.png" alt="">
+          </li>
+          <li class="list-group-item">
+            <form action="" method="get" class="form-horizontal" name="login">
+                  <div class="form-group">
+                    <label class="col-xs-4 col-sm-4" form="registE">用&nbsp;户&nbsp;名：</label>
+                    <input type="text" class="col-xs-8 col-sm-8" autofocus>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-xs-4 col-sm-4" form="registE">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+                    <input type="password"  class="col-xs-8 col-sm-8">
+                  </div>              
+                  <div class="form-group">
+                    <label  class="col-xs-4 col-sm-4" form="registE">验&nbsp;证&nbsp;码：</label>
+                    <input type="text" class="col-xs-4 col-sm-4"><span class="verify-code col-xs-3 col-sm-3">1234</span>
+                  </div>
+                  <div class="form-group">
+                    <div class="check-group  col-xs-offset-4 col-xs-4 col-sm-offset-4 col-sm-4">
+                      <label class="checkbox-inline">
+                        <span class="checkIcon checkIconed"></span>
+                        <input type="checkbox" checked>记住我
+                      </label>
+                    </div>
+                    <a href="" class="forget col-xs-offset-1 col-xs-3 col-sm-offset-1 col-sm-3">
+                      忘记密码
+                    </a>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-xs-offset-4 col-xs-8 col-sm-offset-4 col-sm-8">
+                      <button class="menu-btn">登录</button>
+                    </div>
+                  </div>
+                </form>
+          </li>
+          <li class="list-group-item">
+            <div class="logo-boy">
+              <img src="img/home-line.png" alt="">
+            </div>
+          </li>
+          <li class="list-group-item">
+            <ul class="nav nav-tabs">
+              <li><a href="#email" data-toggle="tab">邮箱注册</a></li>
+              <li class="active"><a href="#phone" data-toggle="tab">手机注册</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane" id="email">
+                <form action="" method="get" class="form-horizontal" name="registE">
+                  <div class="form-group">
+                    <label class="col-xs-4" form="registE">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：</label>
+                    <input type="text" class="col-xs-8">
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-xs-4" form="registE">验&nbsp;证&nbsp;码：</label>
+                    <input type="password" class="col-xs-4"><span class="verify-code col-xs-3 ">1234</span>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-xs-4" form="registE">设置密码：</label>
+                    <input type="password"  class="col-xs-8">
+                  </div>
+                  <div class="form-group">
+                    <label class="col-xs-4" form="registE">设置密码：</label>
+                    <input type="password" class="col-xs-8">
+                  </div>
+                  <div class="form-group">
+                    <div class="check-group">
+                      <label class="checkbox-inline col-xs-offset-4 col-xs-8">
+                        <span class="checkIcon checkIconed"></span>
+                        <input type="checkbox" checked>我同意服务条款
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-xs-offset-4 col-xs-8">
+                      <button class="menu-btn">完成注册</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane active" id="phone">
+                <form action="" method="get" class="form-horizontal" name="registP">
+                  <div class="form-group">
+                    <label class="col-xs-4 col-sm-4" form="registE">手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：</label>
+                    <input type="text" class="col-xs-8 col-sm-8" data-container="body" data-toggle="popover" data-placement="right" data-content="手机号码">
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-xs-4 col-sm-4" form="registE">验&nbsp;证&nbsp;码：</label>
+                    <input type="text" class="col-xs-4 col-sm-4"><span class="verify-code col-xs-3 col-sm-3">1234</span>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-xs-4 col-sm-4" form="registE">设置密码：</label>
+                    <input type="password"  class="col-xs-8 col-sm-8">
+                  </div>
+                  <div class="form-group">
+                    <label class="col-xs-4 col-sm-4" form="registE">设置密码：</label>
+                    <input type="password" class="col-xs-8 col-sm-8">
+                  </div>
+                  <div class="form-group">
+                    <div class="check-group">
+                      <label class="checkbox-inline col-xs-offset-4 col-xs-8 col-sm-offset-4 col-sm-8">
+                        <span class="checkIcon checkIconed"></span>
+                        <input type="checkbox" checked>我同意服务条款
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-xs-offset-4 col-xs-8 col-sm-offset-4 col-sm-8">
+                      <button class="menu-btn">完成注册</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="logo-boy">
+              <img src="img/home-line.png" alt="">
+            </div>
+          </li>
+          <li class="list-group-item">
+            <p class="scan-code white">二维码扫描</p>
+            <div class="d-code normal-f">
+              <div class="col-xs-5 col-sm-5">
+                <button class="menu-btn">IOS版</button>
+                <button class="menu-btn gold">Andriod版</button>
+                <button class="menu-btn">公众号</button>
+              </div>
+              <div class="col-xs-7 col-sm-7 d-code-img"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="bg-show">
+          <div class="desc">
+            <span class="mc"></span>
+            <span class="video"></span>
+          </div>
+        </div>
+        <div class="side-nav white">
+          <ul>
+            <li><a href="#" class="jhgl"></a></li>
+            <li><a href="#" class="dmmj"></a></li>
+            <li><a href="#" class="jnmj"></a></li>
+            <li><a href="#" class="yxzt"></a></li>
+            <li><a href="#" class="gywm"></a></li>
+          </ul>
+        </div> 
+        <div class="animal">
+          <div class="t-animal">
+            
+          </div>
+        </div>
+        <div class="footer">
+          <div class="row">
+            <div class="col-xs-3">
+            <img src="img/logo-fig.png" alt="公司logo">
+          </div>
+            <div class="col-xs-9 white">
+            <p>
+              <span class="footer-nav">公司简介</span><span class="footer-nav">客户服务</span>
+              <span class="footer-nav">相关法律</span><span class="footer-nav">联系我们</span>
+              <span class="footer-nav">商务合作</span><span class="footer-nav">加入我们</span>
+            </p>
+            <p>
+              <span class="footer-nav"><img src="img/phone.png" alt="电话：">023-67886226</span>
+              <span class="footer-nav"><img src="img/net.png" alt="网址：">www.bjlnh.com</span>
+              <span class="footer-nav"><img src="img/home.png" alt="地址：">重庆市北部新区金渝大道85号汉国中心B栋20F</span>
+            </p>
+            <p>
+              <span class="footer-nav">北京（重庆）老男孩科技有限公司版权所有</span>
+              <span class="footer-nav">中国xxxxx版权保护联盟举报中心</span>
+            </p>
+            <p><span class="footer-nav">重庆市公安局网络管理xxxx</span></p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="js/vendor/jquery-1.11.1.min.js"></script>
+<script src="js/home.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>      
+</body>
+</html>

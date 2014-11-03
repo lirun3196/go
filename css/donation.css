@@ -1,0 +1,192 @@
+/* 
+    Created on : 2014-10-30, 13:39:01
+    Author     : Lirun
+*/
+.fund-color{
+  color: #d2000f;
+}
+.link-color{
+  color: #194ee8;
+}
+.left{
+  background: url("../img/left-donation.png") 0% 0% no-repeat #000;
+}
+.thumbnail{
+  margin-left: 10px;
+}
+.thumbnail>img{
+  width: 119px;
+  height: 118px;
+}
+.thumbnail .caption{
+  text-align: center;
+  padding: 9px 0;
+}
+.donate-btn{
+  background: url('../img/donation-btn.png') no-repeat scroll 50% 50% transparent;
+  height: 35px;
+  line-height: 32px;
+  color: #FFF;
+  cursor: pointer;
+}
+.donate-btn:hover{
+   background: url('../img/donation-btnn.png') no-repeat scroll 50% 50% transparent;
+}
+.row{
+  margin: 0;
+}
+.row .col-lg-1{
+  margin-top: 70px;
+}
+.row .col-lg-1:first-child{
+  text-align: left;
+}
+.row .col-lg-1:last-child{
+  text-align: right;
+}
+.donate-carousel .row{
+  margin-top: 25px;
+}
+.caret:hover{
+  color: #ff938b;
+}
+.caret-left{
+  border-top: 18px solid transparent;
+  border-right: 32px solid;
+  border-bottom: 18px solid transparent;
+  color: #E0E0E0
+}
+.caret-right{
+  border-top: 18px solid transparent;
+  border-left: 32px solid;
+  border-bottom: 18px solid transparent;
+  color: #E0E0E0
+}
+.donate-header .media-body{
+  font-size: 0.85714em;
+  padding-left: 40px;
+  text-align: justify;
+  line-height: 23px;
+}
+.donation,
+.donate-record{
+  height: auto;
+}
+time{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.donate-header{
+  padding: 15px 0px 20px;
+  border-bottom: 1px solid #ccc;
+}
+.donate-footer{
+  font-size: 0.85714em;
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+}
+.donate-footer .col-lg-3>p{
+  text-align: right;
+}
+.donate-footer .col-lg-5 span{
+  margin-left: 30px;
+}
+.donate-footer .col-lg-3 a{
+  color: #00466b;
+  text-decoration: underline;
+}
+.donate-record{
+  font-size: 0.85714em;
+}
+.media-body{
+  text-align: left;
+}
+.table  th,
+ .table  td
+{
+  text-align: center;
+}
+.table > tbody > tr > th{
+  font-size: 1.16667em;
+  background-color: #ffc3bf;
+  border: 1px solid #e5838c;
+}
+ .table tbody{
+  border: 1px solid #dbdbdb;
+}
+.table > tbody > tr > td{
+  border-right: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  vertical-align: middle;
+}
+#ranklist .table > tbody > tr > th{
+  font-size: 1em;
+  background-color: #ffc3bf;
+  border: 1px solid #e5838c;
+  color: #e74856;
+}
+#ranklist .table > tbody > tr:last-child > td{
+  background-color: #dbdbdb;
+  border-color: #c8c8c8;
+}
+#ranklist p{
+  margin: 0;
+}
+#ranklist .donate-header{
+  margin-bottom: 10px;
+  padding: 15px 0 0;
+}
+#ranklist .media img{
+  margin: 0 120px 0 80px;
+}
+#ranklist .media-body{
+  padding-top: 20px;
+}
+.rank-btn{
+  padding: 2px 5px 2px 25px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  z-index: 1001;
+  position: relative;
+}
+.rank-btn .caret{
+  margin-left: 25px;
+}
+.hint{
+  font-size: 0.85714em;
+  padding-top: 5px;
+}
+#ranklist > .row{
+  margin-bottom:10px; 
+}
+#ranklist > .row > .col-lg-2{
+  text-align: right;
+}
+#ranklist .dropdown-menu{
+  width: 107px;
+  padding: 10px 0px 20px;
+  text-align: center;
+  background-color: #FFF;
+  margin-top: -6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: 1px solid #CCC;
+  box-shadow: 0px 0px 2px rgba(74, 69, 69, 0.43);
+}
+.take-reward{
+  width:99px;
+  height: 42px;
+  background: url("../img/take-reward.png") no-repeat 0 0 transparent;
+  display: inline-block;
+  cursor: pointer;
+}
+.take-reward:hover{
+  background: url("../img/take-rewardd.png") no-repeat 0 0 transparent;
+}
+/*用于jQuery的样式*/
+.hiddenRecord{
+  display: none;
+}
