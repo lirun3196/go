@@ -39,6 +39,22 @@ a:focus,a:active{
 .bold{
   font-weight: bolder;
 }
+.red{
+  color: #f00;
+}
+.blue{
+  color: #00b4ff
+}
+/*字体:normal值为14px*/
+.small-f{
+  font-size: 0.85724em;
+}
+.normal-f{
+  font-size: 1em;
+}
+.big-f{
+  font-size: 1.142857em;
+}
 .row{
   margin: 0;
 }
@@ -613,7 +629,97 @@ a:focus,a:active{
   float: left;
   position: relative;
 }
-/*模态框*/
-.modal-content{
-  
+/* 确认提交按钮 */
+.submit{
+    width: 99px;
+  height: 42px;
+  background: url('../img/submit.png') no-repeat scroll 0px 0px transparent;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid transparent;
 }
+.submit:hover{
+  background: url('../img/submitt.png') no-repeat scroll 0px 0px transparent;
+}
+/* 拟物化按钮 */
+.btn{
+  position: relative;
+  width: 80px;
+  height: 40px;
+  background-color: #f58a1a;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: -3px 3px #dbdbdb;
+  color: #fff;
+}
+.btn:hover{
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #f58a1a;
+}
+/*模态框*/
+.modal-content .btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+  line-height: 40px;
+  font-size: 50px;
+  box-shadow: -3px 3px rgba(51, 51, 51, 0.37);
+}
+.modal-content .btn:hover{
+  color: #fff;
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #000;
+}
+.modal-content .close-btn{
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  display: inline-block;
+}
+/* 金币充值 */
+.recharge .modal-dialog{
+  width: 500px;
+}
+.recharge .btn{
+  width: 99px;
+  height: 40px;
+  font-size: 16px;
+}
+/* 积分兑换 */
+.exchange .hint{
+  padding: 0 5px;
+}
+.exchange h4{
+  margin: 30px 0;
+}
+.exchange .submit{
+  margin-bottom: 40px;
+}
+.exchange input{
+  width: 100px;
+}
+.exchange .align-left{
+  text-align: left;
+}
+.line{
+  width: 20%;
+  height: 12px;
+  display: inline-block;
+  background: url("../img/modal-line.png") 0% 65% repeat-x transparent;
+}
+
+.exchange .modal-dialog{
+  width: 400px;
+}
+.exchange .modal-content{
+  text-align: center;
+}
+.exchange .modal-content p{
+  margin-bottom: 20px;
+}
+

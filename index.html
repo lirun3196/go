@@ -64,7 +64,7 @@
               <div class="menu-wealth gold">
                 <span class="type gold">金币</span>
                 <span class="amount gold">9999999999999</span>
-                <span><a href="#" class="recharge gold">充值</a></span>
+                <span><a href="#" class="recharge gold" data-toggle="modal" data-target=".recharge">充值</a></span>
               </div>
             </li>
             <li class="list-group-item">
@@ -73,10 +73,40 @@
                 <span class="amount point">9999999999999</span>
                 <span><a href="#" class="recharge point" data-toggle="modal" data-target=".exchange">兑换</a></span>
               </div>
-              <div class="modal fade exchange" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-sm">
+              <div class="modal fade recharge" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
                   <div class="modal-content">
-                    
+                    <h4 class="col-xs-12">金币充值</h4>
+                    <p class="row"><span class="col-xs-3 col-xs-offset-2">充值账号</span><span class="align-left col-xs-5 col-xs-offset-1">670596764.jiqita</span></p>
+                    <p class="row"><label class="col-xs-3 col-xs-offset-2">充值额度</label><input type="text" class="col-xs-5 col-xs-offset-1"><p>
+                    <p class="row"><span class="col-xs-3 col-xs-offset-2"><span class="col-xs-2 col-xs-offset-1"></span><span class="col-xs-2 col-xs-offset-1"></span>充值方式</p>
+                    <select class="col-xs-offset-8 col-xs-4">
+                      <option value="1">更多支付方式</option>
+                    </select>
+                    <div class="row">
+                      <div class="d-code">
+                        
+                      </div>
+                      <div class="banks">
+                        
+                      </div>
+                    </div>
+                    <button class="btn">确认充值</button>  
+                    <span class="close-btn"><button class="btn" data-dismiss="modal">×</button></span>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade exchange" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h4 class="col-xs-12">积分兑换</h4>
+                    <p class="row"><span class="col-xs-4 col-xs-offset-2">金币值</span><span class="align-left col-xs-4 col-xs-offset-2">10,000</span></p>
+                    <p class="row"><span class="col-xs-4 col-xs-offset-2">积分值</span><span class="align-left col-xs-4 col-xs-offset-2">987,654，000</span></p>
+                    <p><span class="line"></span><span class="small-f red hint">提示：1金币可以兑换100积分</span><span class="line"></span></p>
+                    <p class="row"><label class="col-xs-4 col-xs-offset-2">输入兑换金额</label><input type="text" class="col-xs-4"><p>
+                    <p class="blue">兑换后将获得积分值10,000</p>
+                    <button class="submit"></button>  
+                    <span class="close-btn"><button class="btn" data-dismiss="modal">×</button></span>
                   </div>
                 </div>
               </div>
