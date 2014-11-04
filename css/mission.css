@@ -3,7 +3,7 @@
     background: url("../img/left-mall.png") 0% 0% no-repeat #000;
 }
 
-/*½­ºþÈÎÎñ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .RiverTask{
   height: auto;
 }
@@ -42,7 +42,7 @@
 color:#FF0000;
 font-size:14px;
 }
-/*É¸Ñ¡ÈÎÎñ*/
+/*É¸Ñ¡ï¿½ï¿½ï¿½ï¿½*/
 .content_top{
 width: 100%;
 height: 45px;
@@ -61,7 +61,7 @@ font-weight: bolder;
 float: left;
 margin: 0 120px;
 }
-.checkbox-inline {
+.check-inline {
     position: relative;
 }
 .checkIcon {
@@ -120,11 +120,11 @@ font-size:12px;
 font-size:14px;
 font-weight:bold;
 }
-/*È«²¿²é¿´*/
+/*È«ï¿½ï¿½ï¿½é¿´*/
 .all{
 color:#534949;
 }
-/*Ó¢ÐÛ*/
+/*Ó¢ï¿½ï¿½*/
 .hero{
 color:#e28a51;
 }
@@ -132,12 +132,12 @@ color:#e28a51;
 .Occupation{
 color:#00ae00;
 }
-/*ÆÕÍ¨*/
+/*ï¿½ï¿½Í¨*/
 .Ordinary{
 color:#6f6f6f;
 }
 
-/*Ò³Êý*/
+/*Ò³ï¿½ï¿½*/
 .RiverTask-footer {
 	font-size: 0.85714em;
     padding-top: 20px;
@@ -193,7 +193,7 @@ ul, li {
   background-color: #efefef;
 }
 
-/*ÍÆ¼öÈÎÎñ*/
+/*ï¿½Æ¼ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .Recomtask .section-item:hover{
   background-color: #f9ac33;
 }

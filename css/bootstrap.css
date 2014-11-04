@@ -1819,7 +1819,7 @@ input[type="month"].input-lg {
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
-.checkbox-inline input[type="checkbox"] {
+.check-inline input[type="checkbox"] {
   position: absolute;
   margin-top: 4px \9;
   margin-left: -20px;
@@ -1829,7 +1829,7 @@ input[type="month"].input-lg {
   margin-top: -5px;
 }
 .radio-inline,
-.checkbox-inline {
+.check-inline {
   display: inline-block;
   padding-left: 20px;
   margin-bottom: 0;
@@ -1838,7 +1838,7 @@ input[type="month"].input-lg {
   cursor: pointer;
 }
 .radio-inline + .radio-inline,
-.checkbox-inline + .checkbox-inline {
+.check-inline + .check-inline {
   margin-top: 0;
   margin-left: 10px;
 }
@@ -1851,9 +1851,9 @@ fieldset[disabled] input[type="checkbox"] {
   cursor: not-allowed;
 }
 .radio-inline.disabled,
-.checkbox-inline.disabled,
+.check-inline.disabled,
 fieldset[disabled] .radio-inline,
-fieldset[disabled] .checkbox-inline {
+fieldset[disabled] .check-inline {
   cursor: not-allowed;
 }
 .radio.disabled label,
@@ -1936,7 +1936,7 @@ select[multiple].input-lg {
 .has-success .radio,
 .has-success .checkbox,
 .has-success .radio-inline,
-.has-success .checkbox-inline {
+.has-success .check-inline {
   color: #3c763d;
 }
 .has-success .form-control {
@@ -1962,7 +1962,7 @@ select[multiple].input-lg {
 .has-warning .radio,
 .has-warning .checkbox,
 .has-warning .radio-inline,
-.has-warning .checkbox-inline {
+.has-warning .check-inline {
   color: #8a6d3b;
 }
 .has-warning .form-control {
@@ -1988,7 +1988,7 @@ select[multiple].input-lg {
 .has-error .radio,
 .has-error .checkbox,
 .has-error .radio-inline,
-.has-error .checkbox-inline {
+.has-error .check-inline {
   color: #a94442;
 }
 .has-error .form-control {
@@ -2068,7 +2068,7 @@ select[multiple].input-lg {
 .form-horizontal .radio,
 .form-horizontal .checkbox,
 .form-horizontal .radio-inline,
-.form-horizontal .checkbox-inline {
+.form-horizontal .check-inline {
   padding-top: 7px;
   margin-top: 0;
   margin-bottom: 0;

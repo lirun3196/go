@@ -503,7 +503,7 @@ a:focus,a:active{
   opacity: 0;
   margin: 0;
 }
-.checkbox-inline{
+.check-inline{
   position: relative;
 }
 .checkIcon{
@@ -657,38 +657,111 @@ a:focus,a:active{
   top: 3px;
   left:-3px;
   background-color: #f58a1a;
+  color: #fff;
 }
 /*模态框*/
-.modal-content .btn{
+.modal-content .close-btn{
   width: 50px;
   height: 50px;
+  position: relative;
   border-radius: 50%;
   background-color: #000;
+  color: #fff;
+  border: 1px solid transparent;
   line-height: 40px;
   font-size: 50px;
-  box-shadow: -3px 3px rgba(51, 51, 51, 0.37);
+  box-shadow: -2px 2px rgba(51, 51, 51, 0.37);
 }
-.modal-content .btn:hover{
+.modal-content .close-btn:hover{
   color: #fff;
   box-shadow:none;
   top: 3px;
   left:-3px;
   background-color: #000;
 }
-.modal-content .close-btn{
+.modal-content .btn{
+  width: 99px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: #ea5520;
+}
+.modal-content .btn:hover{
+  background-color: #ea5520;
+}
+.modal-content .btn-wraper{
   position: absolute;
   top: -15px;
   right: -15px;
   display: inline-block;
 }
+.align-left{
+  text-align: left;
+}
+.align-right{
+  text-align: right;
+}
+/* 升级 */
+.upgrade{
+  color: #333;
+  font-size: 14px;
+  padding: 40px 0 0;
+}
+.upgrade h4{
+  margin: 30px 0;
+}
+.upgrade .row{
+  margin-top: 30px;
+}
+.upgrade-footer{
+  color: #ea5520;
+  border-top: 1px solid #ccc;
+  margin: 30px 0 30px;
+  padding-top: 10px;
+}
 /* 金币充值 */
-.recharge .modal-dialog{
+.refill .modal-dialog{
   width: 500px;
 }
-.recharge .btn{
-  width: 99px;
-  height: 40px;
-  font-size: 16px;
+.refill .modal-content{
+  padding: 10px 20px 40px 80px;
+  
+}
+.refill .modal-content > h4{
+  margin: 30px 0;
+}
+.refill h5{
+  margin-top: 0;
+}
+.refill select{
+  display: block;
+  margin: 20px 0 20px 220px;
+}
+.refill .pay-btn{
+  width: 60px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-right: 26px;
+}
+.refill p + p{
+  margin-top: 30px;
+}
+.banks{
+  text-align: left;
+}
+.banks .button{
+  width: 96px;
+  height: 38px;
+  border: none;
+  margin: 0 5px 5px 0;
+  background:url("../img/bank1.png") 0 0 no-repeat transparent;
+}
+.fig-code{
+  background:url("../img/fig-code.png") 0 0 no-repeat transparent;
+  width: 102px;
+  height:102px;
+  display: inline-block;
 }
 /* 积分兑换 */
 .exchange .hint{
@@ -703,9 +776,6 @@ a:focus,a:active{
 .exchange input{
   width: 100px;
 }
-.exchange .align-left{
-  text-align: left;
-}
 .line{
   width: 20%;
   height: 12px;
@@ -718,6 +788,7 @@ a:focus,a:active{
 }
 .exchange .modal-content{
   text-align: center;
+  padding-bottom: 40px;
 }
 .exchange .modal-content p{
   margin-bottom: 20px;
