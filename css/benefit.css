@@ -1,0 +1,13 @@
+/* 
+    Created on : 2014-11-4, 23:08:28
+    Author     : Lirun
+*/
+.benefit{
+  height: auto;
+}
+.benefit h4{
+  border-bottom: 1px solid #ccc;
+}
+.benefit .col-xs-4{
+  margin-bottom: 30px;
+}
