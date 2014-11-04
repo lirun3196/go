@@ -3,11 +3,29 @@
     Author     : Lirun
 */
 .benefit{
-  height: auto;
+  height: 1100px;
+  overflow-y:scroll;
+}
+.benefit h3{
+  font-weight: bolder;
+  text-align: center;
 }
 .benefit h4{
   border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.benefit h4 + p{
+  padding: 0 0 20px 28px;
 }
 .benefit .col-xs-4{
   margin-bottom: 30px;
+}
+.corperate{
+  text-align: center;
+  border-bottom: none;
+}
+.benefit-footer p{
+  font-size: 18px;
+  text-align: center;
 }
