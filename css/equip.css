@@ -2,6 +2,9 @@
     Created on : 2014-11-4, 14:55:48
     Author     : Lirun
 */
+.left{
+  background: url("../img/left-donation.png") 0% 0% no-repeat #000;
+}
 .collect{
   height: auto;
   padding: 60px 40px 0 40px;
@@ -20,7 +23,11 @@
 
 }
 .fav-bar{
-  border-bottom: 1px solid #ccc;
+  width: 50%;
+  display: inline-block;
+}
+.fav-item{
+  border-top: 1px solid #ccc;
 }
 .fav-bar .num,
 .fav-item .num{
@@ -30,37 +37,75 @@
 .promotion-num,
 .lapse-num{
   display: inline-block;
-  padding-bottom: 10px;
+  padding: 0 10px 10px 0;
+  text-align: center;
 }
 .collect-num{
   color: #ea5520;
+  cursor: pointer;
 }
-.click-c{
+.collect-num.click-c{
   font-size: 16px;
   font-weight: bolder;
-  padding: 0 15px 5px;
+  padding: 0 10px 5px 15px;
   border-bottom: 5px solid #ea5520;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 .promotion-num{
   color: #e60012;
+  cursor: pointer;
 }
-.click-p{
+.promotion-num.click-c{
   font-size: 16px;
   font-weight: bolder;
-  padding: 0 15px 5px;
-  border-bottom: 5px solid #ea5520;
-  margin: 0 25px;
+  padding: 0 10px 5px 15px;
+  border-bottom: 5px solid #e60012;
+  margin: 0 15px;
 }
 .lapse-num{
   color: #999;
+  cursor: pointer;
 }
-.click-l{
+.lapse-num.click-c{
   font-size: 16px;
   font-weight: bolder;
-  padding: 0 15px 5px;
-  border-bottom: 5px solid #ea5520;
-  margin: 0 25px;
+  padding: 0 10px 5px 15px;
+  border-bottom: 5px solid #999;
+  margin: 0 15px;
+}
+.operate{
+  width: 49%;
+  display: inline-block;
+  text-align: right;
+}
+.operate li{
+  display: inline-block;
+  text-align: center;
+}
+.operate-shell{
+  width: 50px;
+  padding: 2px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color:#a7a7a7;
+  background-color: #fff;
+  cursor: pointer;
+}
+/* 操作按钮hover效果 */
+.action1:hover{
+  background-color: #485b79;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.action2:hover{
+  background-color: #fb9337;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.action3:hover{
+  background-color: #dc2a1c;
+  color: #fff;
+  border: 1px solid transparent;
 }
 #collected > .row{
   border-bottom: none;
@@ -99,4 +144,7 @@
 }
 .collect-status{
   color: #a7a7a7;
+}
+#order .row{
+  border-bottom: none;
 }
