@@ -1,0 +1,90 @@
+/* 
+    Created on : 2014-11-5, 15:07:44
+    Author     : Lirun
+*/
+.esoterica{
+  height: auto;
+}
+.esoterica-header{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.esoterica-header p:first-child{
+  padding: 10px;
+}
+.esoterica-body{
+  padding: 30px 80px 60px;
+}
+.esoterica-content{
+  background: url("../img/big-book.png") 50% 0% no-repeat transparent;
+  height: 480px;
+  position: relative;
+}
+.esoterica-left{
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 100px;
+  width: 210px;
+}
+.esoterica-right{
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  right: 100px;
+  width: 210px;
+}
+.thumbnail{
+  background-color: transparent;
+  border: none;
+}
+.thumbnail-bg{
+  background: url("../img/use-bg.png") 50% 0% no-repeat transparent;
+  height: 188px;
+  position: relative;
+}
+.thumbnail-bg > img{
+  position: absolute;
+  top: 31px;
+  left: 40px;
+  width: 117px;
+  height: 117px;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 50%;
+}
+.price{
+  margin: 20px 0;
+}
+.use{
+  background: url("../img/use-grey.png") 50% 0% no-repeat transparent;
+  height: 41px;
+}
+.use:hover{
+  background: url("../img/use-black.png") 50% 0% no-repeat transparent;
+}
+.usage{
+  text-align: left;
+}
+.section-desc .change{
+  margin-top: 65px;
+}
+.section-desc{
+  padding-top: 0;
+}
+.media-body{
+  padding-left: 50px;
+}
+.padding-t{
+  padding-top: 40px;
+}
+.prev-page{
+  position: absolute;
+  bottom: 50px;
+  left: 70px;
+}
+.next-page{
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+}
