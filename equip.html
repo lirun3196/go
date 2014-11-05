@@ -12,6 +12,7 @@
   <![endif]-->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/purchase.css">
   <link rel="stylesheet" href="css/equip.css">
   <link rel="stylesheet" href="css/swiper.css">
 </head>
@@ -150,18 +151,18 @@
               </div>
             </div>
             <ul class="nav-center">
-              <li><img src="img/center-.png" alt=""><a href="index.html">我的江湖</a></li>
-              <li><img src="img/center-.png" alt=""><a href="mall.html">江湖商城</a></li>
-              <li><img src="img/center-.png" alt=""><a href="mission.html">江湖任务</a></li>
-              <li><img src="img/center-.png" alt=""><a href="donation.html" class="center-active">我的捐赠</a></li>
-              <li><img src="img/center-.png" alt=""><a href="purchase.html">近期采购</a></li>
-              <li><img src="img/center-.png" alt=""><a href="fund.html">我的基金</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="index.html"  class="center-active">我的江湖</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="mall.html">江湖商城</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="mission.html">江湖任务</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="donation.html">我的捐赠</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="purchase.html">近期采购</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="fund.html">我的基金</a></li>
             </ul>
             <div class="section collect">
-              <img src="img/donation.png" alt="">
+              <img src="img/equip.png" alt="">
               <ul class="nav nav-tabs bold">
                 <li class="active"><a href="#collected" data-toggle="tab">已收藏</a></li>
-                <li><a href="#owned" data-toggle="tab">已拥有</a></li>
+                <li><a href="#order" data-toggle="tab">已拥有</a></li>
               </ul>
               <!-- Tab panes -->
               <div class="tab-content">
@@ -171,6 +172,12 @@
                       <li class="collect-num click-c">收藏装备<span class="num">12</span></li>
                       <li class="promotion-num">促销<span class="num">11</span></li>
                       <li class="lapse-num">失效<span class="num">10</span></li>
+                    </ul>
+                    <ul class="operate">
+                      <li class="operate-shell action1">兑换</li>
+                      <li class="operate-shell action2">赠送</li>
+                      <li class="operate-shell action3">捐赠</li>
+                      <li class="operate-shell">删除</li>
                     </ul>
                     <ul class="fav-item">
                       <li class="item-select"><a href="#">服装<span class="num">12</span></a></li>
@@ -364,8 +371,106 @@
                   </div>
                 </div>
                 </div>
-                <div class="tab-pane" id="owned">
-                  
+                <div class="tab-pane" id="order">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td colspan="3">
+                          <div class="check-group">
+                          <label class="check-inline" >
+                            <span class="checkIcon checkIconed"></span>
+                            <input type="checkbox" checked>付款时间：<time class="pay-time">2014-10-25 12:00:00 </time>
+                          </label>
+                        </div>
+                        <span>订单编号：</span><span class="order-number">CQJB-002B-201230011</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="content1">
+                          <div class="media">
+                            <a class="pull-left" href="#">
+                              <img class="media-object" src="img/purchase-h.png" alt="">
+                            </a>
+                            <div class="media-body">
+                              <p><span class="bold">物品名称：</span>雷蛇Razer 北海巨妖7.1 头戴式USB游戏耳机</p>
+                              <p><span class="bold">购买时间：</span>2014-12-25</p>
+                              <p><span class="bold">数量：  </span>2个</p>
+                              <p><span class="bold">类型：  </span>黑色</p>
+                              <p class="unit-price"><span class="bold">单价：  </span>50000积分<span class="money">1500金币</span></p>
+                              <p><span class="total">总价</span>：<span>150000积分</span><span class="money">1500金币</span></p>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="content2">
+                          <p>已发货</p>
+                          <p><a href="#" class="logistics">查看物流</a></p>
+                        </td>
+                        <td class="content3">
+                          <div class="btn-group">
+                            <button>确认收货</button>
+                            <button class="return">退货</button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td colspan="3">
+                          <div class="check-group">
+                          <label class="check-inline" >
+                            <span class="checkIcon checkIconed"></span>
+                            <input type="checkbox" checked>付款时间：<time class="pay-time">2014-10-25 12:00:00 </time>
+                          </label>
+                        </div>
+                        <span>订单编号：</span><span class="order-number">CQJB-002B-201230011</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="content1">
+                          <div class="media">
+                            <a class="pull-left" href="#">
+                              <img class="media-object" src="img/purchase-h.png" alt="">
+                            </a>
+                            <div class="media-body">
+                              <p><span class="bold">物品名称：</span>雷蛇Razer 北海巨妖7.1 头戴式USB游戏耳机</p>
+                              <p><span class="bold">购买时间：</span>2014-12-25</p>
+                              <p><span class="bold">数量：  </span>2个</p>
+                              <p><span class="bold">类型：  </span>黑色</p>
+                              <p class="unit-price"><span class="bold">单价：  </span>50000积分<span class="money">1500金币</span></p>
+                              <p><span class="total">总价</span>：<span>150000积分</span><span class="money">1500金币</span></p>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="content2">
+                          <p>已发货</p>
+                          <p><a href="#" class="logistics">查看物流</a></p>
+                        </td>
+                        <td class="content3">
+                          <div class="btn-group">
+                            <button>确认收货</button>
+                            <button class="return">退货</button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="row">
+                  <div class="col-lg-2"></div>
+                  <div class="page col-lg-10">
+                    <ul>
+                      <li><a href="#">&laquo;</a></li>
+                      <li><a href="#" class="pageActive">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                      <li><a href="#">&raquo;</a></li>
+                    </ul>
+                    <label>跳转<input type="text" class="page-number">页</label>
+                  </div>
+                </div>
                 </div>
               </div><!-- end of tab-content-->
             </div>          
@@ -402,7 +507,7 @@
 
     <script src="js/vendor/jquery-1.11.1.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/collect.js"></script>
+    <script src="js/equip.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>      
 </body>
