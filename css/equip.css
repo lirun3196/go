@@ -1,0 +1,102 @@
+/* 
+    Created on : 2014-11-4, 14:55:48
+    Author     : Lirun
+*/
+.collect{
+  height: auto;
+  padding: 60px 40px 0 40px;
+}
+.collect .thumbnail{
+  border: none;
+  margin-bottom: 10px;
+}
+.collect .thumbnail .check-group{
+  padding-bottom: 15px;
+}
+.collect .row{
+  border-bottom: 1px dashed #ccc;
+}
+.collect-header{
+
+}
+.fav-bar{
+  border-bottom: 1px solid #ccc;
+}
+.fav-bar .num,
+.fav-item .num{
+  margin: 0 5px;
+}
+.collect-num,
+.promotion-num,
+.lapse-num{
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.collect-num{
+  color: #ea5520;
+}
+.click-c{
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 0 15px 5px;
+  border-bottom: 5px solid #ea5520;
+  margin-right: 50px;
+}
+.promotion-num{
+  color: #e60012;
+}
+.click-p{
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 0 15px 5px;
+  border-bottom: 5px solid #ea5520;
+  margin: 0 25px;
+}
+.lapse-num{
+  color: #999;
+}
+.click-l{
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 0 15px 5px;
+  border-bottom: 5px solid #ea5520;
+  margin: 0 25px;
+}
+#collected > .row{
+  border-bottom: none;
+  margin: 20px 0;
+}
+.fav-item{
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+.item-select{
+  color: #ea5520;
+  font-weight: bolder;
+}
+.fav-item > li{
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.equip-wraper{
+  text-align: center;
+}
+.equip-img{
+  width: 150px;
+  height: 152px;
+  background-color: #fff;
+  border:1px solid #ccc;
+  margin: 0 auto;
+}
+.equip-img img{
+  width: 130px;
+  height: 130px;
+}
+.img-border{
+  border-top: 10px solid #F7F7F7;
+  border-bottom: 10px solid #F7F7F7; 
+}
+.collect-status{
+  color: #a7a7a7;
+}
