@@ -2,6 +2,7 @@
     Created on : 2014-10-31, 15:27:57
     Author     : Lirun
 */
+/* 拟物化按钮 */
 body{
   margin: 20px 0 0 20px;
 }
@@ -20,4 +21,37 @@ button:hover{
   top: 3px;
   left:-3px;
   background-color: #f58a1a;
+}
+/*自定义下拉条*/
+.pull-down{
+  margin-top:50px; 
+  border: 1px solid #333;
+  width: 50px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  overflow-y: hidden;
+}
+.pull-content{
+  width: 20px;
+  float: left;
+  position: relative;
+  top: -10px;
+}
+.pull-down-anchor{
+  position:absolute;
+  left: -7px;
+  width: 15px;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.pull-down-line{
+  float: right;
+  position: relative;
+  width: 2px;
+  height: 200px;
+  border: 1px solid #333;
 }
