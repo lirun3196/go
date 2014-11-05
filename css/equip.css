@@ -29,6 +29,9 @@
 .fav-item{
   border-top: 1px solid #ccc;
 }
+.fav-item a:hover{
+  color: #ea5520;
+}
 .fav-bar .num,
 .fav-item .num{
   margin: 0 5px;

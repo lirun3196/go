@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>近期采购</title>
+  <title>公益活动</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -150,11 +150,11 @@
               </div>
             </div>
             <ul class="nav-center">
-              <li><img src="img/center-donate.png" alt=""><a href="index.html">我的江湖</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="index.html"   class="center-active">我的江湖</a></li>
               <li><img src="img/center-donate.png" alt=""><a href="mall.html">江湖商城</a></li>
               <li><img src="img/center-donate.png" alt=""><a href="mission.html">江湖任务</a></li>
               <li><img src="img/center-donate.png" alt=""><a href="donation.html">我的捐赠</a></li>
-              <li><img src="img/center-donate.png" alt=""><a href="purchase.html"  class="center-active">近期采购</a></li>
+              <li><img src="img/center-donate.png" alt=""><a href="purchase.html">近期采购</a></li>
               <li><img src="img/center-donate.png" alt=""><a href="fund.html">我的基金</a></li>
             </ul>
             <div class="section benefit">
@@ -166,7 +166,7 @@
                 帮助儿童实现梦想。小手牵大手，孩子老人乐呵呵。此次在幼儿园组织了
                 一次“手牵手暖夕阳”的公益活动。</p>
               <h4>视频欣赏</h4>
-              <video></video>
+              <video src="" preload="auto" poster="img/poster.png" controls></video>
               <p>本次公益自驾活动以关注教育、关爱老人为主要目的，将孩子们需要的
                 文具、多媒体设备、教学物资及米面油、被褥、御寒衣物等生活必需品送
                 至永寿县豆家镇贫困村民的手中。自2014年11月1日起至11月下旬为捐助
@@ -247,6 +247,10 @@
     <script src="js/main.js"></script>
     <script src="js/purchase.js"></script>
     <script src="js/swiper.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>      
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script>
+      var h = $(".right").height();
+      $(".left , .menu").height(h);
+    </script>
 </body>
 </html>

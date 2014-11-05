@@ -2,9 +2,20 @@
     Created on : 2014-11-4, 23:08:28
     Author     : Lirun
 */
+.left{
+  background: url("../img/left-donation.png") 0% 0% no-repeat #000;
+}
+.left, .right, .menu, .content{
+  height: auto;
+}
 .benefit{
-  height: 1100px;
-  overflow-y:scroll;
+  height: auto;
+  padding: 30px 30px 20px;
+  margin-bottom: 80px;
+}
+video{
+  width: 100%;
+  height: 330px;
 }
 .benefit h3{
   font-weight: bolder;
@@ -15,17 +26,50 @@
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
-.benefit h4 + p{
-  padding: 0 0 20px 28px;
+.benefit p{
+  padding: 0 0 20px 36px;
+  color: #5c5c5c;
+  font-size: 16px;
+  text-align: justify;
 }
 .benefit .col-xs-4{
   margin-bottom: 30px;
 }
-.corperate{
+.benefit .col-xs-4 > img{
+  max-width: 100%;
+}
+.benefit .col-xs-4:nth-child(3n+2){
+  text-align: center;
+}
+.benefit .col-xs-4:nth-child(3n+3){
+  text-align: right;
+}
+.benefit .corperate{
   text-align: center;
   border-bottom: none;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
 .benefit-footer p{
   font-size: 18px;
   text-align: center;
+  padding: 0;
+}
+.helper-list{
+  border: 1px solid #ccc;
+  padding: 0 40px 20px;
+  margin: 20px 0 40px;
+}
+.helper-list h3{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.helper-list > .row > .col-xs-12{
+  margin-bottom: 10px;
+}
+.helper-list span{
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  font-size: 18px;
 }
