@@ -50,13 +50,6 @@ a:focus,a:active{
 .row{
   margin: 0;
 }
-/*顶部导航：更改bootstrap默认样式，后期定制事可更改*/
-.nav{
-  color: #fff;
-  background-color: transparent;
-  font-size: 1.28751em;
-}
-
 /*分页*/
 .page-number{
   width: 27px;
@@ -100,40 +93,7 @@ a:focus,a:active{
   background-color: #efefef;
 }
 
-/*footer*/
-.footer{
-  width: 100%;
-  min-width: 1350px;
-  height: 120px;
-  background-color: #000;
-  font-size: 0.92857em;
-  clear: both;
-}
-.container{
-  width: 880px;
-  margin: 0 auto;
-  padding-top: 30px;
-}
-.footer span{
-  display: inline-block;
-  margin-right: 10px;
-  line-height: 21px;
-}
-.footer-info{
-  color: #ddd9be;
-}
-.footer-info img{
-  margin-right: 3px;
-}
-.footer-info a{
-  color: #ddd9be;
-}
-.footer-info a:hover{
-  text-decoration: underline;
-}
-.company{
-  color: #cb342a;
-}
+
 /* 拟物化按钮 */
 .btn{
   position: relative;
@@ -194,13 +154,9 @@ a:focus,a:active{
 .align-right{
   text-align: right;
 }
-/* header部分 */
+/*公共部分*/
 .container-fluid{
   padding: 0;
-}
-.header{
-  height: 115px;
-  background: url('../img/line.jpg') repeat scroll 0% 0% transparent;
 }
 .header > .row,
 .nav,
@@ -208,14 +164,176 @@ a:focus,a:active{
   width: 60%;
   margin: 0 auto;
 }
+ .active{
+  background-color: #d73b04;
+}
+/* header */
+.header{
+  height: 115px;
+  background: url('../img/line.jpg') repeat scroll 0% 0% transparent;
+}
+.header > .row{
+  padding-top: 20px;
+}
+.header > .row img{
+  max-width: 100%;
+}
+.logo-fig{
+  padding-top: 20px;
+}
+/*导航*/
 .nav-wraper{
   height: 45px;
   background-color: #ea5520;
 }
+.nav{
+  color: #fff;
+  background-color: transparent;
+  font-size: 1.285714em;
+}
+.nav > li{
+  display: inline-block;
+  
+}
+.nav > li > a{
+  padding: 9px 20px;
+}
+.nav > li > a:hover{
+  background-color: #d73b04;
+}
+
+/*内容*/
 .content{
   margin: 30px auto;
+  padding: 20px 30px 80px;;
   border: 1px solid #ccc;
-  border-radius: 6px;
-  box-shadow: 0 0 1px #ccc;
+  border-radius: 8px;
   background-color: #fff;
+}
+.content:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+.main-content{
+  float: left;
+  width: 600px;
+  margin-left: 50px;
+}
+.content-header{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+.content-header h2,
+.content-header a{
+  margin: 0;
+  padding: 0;
+}
+.FAQ{
+  font-size: 1.142857em;
+  text-decoration: underline;
+  color: #ea5520;
+  padding-top: 10px;
+}
+.step-one{
+  font-size: 1.142857em;
+  width: 80%;
+  margin: 80px auto 0;
+}
+.step-one p{
+  margin-bottom: 50px;
+}
+.step-one .fa-asterisk{
+  color: #ea5520;
+  font-size: 0.6em;
+  margin-right: 5px;
+  vertical-align: 2px;
+}
+.step-one .fa-circle{
+  margin-right: 10px;
+  font-size: 0.7em;
+  vertical-align: 2px;;
+  color: #636363
+}
+.step-one  input{
+  width: 230px;
+  height: 34px;
+  line-height: 34px;
+}
+.phone,
+.email{
+  margin: 0 20px 0 10px;
+  color: #000;
+}
+.phone:hover,
+.email:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.way{
+  color: #636363;
+  margin-right: 10px;
+}
+.step-one .btn{
+  width: 100px;
+  height: 40px;
+  background-color: #ea5520;
+  color: #fff;
+  font-size: 18px;
+}
+.submit{
+  text-align: center;
+}
+.side-bar{
+  float: left;
+  margin-top: 64px;
+}
+.side-nav{
+  width: 96px;
+  background-color: #626161;
+}
+.side-nav > li > a{
+  padding: 15px 20px;
+  color: #fff;
+  display: inline-block;
+}
+/* 用于隐藏/显示方式输入框的样式 */
+.inputPhone,
+.inputEmail{
+  display: none;
+}
+/*footer*/
+.footer{
+  width: 100%;
+  min-width: 1350px;
+  height: 120px;
+  background-color: #000;
+  font-size: 0.92857em;
+  clear: both;
+}
+.container{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.footer span{
+  display: inline-block;
+  margin-right: 6px;
+  line-height: 21px;
+}
+.footer-info{
+  color: #ddd9be;
+}
+.footer-info img{
+  margin-right: 3px;
+}
+.footer-info a{
+  color: #ddd9be;
+}
+.footer-info a:hover{
+  text-decoration: underline;
+}
+.company{
+  color: #cb342a;
 }
