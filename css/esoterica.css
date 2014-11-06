@@ -42,6 +42,7 @@
   background: url("../img/use-bg.png") 50% 0% no-repeat transparent;
   height: 188px;
   position: relative;
+  cursor: pointer;
 }
 .thumbnail-bg > img{
   position: absolute;
@@ -53,12 +54,22 @@
   max-width: 100%;
   border-radius: 50%;
 }
+.thumbnail-bg > img:hover{
+  transform: scale(0.9);
+}
+.caption > h5:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
 .price{
   margin: 20px 0;
 }
 .use{
   background: url("../img/use-grey.png") 50% 0% no-repeat transparent;
   height: 41px;
+  width: 41px;
+  display: inline-block;
+  margin: 0 auto;
 }
 .use:hover{
   background: url("../img/use-black.png") 50% 0% no-repeat transparent;
@@ -89,14 +100,14 @@
   right: 70px;
 }
 /*弹出框样式*/
-.using .thumbnail{
+.esoterica-detail .thumbnail{
   padding: 60px;
 }
-.using h3{
+.esoterica-detail h3{
   text-align: center;
   margin-bottom: 30px;
 }
-.using .detail{
+.esoterica-detail .detail{
   font-size: 12px;
   line-height: 24px;
   color: #666;
@@ -104,6 +115,31 @@
   padding-top: 15px;
   text-align: justify;
 }
-.using .detail > span{
+.esoterica-detail .detail > span{
   color: #333;
+}
+.using .modal-dialog{
+  margin-top: 15%;
+  width: 350px;
+}
+.using .modal-content{
+  padding: 40px 20px;
+  text-align: center;
+}
+.using p{
+  font-size: 12px;
+  margin-top: 40px;
+}
+/* 底部推荐 */
+.eso .section-item:hover{
+  background-color: #a3c8e5;
+}
+.eso .action{
+  background-image: url("../img/take-grey.png");
+}
+.eso .action:hover{
+  background-image: url("../img/takee.png");
+}
+.eso .actioned{
+  background-image: url("../img/take.png");
 }

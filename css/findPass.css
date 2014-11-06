@@ -1,0 +1,217 @@
+/* 
+    Created on : 2014-10-24, 16:04:02
+    Author     : Lirun
+*/
+body{
+  background: url("../img/slash.jpg") 180px 0 repeat; 
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a:focus,a:active{
+  outline: none;
+}
+.cl:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0px;
+  visibility: hidden;
+  height: 0px;
+}
+/*等级称号颜色，用拼音以驼峰方式命名*/
+.gold{
+  color: #e2d41b;
+}
+.bold{
+  font-weight: bolder;
+}
+.red{
+  color: #f00;
+}
+.blue{
+  color: #00b4ff
+}
+.fig-yellow{
+  color: #ea5520;
+}
+/*字体:normal值为14px*/
+.small-f{
+  font-size: 0.85724em;
+}
+.normal-f{
+  font-size: 1em;
+}
+.big-f{
+  font-size: 1.142857em;
+}
+.row{
+  margin: 0;
+}
+/*顶部导航：更改bootstrap默认样式，后期定制事可更改*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #000;
+}
+.nav.nav-pills{
+  margin: 10px 0 40px;
+  float: right;
+  display: inline-block;
+}
+.nav.nav-pills a{
+  color: #000;
+  padding: 5px 15px;
+}
+
+/*分页*/
+.page-number{
+  width: 27px;
+  height:27px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+}
+.page{
+  color: #000;
+  text-align: right;
+  font-size: 12px;
+}
+.page > ul{
+  display: inline-block;
+}
+.page > label{
+  margin-left: 20px;
+}
+.page > ul > li{
+  display: inline-block;
+}
+.page > ul > li:first-child a{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.page > ul > li:last-child a{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.page > ul > li > a{
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+}
+.page > ul > li > a:hover{
+  background-color: #efefef;
+}
+.page .pageActive{
+  background-color: #efefef;
+}
+
+/*footer*/
+.footer{
+  width: 100%;
+  min-width: 1350px;
+  height: 120px;
+  background-color: #000;
+  font-size: 0.92857em;
+  clear: both;
+}
+.container{
+  width: 880px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.footer span{
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 21px;
+}
+.footer-info{
+  color: #ddd9be;
+}
+.footer-info img{
+  margin-right: 3px;
+}
+.footer-info a{
+  color: #ddd9be;
+}
+.footer-info a:hover{
+  text-decoration: underline;
+}
+.company{
+  color: #cb342a;
+}
+/* 拟物化按钮 */
+.btn{
+  position: relative;
+  width: 80px;
+  height: 40px;
+  background-color: #f58a1a;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: -3px 3px #dbdbdb;
+  color: #fff;
+}
+.btn:hover{
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #f58a1a;
+  color: #fff;
+}
+/*模态框*/
+.modal-content .close-btn{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid transparent;
+  line-height: 40px;
+  font-size: 50px;
+  box-shadow: -2px 2px rgba(51, 51, 51, 0.37);
+}
+.modal-content .close-btn:hover{
+  color: #fff;
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #000;
+}
+.modal-content .btn{
+  width: 99px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: #ea5520;
+}
+.modal-content .btn:hover{
+  background-color: #ea5520;
+}
+.modal-content .btn-wraper{
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  display: inline-block;
+}
+.align-left{
+  text-align: left;
+}
+.align-right{
+  text-align: right;
+}
+/* header部分 */
+.container-fluid{
+  padding: 0;
+}
+.header{
+  height: 115px;
+  background: url('../img/line.jpg') repeat scroll 0% 0% transparent;
+}
+.header > .row{
+  width: 60%;
+}

@@ -44,6 +44,9 @@ a:focus,a:active{
 .blue{
   color: #00b4ff
 }
+.fig-yellow{
+  color: #ea5520;
+}
 /*字体:normal值为14px*/
 .small-f{
   font-size: 0.85724em;
@@ -497,20 +500,25 @@ a:focus,a:active{
   font-size: 1.142857em;
 }
 
-/*checkbox*/
-.check-group input[type="checkbox"]{
-  opacity: 0;
+/* 自定义checkbox */
+.check-inline input[type="checkbox"]{
+  opacity: 0; 
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 .check-inline{
   position: relative;
+  width: 18px;
+  height: 16px;
+  padding-left:0; 
 }
 .checkIcon{
   background: url('../img/check.png') no-repeat scroll 0px 0px transparent;
   width: 18px;
   height: 16px;
   position: absolute;
-  left: 0px;
+  z-index: 2;
 }
 .checkIconed{
   background: url('../img/checked.png') no-repeat scroll 0px 0px transparent;

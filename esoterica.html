@@ -176,9 +176,9 @@
                 <div class="esoterica-content">
                   <div class="esoterica-left">
                     <div class="thumbnail">
-                      <div class="thumbnail-bg"><img src="img/friend.png" alt=""></div>
+                      <div class="thumbnail-bg" data-toggle="modal" data-target=".esoterica-detail"><img src="img/friend.png" alt=""></div>
                       <div class="caption">
-                        <h5 class="bold">霸王神功秘籍</h5>
+                        <h5 class="bold" data-toggle="modal" data-target=".esoterica-detail">霸王神功秘籍</h5>
                         <p class="usage">用途：在指定地点用餐，可以用“霸王餐”招数！</p>
                         <p class="bold price">领取价格：4000积分</p>
                         <p class="use" data-toggle="modal" data-target=".using"></p>
@@ -192,7 +192,7 @@
                         <h5 class="bold">霸王神功秘籍</h5>
                         <p class="usage">用途：在指定地点用餐，可以用“霸王餐”招数！</p>
                         <p class="bold price">领取价格：4000积分</p>
-                        <p class="use"></p>
+                        <p class="use" data-toggle="modal" data-target=".using"></p>
                       </div>
                     </div>
                   </div>
@@ -201,33 +201,38 @@
                 </div>
               </div>
             </div>
-            <div class="section">
-              <img src="img/tj-esoterica.png" alt="">
+            <div class="section eso">
+              <img src="img/tj-esoterica.png" alt="">            
               <div class="section-items show-item">
-                <a href="index.html" target="_self"><div class="section-item">
-                  <img src="img/friend.png" alt="">
-                  <span class="alias">一流打手武武松松</span>
-                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
-                  </div></a>
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
                   <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
                 </div>
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
                   <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
+                </div>
+                <div class="section-item">
+                  <img src="img/friend.png" alt="">
+                  <span class="alias">一流打手武武松松</span>
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
                 </div>
                 <div class="section-item">
                   <img src="img/friend2.png" alt="">
                   <span class="alias">一流打手武武松松</span>
                   <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
                 </div>
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
                   <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
                 </div>
               </div>
               
@@ -236,31 +241,36 @@
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
                   <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
                 </div>
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
                   <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
-                  
+                  <span class="action"></span>
                 </div>
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
-                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>                
+                  <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
                 </div>
                 <div class="section-item">
                   <img src="img/friend2.png" alt="">
                   <span class="alias">一流打手武武松松</span>
                   <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
                 </div>
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
                   <p class="level"><span>4000积分</span><span class="money">500金币</span></p>
+                  <span class="action"></span>
                 </div>
               </div>
+              
               <div class="section-desc">
-                <p><span class="bold">推荐秘籍，</span>LNH智慧团经过分析给你推荐最适合你的秘籍。</p>
+                <p><span class="bold">秘籍册，</span>LNH智慧团给你推荐最实用的优惠卷。</p>
                 <div class="change">
                   <img src="img/change.png" alt="">
                   <span class="bold">换一组</span>
@@ -296,7 +306,7 @@
         </div>
       </div>
     </div>
-    <div class="modal fade using" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade esoterica-detail" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="thumbnail">
@@ -316,8 +326,15 @@
         </div>
       </div>
     </div>
-    <!--script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script-->
+    <div class="modal fade using" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <h3>恭喜领取</h3>
+          <p>你已使用 4000积分 领取了《霸王神功秘籍》！</p>
+          <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
+        </div>
+      </div>
+    </div>
     <script src="js/vendor/jquery-1.11.1.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/mall.js"></script>
