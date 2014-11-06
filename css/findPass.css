@@ -51,20 +51,10 @@ a:focus,a:active{
   margin: 0;
 }
 /*顶部导航：更改bootstrap默认样式，后期定制事可更改*/
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+.nav{
   color: #fff;
-  background-color: #000;
-}
-.nav.nav-pills{
-  margin: 10px 0 40px;
-  float: right;
-  display: inline-block;
-}
-.nav.nav-pills a{
-  color: #000;
-  padding: 5px 15px;
+  background-color: transparent;
+  font-size: 1.28751em;
 }
 
 /*分页*/
@@ -212,6 +202,20 @@ a:focus,a:active{
   height: 115px;
   background: url('../img/line.jpg') repeat scroll 0% 0% transparent;
 }
-.header > .row{
+.header > .row,
+.nav,
+.content{
   width: 60%;
+  margin: 0 auto;
+}
+.nav-wraper{
+  height: 45px;
+  background-color: #ea5520;
+}
+.content{
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 0 1px #ccc;
+  background-color: #fff;
 }
