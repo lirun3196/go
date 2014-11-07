@@ -1,0 +1,209 @@
+/* 
+    Created on : 2014-11-7, 9:19:25
+    Author     : Lirun
+*/
+/*footer*/
+.footer{
+  width: 100%;
+  min-width: 1350px;
+  height: 120px;
+  background-color: #000;
+  font-size: 0.92857em;
+  clear: both;
+}
+.container{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.footer span{
+  display: inline-block;
+  margin-right: 6px;
+  line-height: 21px;
+}
+.footer-info{
+  color: #ddd9be;
+}
+.footer-info img{
+  margin-right: 3px;
+}
+.footer-info a{
+  color: #ddd9be;
+}
+.footer-info a:hover{
+  text-decoration: underline;
+}
+.company{
+  color: #cb342a;
+}
+/* 自定义checkbox */
+.check-inline input[type="checkbox"]{
+  opacity: 0; 
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+.check-inline{
+  position: relative;
+  height: 16px;
+  padding-left:0; 
+}
+.checkIcon{
+  background: url('../img/check.png') no-repeat scroll 0px 0px transparent;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  z-index: 2;
+}
+.checkIconed{
+  background: url('../img/checked.png') no-repeat scroll 0px 0px transparent;
+}
+/* 拟物化按钮 */
+.btn{
+  position: relative;
+  width: 80px;
+  height: 40px;
+  background-color: #f58a1a;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: -3px 3px #dbdbdb;
+  color: #fff;
+}
+.btn:hover{
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #f58a1a;
+  color: #fff;
+}
+.container-fluid{
+  padding-left: 190px;
+  margin: 0 auto;
+  background: url("../img/regist-bg.png") 0 0/190px 1580px padding-box no-repeat transparent;
+  height: 1580px;
+}
+.row{
+  margin: 0;
+}
+.main{
+  background: url("../img/regist-bg-right.png") 0 0  no-repeat transparent;
+  height: 1580px;
+  padding: 0 70px 40px;
+}
+.main:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+.main-left,
+.main-middle,
+.main-right{
+  float: left;
+}
+/*表单*/
+.main-left{
+  margin-top: 300px;
+  position: relative;
+  width: 320px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.main-left > img{
+  position: absolute;
+  top: -50px;
+  left: 10px;
+}
+.main-left > .group > label,
+.main-left > .group > input{
+  margin-bottom: 10px;
+}
+.main-left > .group > label{
+  width: 30%;
+  text-align: right;
+  letter-spacing: 1.5em;
+}
+.main-left > .group >.special-label{
+  letter-spacing: 4px;
+  padding-right: 15px;
+}
+.main-left > .group > input{
+  width: 70%;
+  border: 1px solid #a7a7a7;
+  height: 28px;
+}
+.main-left > .group > input[disabled]{
+  cursor: not-allowed;
+}
+.group:not(:last-child){
+  margin-bottom: 40px;
+}
+.modify{
+  margin-left: 30%;
+  
+}
+.label-group{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+.modify-btn{
+  padding: 5px 20px;
+  background-color: #fff;
+  border:1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.ignore{
+  border: 1px dashed #ccc;
+  border-radius: 6px;
+  position: relative;
+  margin: 15px 0;
+}
+.ignore > p{
+  margin: 5px 0 5px 10px;
+}
+.group-footer .btn{
+  width: 100px;
+  height: 40px;
+  color:#fff;
+  background-color: #ea5520;
+  margin-left: 30%;
+  padding: 8px;
+}
+/*翻牌*/
+.main-middle{
+  margin: 340px 60px 0 40px;
+  width: 550px;
+}
+.main-middle > .row div{
+  background: url("../img/nottake.png") 0 0  no-repeat transparent;
+  height: 164px;
+  margin-bottom: 30px;
+}
+/*积分*/
+.main-right{
+  margin-top: 480px;
+  width: 144px;
+  text-align: center;
+}
+.zhantie1,
+.zhantie2{
+  height: 173px;
+  position: relative;
+  background: url("../img/zhantie.png") 0 0  no-repeat transparent;
+}
+.plus,
+.equal{
+  height: 220px;
+  position: relative;
+}
+.plus{
+  background: url("../img/plus.png") 50% 27%  no-repeat transparent;
+}
+.result{
+  height: 173px;
+  position: relative;
+  background: url("../img/zhantie2.png") 0 0  no-repeat transparent;
+}
