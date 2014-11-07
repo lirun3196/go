@@ -88,7 +88,7 @@
 .main{
   background: url("../img/regist-bg-right.png") 0 0  no-repeat transparent;
   height: 1580px;
-  padding: 0 70px 40px;
+  padding: 0 0 40px 40px;
 }
 .main:after{
   display: table;
@@ -119,7 +119,7 @@
 .main-left > .group > input{
   margin-bottom: 10px;
 }
-.main-left > .group > label{
+.main-left > .group  label{
   width: 30%;
   text-align: right;
   letter-spacing: 1.5em;
@@ -128,7 +128,7 @@
   letter-spacing: 4px;
   padding-right: 15px;
 }
-.main-left > .group > input[type="text"]{
+.main-left > .group input[type="text"]{
   width: 70%;
   border: 1px solid #a7a7a7;
   height: 28px;
@@ -138,15 +138,16 @@
   height: 28px;
   margin-bottom: 10px;
 }
-.main-left > .group input[type="radio"]{
-  width: 15%;
-  text-align: left;
-}
 .main-left > .group > input[disabled]{
   cursor: not-allowed;
 }
 .group + .group{
   margin-top: 40px;
+}
+.main-left .radio-item{
+  width: 35%;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 .modify{
   margin-left: 30%;
@@ -190,13 +191,17 @@
 }
 /*翻牌*/
 .main-middle{
-  margin: 340px 60px 0 40px;
+  margin: 340px 30px 0 40px;
   width: 550px;
 }
 .main-middle > .row div{
   background: url("../img/nottake.png") 0 0  no-repeat transparent;
   height: 164px;
   margin-bottom: 30px;
+  cursor: pointer;
+}
+.main-middle > .row .over{
+  background: url("../img/over.png") 0 0 no-repeat transparent;
 }
 /*积分*/
 .main-right{
@@ -209,6 +214,37 @@
   height: 173px;
   position: relative;
   background: url("../img/zhantie.png") 0 0  no-repeat transparent;
+}
+.integrate{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #000;
+  position: absolute;
+  top: 40px;
+  left: 55px;
+}
+.value{
+  position: absolute;
+  bottom: 45px;
+  left: 26px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.get{
+position: absolute;
+bottom: 25px;
+left: 39px;
+font-size: 12px;
+letter-spacing: 1px;
+color: #fff;
+}
+.total{
+  font-size: 30px;
+  color: #f9ac33;
+  position: absolute;
+  bottom: 3px;
+  left: 65px;
 }
 .plus,
 .equal{
