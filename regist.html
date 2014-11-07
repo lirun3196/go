@@ -23,8 +23,8 @@
           <label>密码</label><input type="text" disabled>
           <label>邮箱</label><input type="text" disabled>
           <label>手机</label><input type="text">
-          <label>角色</label><input type="text">
-          <label>性别</label><input type="text">
+          <label>角色</label><input type="radio" name="role">天罡<input type="radio" name="role">地煞
+          <label>性别</label><select><option value="1">汉子</option><option value="2">妹纸</option></select>
           <label>生日</label><input type="text">
           <label class="special-label">所在地</label><input type="text">
         </div>
@@ -33,7 +33,11 @@
           <label>QQ</label><input type="text">
           <label>微信</label><input type="text">
           <label>微博</label><input type="text">
-          <label>生肖</label><input type="text">
+          <label>生肖</label>
+          <select>
+            <option value="1">白羊</option>
+            <option value="2">狮子</option>
+          </select>
           <label>星座</label><input type="text">
           <label>血型</label><input type="text">
           <label>家乡</label><input type="text">
@@ -60,12 +64,12 @@
             <p>忽略此处将会对您江湖积分造成影响你确定要忽略?</p>
             <div class="label-group">
               <label class="check-inline">
-                <span class="checkIcon"></span>
+                <!--span class="checkIcon"></span-->
                 <input type="radio" name="ignore">是
               </label>
               <label class="check-inline">
-                <span class="checkIcon"></span>
-                <input type="radio" name="ignore">否
+                <!--span class="checkIcon checkIconed"></span-->
+                <input type="radio" name="ignore" checked>否
               </label>
             </div>
           </div>

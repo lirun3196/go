@@ -128,20 +128,30 @@
   letter-spacing: 4px;
   padding-right: 15px;
 }
-.main-left > .group > input{
+.main-left > .group > input[type="text"]{
   width: 70%;
   border: 1px solid #a7a7a7;
   height: 28px;
 }
+.main-left > .group select{
+  width: 70%;
+  height: 28px;
+  margin-bottom: 10px;
+}
+.main-left > .group input[type="radio"]{
+  width: 15%;
+  text-align: left;
+}
 .main-left > .group > input[disabled]{
   cursor: not-allowed;
 }
-.group:not(:last-child){
-  margin-bottom: 40px;
+.group + .group{
+  margin-top: 40px;
 }
 .modify{
   margin-left: 30%;
-  
+  margin-top: 20px;
+  position: relative;
 }
 .label-group{
   position: absolute;
@@ -154,12 +164,18 @@
   border:1px solid #ccc;
   border-radius: 6px;
   cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .ignore{
   border: 1px dashed #ccc;
   border-radius: 6px;
   position: relative;
   margin: 15px 0;
+}
+.ignore input{
+  margin: 0;
 }
 .ignore > p{
   margin: 5px 0 5px 10px;
