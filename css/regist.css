@@ -3,6 +3,9 @@
     Author     : Lirun
 */
 /*footer*/
+body{
+  min-width: 1350px;
+}
 .footer{
   width: 100%;
   min-width: 1350px;
@@ -202,6 +205,12 @@
 }
 .main-middle > .row .over{
   background: url("../img/over.png") 0 0 no-repeat transparent;
+}
+.main-middle img{
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 20px;
 }
 /*积分*/
 .main-right{

@@ -85,6 +85,10 @@ ul,li{
   color: #fff;
   border: 1px solid #B73838;
   background-color: #920000;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  padding-top: 4px;
 }
 .forget{
   color:#fff;
@@ -167,7 +171,7 @@ ul,li{
   height: 480px;
   background: url('../img/big-data.png') no-repeat local 0px 0px / 638px 480px border-box transparent;
 }
-.mc{
+/*.mc{
   position: absolute;
   bottom: 25px;
   left: 130px;
@@ -175,11 +179,11 @@ ul,li{
   height: 23px;
   cursor: pointer;
   background: url('../img/mc.png') no-repeat local 0px 0px border-box transparent;  
-}
+}*/
 .video{
   position: absolute;
-  bottom: 30px;
-  left: 440px;
+  bottom: 25px;
+  left: 220px;
   width: 68px;
   height: 70px;
   cursor: pointer;
@@ -193,34 +197,40 @@ ul,li{
   z-index: 1001;
 }
 .jhgl{
-  background: url("../img/side-jhgll.png") 0 0 no-repeat transparent;
+  background: url("../img/side-jhgll.gif") 0 0 no-repeat transparent;
 }
 .jhgl:hover{
-  background: url("../img/side-jhgl.png") 0 0 no-repeat transparent;
+  background: url("../img/side-jhgl.gif") 0 0 no-repeat transparent;
 }
 .dmmj{
-  background: url("../img/side-dmmjj.png") 0 0 no-repeat transparent;
+  background: url("../img/side-dmmjj.gif") 0 0 no-repeat transparent;
 }
 .dmmj:hover{
-  background: url("../img/side-dmmj.png") 0 0 no-repeat transparent;
+  background: url("../img/side-dmmj.gif") 0 0 no-repeat transparent;
 }
 .jnmj{
-  background: url("../img/side-jnmjj.png") 0 0 no-repeat transparent;
+  background: url("../img/side-jnmjj.gif") 0 0 no-repeat transparent;
 }
 .jnmj:hover{
-  background: url("../img/side-jnmj.png") 0 0 no-repeat transparent;
+  background: url("../img/side-jnmj.gif") 0 0 no-repeat transparent;
 }
 .yxzt{
-  background: url("../img/side-yxztt.png") 0 0 no-repeat transparent;
+  background: url("../img/side-yxztt.gif") 0 0 no-repeat transparent;
 }
 .yxzt:hover{
-  background: url("../img/side-yxzt.png") 0 0 no-repeat transparent;
+  background: url("../img/side-yxzt.gif") 0 0 no-repeat transparent;
 }
 .gywm{
-  background: url("../img/side-gywmm.png") 0 0 no-repeat transparent;
+  background: url("../img/side-gywmm.gif") 0 0 no-repeat transparent;
 }
 .gywm:hover{
-  background: url("../img/side-gywm.png") 0 0 no-repeat transparent;
+  background: url("../img/side-gywm.gif") 0 0 no-repeat transparent;
+}
+.fhzy{
+  background: url("../img/side-fhzyy.png") 0 0 no-repeat transparent;
+}
+.fhzy:hover{
+  background: url("../img/side-fhzy.png") 0 0 no-repeat transparent;
 }
 .side-nav a{
   width: 125px;
@@ -267,4 +277,14 @@ ul,li{
 .footer-nav{
   display: inline-block;
   margin-left:10px;
+}
+/*后期更改内容*/
+.check{
+  color: #fff;
+  margin-bottom: 0;
+/*  display: none;*/
+}
+.modal-dialog{
+  margin: 150px auto 0;
+  
 }

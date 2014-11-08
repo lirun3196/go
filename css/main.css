@@ -47,6 +47,9 @@ a:focus,a:active{
 .fig-yellow{
   color: #ea5520;
 }
+.black{
+  color: #000;
+}
 /*字体:normal值为14px*/
 .small-f{
   font-size: 0.85724em;
@@ -253,7 +256,7 @@ a:focus,a:active{
   margin-bottom: 2px;
 }
 /*红底板块底部导航*/
-.nav-menu{
+/*.nav-menu{
   margin: 150px auto 0;
   width: 50%;
   text-align: center;
@@ -267,7 +270,7 @@ a:focus,a:active{
 }
 .nav-menu a:hover{
   background-color: rgba(0,0,0,0.5);
-}
+}*/
 /*内容展示板块*/
 .content{
   width: 1070px; 
@@ -509,7 +512,6 @@ a:focus,a:active{
 }
 .check-inline{
   position: relative;
-  width: 18px;
   height: 16px;
   padding-left:0; 
 }
