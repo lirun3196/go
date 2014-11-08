@@ -337,3 +337,31 @@ a:focus,a:active{
 .company{
   color: #cb342a;
 }
+/*用于load的findpass2.html*/
+#password .step-one{
+  margin-top: 35px;
+}
+#password .step-one label{
+  width: 20%;
+  margin-right: 5%;
+  text-align: right;
+}
+#password .step-one input{
+  width: 50%;
+}
+#password  .step-one label,
+#password  .step-one input{
+  margin-bottom: 30px;
+}
+#password .checkcode {
+  margin-left: 25%;
+}
+#password  .checkcode > p{
+  color: #959595;
+}
+#password .header-nav{
+  font-size: 1.142875em;
+}
+#password .FAQ{
+  padding-top: 0;
+}

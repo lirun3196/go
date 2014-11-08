@@ -66,3 +66,14 @@
 .mission .section-desc .change{
   margin-top: 65px;
 }
+/*
+ * 后期更改
+*/
+/*加好友弹出框*/
+.makefriend .btn{
+  width: 35px;
+  height: 20px;
+  border-radius: 0;
+  font-size: 12px;
+}
+
