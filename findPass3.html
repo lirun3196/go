@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
@@ -13,10 +12,11 @@
   <![endif]-->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/findPass.css">
+  <link rel="stylesheet" href="css/findPass3.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid" id="password">
     <div class="header">
       <div class="row">
         <div class="align-left col-xs-6"><img src="img/logo-boy.png" alt=""></div>
@@ -33,27 +33,24 @@
     <div class="content">
       <div class="side-bar">
         <ul class="side-nav">
-          <li  class="active"><a>步骤一</a></li>
-          <li><a>步骤二</a></li>
-          <li><a>步骤三</a></li>
+          <li><a href="#">步骤一</a></li>
+          <li><a href="#">步骤二</a></li>
+          <li class="active"><a href="#">步骤三</a></li>
         </ul>
       </div>
       <div class="main-content">
         <div class="content-header row">
-          <div class="col-xs-6"><h2>找回密码</h2></div>
+          <div class="col-xs-6"><span class="header-nav">密码管理/找回密码</span></div>
           <div class="align-right col-xs-6 FAQ"><a href="#">常见问题?</a></div>
         </div>
         <div class="step-one">
-          <p><span class="fa fa-asterisk"></span>老男孩为了您的帐号安全，您可以使用下面方式找回密码！</p>
-          <p>
-            <span class="fa fa-circle"></span><span class="way">方式一</span><span class="phone">手机号码</span>
-            <span class="inputPhone"><span class="fa fa-asterisk"></span><input type="text" placeholder="请输入你的手机号码"></span>
-          </p>
-          <p>
-            <span class="fa fa-circle"></span><span class="way">方式二</span><span class="email">邮箱链接</span>
-            <span class="inputEmail"><span class="fa fa-asterisk"></span><input type="email" placeholder="请输入你的邮箱"></span>
-          </p>
-          <p class="submit"><a class="btn">下一步</a></p>
+          <label><span class="fa fa-asterisk"></span>新密码</label><input type="password" placeholder="支持手机号和邮箱">
+          <label><span class="fa fa-asterisk"></span>确认新密码</label><input type="password">
+          <label><span class="fa fa-asterisk"></span>验证码</label><input type="text">
+          <div class="checkcode">
+            <p>请输入图片中字符，不区分大小写</p>
+          </div>
+          <p class="submit"><a class="btn">确认提交</a></p>
         </div>
       </div>
     </div>

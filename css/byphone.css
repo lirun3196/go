@@ -1,0 +1,41 @@
+/* 
+    Created on : 2014-11-9, 11:25:07
+    Author     : Lirun
+*/
+.hint{
+  font-size: 14px;
+}
+.input-group-addon{
+  background-color: #ea5621;
+  border-radius: 0;
+  color: #fff;
+  border-color: transparent;
+  cursor: pointer;
+}
+.form-control{
+  border-radius: 0;
+}
+.form-group{
+  margin-left: 30%;
+  width: 50%;
+}
+.header-nav{
+  font-size: 1.142875em;
+}
+.FAQ{
+  padding-top: 0;
+}
+.phone:hover, .email:hover{
+  text-decoration: none;
+  cursor:default;
+}
+.send-btn{
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #ea5621;
+  border:1px solid transparent;
+  font-size: 14px;
+  margin-left: 20px;
+  cursor: pointer;
+}

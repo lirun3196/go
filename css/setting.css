@@ -1,5 +1,5 @@
 /* 
-    Created on : 2014-10-24, 16:04:02
+    Created on : 2014-11-9, 13:02:06
     Author     : Lirun
 */
 body{
@@ -166,6 +166,7 @@ html{
 .nav,
 .content{
   width: 80%;
+/*  min-width: 1080px;*/
   margin: 0 auto;
 }
  .active{
@@ -187,7 +188,7 @@ html{
 }
 /*导航*/
 .nav-wraper{
-  background-color: #ea5520;
+  background-color: #000;
 }
 .nav{
   color: #fff;
@@ -294,14 +295,13 @@ html{
   margin-top: 64px;
 }
 .side-nav{
+  width: 96px;
   background-color: #626161;
 }
 .side-nav > li > a{
   padding: 15px 20px;
   color: #fff;
   display: inline-block;
-  letter-spacing: 4px;
-  cursor: not-allowed;
 }
 /* 用于隐藏/显示方式输入框的样式 */
 .inputPhone,
@@ -341,4 +341,82 @@ html{
 }
 .company{
   color: #cb342a;
+}
+/*用于load的findpass2.html*/
+#password .step-one{
+  margin-top: 35px;
+}
+#password .step-one label{
+  width: 20%;
+  margin-right: 5%;
+  text-align: right;
+}
+#password .step-one input{
+  width: 50%;
+}
+#password  .step-one label,
+#password  .step-one input{
+  margin-bottom: 30px;
+}
+#password .checkcode {
+  margin-left: 25%;
+}
+#password  .checkcode > p{
+  color: #959595;
+}
+#password .header-nav{
+  font-size: 1.142875em;
+}
+.changeCode{
+  color: #416daa;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.changeEmail{
+  color: #ea5520;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.input-group-addon{
+  background-color: #ea5621;
+  border-radius: 0;
+  color: #fff;
+  border-color: transparent;
+  cursor: pointer;
+}
+.form-control{
+  border-radius: 0;
+}
+.form-group{
+  margin-left: 15%;
+width: 70%;
+margin-top: 20px;
+margin-bottom: 40px;
+}
+/*修改邮箱*/
+.setEmail label,
+.setEmail input{
+  margin-bottom: 50px;
+}
+.setEmail label{
+  margin-right: 40px;
+}
+.setEmail input{
+  width: 55%;
+}
+.setEmail .submit{
+  width: 60%;
+}
+/*修改手机*/
+.setPhone > label{
+  width: 20%;
+  padding-right: 30px;
+}
+.setPhone > input{
+  width: 50%;
+}
+.setPhone > .form-group{
+  margin-left: 20%;
+  margin-top: 30px;
+  width: 50%;
 }

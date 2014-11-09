@@ -12,86 +12,229 @@
   <![endif]-->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/regist.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
   <div class="container-fluid">
     <div class="main">
       <div class="main-left">
         <img src="img/xzjh.png" alt="">
-        <div class="group">
-          <label class="special-label">用户名</label><input type="text" disabled>
-          <label>密码</label><input type="text" disabled>
-          <label>邮箱</label><input type="text" disabled>
-          <div><label>手机</label><input type="text"  class="input4"></div>
-          <label>角色</label>
-          <div class="radio-item"><input type="radio" name="role" checked>天罡</div>
-          <input type="radio" name="role" class="input5">地煞
-          <label>性别</label><select class="input6"><option value="1">汉子</option><option value="2">妹纸</option></select>
-          <label>生日</label><input type="text"  class="input7">
-          <label class="special-label">所在地</label><input type="text"   class="input8">
-        </div>
-        <div class="group">
-          <label>姓名</label><input type="text"  class="input9">
-          <label>QQ</label><input type="text" class="input10">
-          <label>微信</label><input type="text" class="input11">
-          <label>微博</label><input type="text" class="input12">
-          <label>生肖</label><select ><option value="1">羊</option><option value="2">龙</option><option value="3">牛</option><option value="4">马</option>
-          </select>
-          <label>星座</label><select  class="input7"><option value="1">白羊</option><option value="2">狮子</option></select>
-          <!--p><label>血型</label>
-          <select>
-            <option value="1">O</option>
-            <option value="2">A</option>
-            <option value="3">B</option>
-            <option value="4">AB</option>
-          </select>
-          </p-->
-          <label>家乡</label><input type="text">
-        </div>
         
-        <div class="group">
-          <label>身高</label><input type="text">
-          <label>体重</label><input type="text">
-          <label>婚姻</label><input type="text">
-          <label>爱好</label><input type="text">
-          <label>特长</label><input type="text">
-          <label>中学</label><input type="text">
-          <label>大学</label><input type="text">
-          <label>公司</label><input type="text">
-        </div>
-        <div class="group-footer">
-          <div class="modify">
-            <label class="check-inline">
-              <span class="checkIcon"></span>
-              <input type="checkbox">忽略
-            </label>
-            <a class="modify-btn">修改</a>
+        <div class="form-horizontal">
+          <div class="form-group">
+            <label class="col-xs-3">昵称</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
           </div>
-          <div class="ignore">
-            <p>忽略此处将会对您江湖积分造成影响你确定要忽略?</p>
-            <div class="label-group">
-              <label class="check-inline">
-                <!--span class="checkIcon"></span-->
-                <input type="radio" name="ignore">是
+          <div class="form-group">
+            <label class="col-xs-3">密码</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control" disabled>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">邮箱</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control" disabled>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">手机</label>
+            <div class="col-xs-9 input-group has-error">
+              <input type="text" class="form-control">
+              <span class="form-control-feedback fa fa-remove "></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">角色</label>
+            <div class="col-xs-9 input-group">
+              <label class="radio-inline">
+                <input type="radio" name="role" value="1" checked> 天罡
               </label>
-              <label class="check-inline">
-                <!--span class="checkIcon checkIconed"></span-->
-                <input type="radio" name="ignore" checked>否
+              <label class="radio-inline">
+                <input type="radio" name="role" value="2"> 地煞
               </label>
             </div>
           </div>
+          <div class="form-group">
+            <label class="col-xs-3">性别</label>
+            <div class="col-xs-9 input-group">
+              <select class="form-control">
+                <option value=""></option>
+                <option value="1">男</option>
+                <option value="2">女</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">生日</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3 special-label">所在地</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-horizontal">
+          <div class="form-group">
+            <label class="col-xs-3">姓名</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">QQ</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">微信</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">微博</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">生肖</label>
+            <div class="col-xs-9 input-group">
+              <select class="form-control">
+                <option value=""></option>
+                <option value="1">鼠</option>
+                <option value="2">牛</option>
+                <option value="3">虎</option>
+                <option value="4">兔</option>
+                <option value="5">龙</option>
+                <option value="6">蛇</option>
+                <option value="7">马</option>
+                <option value="8">羊</option>
+                <option value="9">猴</option>
+                <option value="10">鸡</option>
+                <option value="11">狗</option>
+                <option value="12">猪</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">星座</label>
+            <div class="col-xs-9 input-group">
+              <select class="form-control">
+                <option value=""></option>
+                <option value="1">白羊座（3月21日 - 4月20日）</option>
+                <option value="2">金牛座（4月21日 - 5月21日）</option>
+                <option value="3">双子座（5月22日 - 6月21日）</option>
+                <option value="4">巨蟹座（6月22日 - 7月22日）</option>
+                <option value="5">狮子座（7月23日 - 8月23日）</option>
+                <option value="6">处女座（8月24日 - 9月22日）</option>
+                <option value="7">天秤座（9月23日 - 10月23日）</option>
+                <option value="8">天蝎座（10月24日 - 11月22日）</option>
+                <option value="9">射手座（11月23日 - 12月21日）</option>
+                <option value="10">摩羯座（12月22日 - 1月20日）</option>
+                <option value="11">水瓶座（1月21日 - 2月19日）</option>
+                <option value="12">双鱼座（2月20日 - 3月20日）</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">血型</label>
+            <div class="col-xs-9 input-group">
+              <select class="form-control">
+                <option value=""></option>
+                <option value="1">O</option>
+                <option value="2">A</option>
+                <option value="3">B</option>
+                <option value="4">AB</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">家乡</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-horizontal">
+          <div class="form-group">
+            <label class="col-xs-3">身高</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+              <span class="input-group-addon">cm</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">体重</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+              <span class="input-group-addon">kg</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">婚姻</label>
+            <div class="col-xs-9 input-group">
+              <select class="form-control">
+                <option value=""></option>
+                <option value="1">已婚</option>
+                <option value="2">未婚</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">爱好</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">特长</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">中学</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">大学</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">公司</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="group-footer col-xs-offset-3 col-xs-9">
           <a class="btn">进入我的江湖</a>
         </div>
       </div>
       <div class="main-middle">
         <div class="row">
           <div class="col-xs-3"></div>
-          <div class="col-xs-3"></div>
-          <div class="col-xs-3"></div>
+          <div class="col-xs-3 over"><img src="img/over4.png" alt=""></div>
+          <div class="col-xs-3 over"><img src="img/over4.png" alt=""></div>
           <div class="col-xs-3 over4"><img src="img/over4.png" alt=""></div>
         </div>
         <div class="row">
-          <div class="col-xs-3 over5"><img src="img/over5.png" alt=""></div>
+          <div class="col-xs-3 over"><img src="img/over5.png" alt=""></div>
           <div class="col-xs-3 over6"><img src="img/over6.png" alt=""></div>
           <div class="col-xs-3 over7"><img src="img/over7.png" alt=""></div>
           <div class="col-xs-3 over8"><img src="img/over8.png" alt=""></div>
@@ -123,13 +266,13 @@
       </div>
       <div class="main-right">
         <div class="zhantie1">
-          <span class="integrate">10</span>
+          <span class="integrate totalOne">10</span>
           <span class="value">至少可抵0.05元</span>
           <span class="get">已获积分值</span>
         </div>
         <div class="plus"></div>
         <div class="zhantie2">
-          <span class="integrate">10</span>
+          <span class="integrate totalTwo">10</span>
           <span class="value">至少可抵0.05元</span>
           <span class="get">已获积分值</span>
         </div>

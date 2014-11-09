@@ -13,6 +13,7 @@
   <![endif]-->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/findPass.css">
+  <link rel="stylesheet" href="css/byphone.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
@@ -33,27 +34,29 @@
     <div class="content">
       <div class="side-bar">
         <ul class="side-nav">
-          <li  class="active"><a>步骤一</a></li>
-          <li><a>步骤二</a></li>
-          <li><a>步骤三</a></li>
+          <li><a href="#">步骤一</a></li>
+          <li class="active"><a href="#">步骤二</a></li>
+          <li><a href="#">步骤三</a></li>
         </ul>
       </div>
       <div class="main-content">
         <div class="content-header row">
-          <div class="col-xs-6"><h2>找回密码</h2></div>
+          <div class="col-xs-6"><span class="header-nav">密码管理/找回密码</span></div>
           <div class="align-right col-xs-6 FAQ"><a href="#">常见问题?</a></div>
         </div>
         <div class="step-one">
           <p><span class="fa fa-asterisk"></span>老男孩为了您的帐号安全，您可以使用下面方式找回密码！</p>
           <p>
             <span class="fa fa-circle"></span><span class="way">方式一</span><span class="phone">手机号码</span>
-            <span class="inputPhone"><span class="fa fa-asterisk"></span><input type="text" placeholder="请输入你的手机号码"></span>
+            <span class="hint"><span class="fa fa-asterisk"></span>您绑定的手机号码为15023403196，可以填写正确的验证码来找回密码。</span>
           </p>
-          <p>
-            <span class="fa fa-circle"></span><span class="way">方式二</span><span class="email">邮箱链接</span>
-            <span class="inputEmail"><span class="fa fa-asterisk"></span><input type="email" placeholder="请输入你的邮箱"></span>
-          </p>
-          <p class="submit"><a class="btn">下一步</a></p>
+           <div class="form-group">
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="输入验证码">
+              <a class="input-group-addon">发送验证码</a>
+            </div>
+          </div>
+          <!--p class="submit"><a class="btn">确认提交</a></p-->
         </div>
       </div>
     </div>

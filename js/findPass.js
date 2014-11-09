@@ -3,7 +3,22 @@ $(".phone , .email").on("click",function(){
   $(this).next("span").show();
 });
 $(".btn").on("click",function(){
-  $(".container-fluid").load("findPass2.html #password",function(){
-    $(this).fadeOut(300).fadeIn(300);
+  var e = $(".inputEmail").css("display");
+  var p = $(".inputPhone").css("display");
+  var i = "inline";
+  if(e === i){
+    $("html").load("byemail.html",function(){
+      // $(this).fadeOut(300).fadeIn(300);
+    });
+  };
+if(p === i){
+    $("html").load("byphone.html",function(){
+      // $(this).fadeOut(300).fadeIn(300);
+    });
+  };
+});
+$(".send-btn , .input-group-addon").on("click",function(){
+  $("html").load("findPass3.html",function(){
+//    $(this).fadeOut(300).fadeIn(300);
 });
 });

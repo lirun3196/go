@@ -340,8 +340,8 @@ a:focus,a:active{
 /*.nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,*/
-.nav > li > a:hover,
-.nav > li > a:focus{
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus{
   color: #fff;
   background-color: #000;
 }
@@ -552,7 +552,7 @@ a:focus,a:active{
  .nav.nav-tabs{
   position: absolute;
   left: 400px;
-  top: -45px;
+  top: -44px;
 }
 .nav-tabs > li{
   margin-left: 10px;
