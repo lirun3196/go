@@ -111,11 +111,13 @@ a:focus,a:active{
   left: 5px;
   top: -10px;
   position: absolute;
+  font-size: 14px;
 }
 .percentage{
   position:  absolute;
-  top: -9px;
+  top: -10px;
   left: 210px;
+  font-size: 14px;
 }
 .change-per{
   background: url("../img/wealth.png") repeat scroll 240px 1px transparent;
@@ -257,7 +259,9 @@ a:focus,a:active{
 }
 /*二维码*/
 .d-code{
-  margin: 100px 0 0 20px;
+  margin: 70px 0 0 20px;
+  padding-top: 30px;
+  background: url("../img/d-code-bg.png") 0 0/240px 16px no-repeat;
 }
 .d-code:after{
   display: table;
@@ -333,9 +337,11 @@ a:focus,a:active{
   width: 912px;
 }
 /*顶部导航：更改bootstrap默认样式，后期定制事可更改*/
-.nav-pills > li.active > a,
+/*.nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+.nav-pills > li.active > a:focus,*/
+.nav > li > a:hover,
+.nav > li > a:focus{
   color: #fff;
   background-color: #000;
 }
@@ -510,35 +516,36 @@ a:focus,a:active{
 /* 彩带 */
 .ribbon{
   position: fixed;
-  top: 40%;
+  top: 250px;
   right: -85px;
-  width: 118px;
-  height: 193px;
+  width: 106px;
+  height: 263px;
+  text-align: center;
   font-weight: bolder;
   background-image: url("../img/ribbon.png");
 }
 .ribbon:hover{
-  right: -20px;
+  right: -10px;
 }
 .ribbon ul{
   position: relative;
-  top: 40px;
-  left: 35px;
+  top: 6px;
+  left: 0;
 }
 .ribbon a:hover{
   color: #fff;
   cursor: pointer;
 }
-.r1,.r3,.r2,.r4{
+.r1,.r3,.r2,.r4,.r5,.r6,.r7,.r8{
   display: inline-block;
 }
-.r1,.r3{
+.r1,.r3,.r5,.r7{
   color: #F9AC33;
-  margin-bottom: 20px;
-}
-.r2,.r4{
-  color: #710a07;
   margin-bottom: 15px;
+}
+.r2,.r4,.r6,.r8{
+  color: #710a07;
+  margin-bottom: 11px;
 }
 
 /*tab*/

@@ -70,10 +70,42 @@
  * 后期更改
 */
 /*加好友弹出框*/
+.makefriend  .tag .btn{
+width: 35px;
+height: 20px;
+border-radius: 0px;
+font-size: 12px;
+background-color: #fb9337;
+color: #fff;
+box-shadow: -2px 2px rgba(158, 153, 153, 0.47);
+margin: 0 10px 0 0;
+padding: 3px 6px;
+text-align: center;
+display: inline;
+}
 .makefriend .btn{
-  width: 35px;
-  height: 20px;
-  border-radius: 0;
+  width: 100px;
+  height:40px;
+  background-color: #d93467;
+  border-radius: 8px;
+  font-size: 18px;
+  display: inline-block;
+  box-shadow: -1px 1px #ddd;
+}
+.makefriend .btn:hover{
+  background-color: #d93467;
+}
+.makefriend .modal-dialog{
+  width: 320px;
+  margin: 150px auto 0;
+  text-align: center;
+}
+.makefriend .modal-content{
+  padding:30px 40px 20px;
+}
+.makefriend .hislabel{
+  width: 100%;
+  text-align: left;
   font-size: 12px;
 }
 
