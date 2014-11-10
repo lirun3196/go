@@ -82,15 +82,13 @@ body{
 .container-fluid{
   padding-left: 190px;
   margin: 0 auto;
-  background: url("../img/regist-bg.png") 0 0/190px 1580px padding-box no-repeat transparent;
-  height: 1580px;
+  background: url("../img/regist-bg.png") 0 0/190px 100% padding-box no-repeat transparent;
 }
 .row{
   margin: 0;
 }
 .main{
   background: url("../img/regist-bg-right.png") 0 0  no-repeat transparent;
-  height: 1580px;
   padding: 0 0 40px 40px;
 }
 .main:after{
@@ -118,10 +116,6 @@ body{
   top: -50px;
   left: 10px;
 }
-/*.main-left > .group > label,
-.main-left > .group > input{
-  margin-bottom: 10px;
-}*/
 .main-left label{
   letter-spacing: 16px;
   margin: 7px 0;
@@ -130,11 +124,6 @@ body{
   letter-spacing: 4px;
   padding-right: 15px;
 }
-/*.main-left > .group input[type="text"]{
-  width: 70%;
-  border: 1px solid #a7a7a7;
-  height: 28px;
-}*/
 .main-left  input[disabled]{
   cursor: not-allowed;
 }
@@ -152,17 +141,15 @@ body{
   font-size: 18px;
   top: 8px;
 }
-/*.main-left .radio-item{
-  width: 35%;
-  display: inline-block;
-  margin-bottom: 10px;
-}*/
 .group-footer .btn{
   width: 100px;
   height: 40px;
   color:#fff;
   background-color: #ea5520;
   padding: 8px;
+}
+.fa-remove{
+  cursor: pointer;
 }
 /*翻牌*/
 .main-middle{

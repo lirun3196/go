@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>修改资料</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/setting.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="header">
+      <div class="row">
+        <div class="align-left col-xs-6"><img src="img/logo-boy.png" alt=""></div>
+        <div class="align-right logo-fig col-xs-6"><img src="img/logo-fig.png" alt=""></div>
+      </div>
+    </div>
+    <div class="nav-wraper">
+      <ul class="nav">
+        <li><a href="#">返回江湖</a></li>
+        <li class="active"><a href="#">个人设置</a></li>
+        <li><a href="#">客服服务</a></li>
+        <li><a href="#">安全中心</a></li>
+      </ul>
+    </div>
+    <div class="content" >
+      <div class="side-bar">
+        <ul class="side-nav">
+          <li><a href="#">修改资料</a></li>
+          <li class="active"><a href="#" id="setCode">修改密码</a></li>
+          <li><a href="#" id="setEmail">修改邮箱</a></li>
+          <li><a href="#" id="setPhone">修改手机</a></li>
+        </ul>
+      </div>
+      <div class="main-content" id="password">
+        <div class="content-header row">
+          <div class="col-xs-6"><h2>修改资料</h2></div>
+          <div class="align-right col-xs-6 FAQ"><a href="#">常见问题?</a></div>
+        </div>
+        <div class="setting">
+        <div class="row">
+          <div class="col-xs-6">
+          <div class="form-horizontal">
+            <div class="form-group">
+              <label class="col-xs-3">姓名</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input9">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3">QQ</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input10">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3">微信</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input11">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3">微博</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input12">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3">角色</label>
+              <div class="col-xs-9 input-group">
+                <label class="radio-inline">
+                  <input type="radio" name="role" value="1" checked> 天罡
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="role" value="2"> 地煞
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3">性别</label>
+              <div class="col-xs-9 input-group">
+                <select class="form-control  input6">
+                  <option value=""></option>
+                  <option value="1">男</option>
+                  <option value="2">女</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3">生日</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input7">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3 special-label">所在地</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input8">
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-xs-6">
+        <div class="form-horizontal">
+          
+          <div class="form-group">
+            <label class="col-xs-3">生肖</label>
+            <div class="col-xs-9 input-group">
+              <select class="form-control input13">
+                <option value=""></option>
+                <option value="1">鼠</option>
+                <option value="2">牛</option>
+                <option value="3">虎</option>
+                <option value="4">兔</option>
+                <option value="5">龙</option>
+                <option value="6">蛇</option>
+                <option value="7">马</option>
+                <option value="8">羊</option>
+                <option value="9">猴</option>
+                <option value="10">鸡</option>
+                <option value="11">狗</option>
+                <option value="12">猪</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">星座</label>
+            <div class="col-xs-9 input-group">
+              <select class="form-control input14">
+                <option value=""></option>
+                <option value="1">白羊座（3月21日 - 4月20日）</option>
+                <option value="2">金牛座（4月21日 - 5月21日）</option>
+                <option value="3">双子座（5月22日 - 6月21日）</option>
+                <option value="4">巨蟹座（6月22日 - 7月22日）</option>
+                <option value="5">狮子座（7月23日 - 8月23日）</option>
+                <option value="6">处女座（8月24日 - 9月22日）</option>
+                <option value="7">天秤座（9月23日 - 10月23日）</option>
+                <option value="8">天蝎座（10月24日 - 11月22日）</option>
+                <option value="9">射手座（11月23日 - 12月21日）</option>
+                <option value="10">摩羯座（12月22日 - 1月20日）</option>
+                <option value="11">水瓶座（1月21日 - 2月19日）</option>
+                <option value="12">双鱼座（2月20日 - 3月20日）</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">血型</label>
+            <div class="col-xs-9 input-group">
+              <select class="form-control input15">
+                <option value=""></option>
+                <option value="1">O</option>
+                <option value="2">A</option>
+                <option value="3">B</option>
+                <option value="4">AB</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">家乡</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control input16">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">身高</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control  input17">
+              <span class="input-group-addon">cm</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">体重</label>
+            <div class="col-xs-9 input-group">
+              <input type="text" class="form-control input18">
+              <span class="input-group-addon">kg</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-3">婚姻</label>
+            <div class="col-xs-9 input-group">
+              <select class="form-control input19">
+                <option value=""></option>
+                <option value="1">已婚</option>
+                <option value="2">未婚</option>
+              </select>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-6">
+          <div class="form-horizontal">
+            <div class="form-group">
+              <label class="col-xs-3">爱好</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input20">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3">特长</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input21">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3">中学</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input22">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3">大学</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input23">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-xs-3">公司</label>
+              <div class="col-xs-9 input-group">
+                <input type="text" class="form-control input24">
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="col-xs-6">
+            
+          </div>
+        </div>
+        </div>  
+      </div>
+    </div>
+  </div><!-- end of container-fluid -->
+  <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3">
+            <img src="img/logo-fig.png" alt="">
+          </div>
+          <div class="col-xs-8 col-xs-offset-1 footer-info">
+            <p class="company">北京(重庆)老男孩科技有限公司</p>
+            <p>
+              <span><img src="img/phone.png" alt="">023-67886226</span>
+              <span><img src="img/net.png" alt=""><a href="http://www.bjlnh.com" target="_blank">www.bjlnh.com</a></span>
+              <span><img src="img/home.png" alt="">重庆北部新区金渝大道85号汉国中心B栋20F</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script src="js/setting.js"></script>
+</body>
+</html>

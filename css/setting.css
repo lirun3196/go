@@ -165,8 +165,8 @@ html{
 .header > .row,
 .nav,
 .content{
-  width: 80%;
-/*  min-width: 1080px;*/
+  width: 1080px;
+  min-width: 1080px;
   margin: 0 auto;
 }
  .active{
@@ -419,4 +419,9 @@ margin-bottom: 40px;
   margin-left: 20%;
   margin-top: 30px;
   width: 50%;
+}
+/*修改资料*/
+.setting{
+  width: 80%;
+  margin: 40px auto 0;
 }

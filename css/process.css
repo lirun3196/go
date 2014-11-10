@@ -1,0 +1,118 @@
+/* 
+    Created on : 2014-11-10, 14:44:10
+    Author     : Lirun
+*/
+.left{
+    background: url("../img/left.png") 0% 0% no-repeat #000;
+}
+.process{
+  height: 1180px;
+  padding: 40px;
+}
+/*地址栏*/
+.dashed{
+  height: 1px;
+  border-bottom: 1px dashed #ccc;
+  padding-top: 18px
+}
+.address1,
+.address2{
+  border: 8px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 20px 10px 0 30px;
+}
+.address1:hover,
+.address2:hover{
+  border-color: #485b79;
+}
+.address1{
+  margin-right: 10px;
+}
+.address2{
+  margin-left: 10px;
+}
+p.phone,
+p.operate{
+  display: inline-block;
+  width: 49%;
+}
+p.operate{
+  text-align: right;
+  color: #dc2a1c;
+}
+p.operate > a {
+  text-decoration: underline;
+  margin-right: 10px;
+}
+.newAddress{
+  margin-top: 30px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.newAddress:hover{
+  background-color: #485b79;
+  color:#fff;
+  border-color: transparent;
+  cursor: pointer;
+}
+.changeA{
+  margin: 30px 0 50px;
+}
+/*确认兑换信息*/
+.exchange{
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.exchange .media-body{
+  margin-right: 10px;
+}
+.exchange .pull-left > img{
+  max-height: 90px;
+}
+.border-r{
+  border-right: 1px dashed #dbdbdb;
+}
+.margin-b{
+  margin-bottom: 0;
+}
+.margin-l{
+  margin-left: 15px;
+}
+.address-blue{
+  color: #5485ae;
+}
+.exchange .col-xs-3{
+  padding: 0 20px;
+}
+.exchange textarea{
+  width: 170px;
+  max-width: 170px;
+  height: 60px;
+}
+.total{
+  font-size: 16px;
+  padding: 15px 30px 15px 0;
+  background-color: #dbdbdb;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  text-align: right;
+  font-weight: bolder;
+  margin-bottom: 35px;
+}
+.btn{
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100px;
+  height:40px;
+}
+.confirm.btn{
+  background-color: #5485ae;
+}
+.cancel.btn{
+  background-color: #828282;
+  margin-left: 20px;
+}

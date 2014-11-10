@@ -69,6 +69,8 @@ a:focus,a:active{
 .left,.right,.menu,.content{
   float: left;
   height: 1580px;
+/*  min-height: 1580px;
+  height: auto;*/
 }
 .left{
   width:180px;
