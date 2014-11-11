@@ -44,13 +44,13 @@
 .row .col-lg-1:last-child{
   text-align: right;
 }
-.donate-carousel{
+/*.donate-carousel{
   margin-top: 30px;
 }
 .donate-carousel .row{
   margin-top: 25px;
-}
-.caret:hover{
+}*/
+/*.caret:hover{
   color: #ff938b;
 }
 .caret-left{
@@ -64,25 +64,21 @@
   border-left: 32px solid;
   border-bottom: 18px solid transparent;
   color: #E0E0E0
-}
-.donate-header .media-body{
+}*/
+/*.donate-header .media-body{
   font-size: 0.85714em;
   padding-left: 40px;
   text-align: justify;
   line-height: 23px;
-}
+}*/
 .donation,
 .donate-record{
   height: auto;
+  padding: 40px;
 }
 time{
   display: block;
   margin-bottom: 10px;
-}
-
-.donate-header{
-  padding: 15px 0px 20px;
-  border-bottom: 1px solid #ccc;
 }
 .donate-footer{
   font-size: 0.85714em;
@@ -100,6 +96,7 @@ time{
   color: #00466b;
   text-decoration: underline;
 }
+/*捐赠记录*/
 .donate-record{
   font-size: 0.85714em;
 }
@@ -195,9 +192,29 @@ time{
 }
 
 /*捐赠item*/
+.donate-carousel{
+  width: 830px;
+  height: 230px;
+  clear: both;
+}
+.media{
+  display: table;
+}
+.donate-body .row{
+  margin-bottom: 35px;
+}
 .donate-body .media-object{
+  display:table-cell;
   width: 200px;
   height: 200px;
+}
+.donate-body .media-heading{
+  color: #4d911b;
+  margin-bottom: 15px;
+}
+.donate-body .media-body{
+  display:table-cell;
+  font-size: 12px;
 }
 .d-btn{
   width: 70px;

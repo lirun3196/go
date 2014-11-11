@@ -7,7 +7,7 @@ $(".btn").on("click",function(){
   var p = $(".inputPhone").css("display");
   var i = "inline";
   if(e === i){
-    $("html").load("byemail.html",function(){
+    $(".main-content").load("byemail.html",function(){
       // $(this).fadeOut(300).fadeIn(300);
     });
   };
