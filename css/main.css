@@ -30,7 +30,7 @@ a:focus,a:active{
 }
 .money{
   color: #ca5f00;
-  padding: 0 3px;
+/*  padding: 0 3px;*/
 }
 .gold{
   color: #e2d41b;
@@ -63,14 +63,18 @@ a:focus,a:active{
 .row{
   margin: 0;
 }
+.margin-l,
+.margin-r{
+  margin-left: 10px;
+}
 .wraper{
   height: 1580px;
 }
 .left,.right,.menu,.content{
   float: left;
-  height: 1580px;
-/*  min-height: 1580px;
-  height: auto;*/
+/*  height: 1580px;*/
+  min-height: 1580px;
+  height: auto;
 }
 .left{
   width:180px;
@@ -290,9 +294,10 @@ a:focus,a:active{
   padding: 0;
   text-align: center;
 }
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus,
-.nav-tabs > li > a:hover{
+.d-code .nav-tabs > li.active > a, 
+.d-code .nav-tabs > li.active > a:hover,
+.d-code .nav-tabs > li.active > a:focus,
+.d-code .nav-tabs > li > a:hover{
   background-color: #200604;
   background-color: rgba(0,0,0,0.5);
   border: none;
@@ -314,22 +319,6 @@ a:focus,a:active{
   padding: 5px;
   border-radius: 5px;
 }
-/*红底板块底部导航*/
-/*.nav-menu{
-  margin: 150px auto 0;
-  width: 50%;
-  text-align: center;
-}
-.nav-menu li{
-  margin-bottom: 20px;
-}
-.nav-menu a{
-  padding: 10px 15px;
-  border-radius: 8px;
-}
-.nav-menu a:hover{
-  background-color: rgba(0,0,0,0.5);
-}*/
 /*内容展示板块*/
 .content{
   width: 1070px; 
@@ -338,10 +327,7 @@ a:focus,a:active{
   margin-left: 40px;
   width: 912px;
 }
-/*顶部导航：更改bootstrap默认样式，后期定制事可更改*/
-/*.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus,*/
+/*顶部导航*/
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus{
   color: #fff;
@@ -396,12 +382,30 @@ a:focus,a:active{
 .nav-center .show-img{
   display: inline-block;
 }
-
+/*黄底导航*/
+.nav-wraper{
+  background-color: #f9ac33;
+  border-radius: 15px;
+  padding-left: 40px;
+}
+.nav-wraper > .nav{
+  color: #fff;
+  background-color: transparent;
+  font-size: 16px;
+}
+.nav-wraper > .nav > li{
+  display: inline-block; 
+}
+.nav-wraper > .nav > li > a{
+  padding: 10px;
+}
+.nav-wraper > .nav > li > a:hover{
+  background-color: #7c5619;
+}
 /*内容板块公共部分*/
 .section{
   position: relative;
   width: 912px;
-  height: 240px;
   padding: 30px 15px 20px 20px;
   margin-top: 65px;
   background-color: #fff;
@@ -432,8 +436,8 @@ a:focus,a:active{
 .section-item{
   position: relative;
   width: 135px;
-  height: 185px;
-  padding-top: 10px;
+/*  height: 185px;*/
+  padding: 10px 10px 5px;
   margin-right: 18px;
   background-color: #e0e0e0;
   border-radius: 5px;
@@ -514,6 +518,12 @@ a:focus,a:active{
 .level{
   font-size: 0.857142em;
   margin: 0;
+  text-align: left;
+}
+.level > img{
+  margin-right: 5px;
+/*  vertical-align: -2px;*/
+  max-width: 14px;
 }
 /* 彩带 */
 .ribbon{
@@ -571,6 +581,7 @@ a:focus,a:active{
   margin: 0;
   position: relative;
   z-index: 1;
+  margin-right: 5px;
 }
 .check-inline{
   position: relative;
@@ -589,6 +600,12 @@ a:focus,a:active{
 }
 
 /*分页*/
+.pageRow:after,
+.pageRow:before{
+  display: table;
+  content: "";
+  clear: both;
+}
 .page-number{
   width: 27px;
   height:27px;
@@ -667,8 +684,8 @@ a:focus,a:active{
 }
 /* "换一组"图片样式 */
 .section-item > img{
-  width: 118px;
-  height: 118px;
+  width: 116px;
+  height: 116px;
   display: inline-block;
 }
 //点击→轮播
@@ -727,8 +744,8 @@ a:focus,a:active{
   box-shadow:none;
   top: 3px;
   left:-3px;
-  background-color: #f58a1a;
-  color: #fff;
+/*  background-color: #f58a1a;
+  color: #fff;*/
 }
 /*模态框*/
 .modal-content .close-btn{
@@ -853,7 +870,6 @@ a:focus,a:active{
   display: inline-block;
   background: url("../img/modal-line.png") 0% 65% repeat-x transparent;
 }
-
 .exchange .modal-dialog{
   width: 400px;
 }
@@ -864,4 +880,41 @@ a:focus,a:active{
 .exchange .modal-content p{
   margin-bottom: 20px;
 }
-
+/* 江湖圈(jhq) */
+.section.jhq{
+  margin-top: 25px;
+}
+.jhq .section-item:hover{
+  background-color: #ffb9b9;
+}
+.jhq .action{
+  background-image: url("../img/join-grey.png");
+}
+.jhq .action:hover{
+  background-image: url("../img/joinn.png");
+}
+.jhq .actioned{
+  background-image: url("../img/join.png");
+}
+.jhq .level{
+  margin: 10px 0 0;
+  text-align: center;
+}
+/* 装备库(sh) */
+.sh .section-item:hover{
+  background-color: #f9ac33;
+}
+/*秘籍册(eso)*/
+.eso .section-item:hover{
+  background-color: #a3c8e5;
+}
+/*江湖任务(mission)*/
+.mission .section-item:hover{
+  background-color: #71d273;
+}
+.mission .action:hover{
+  background-image: url("../img/receivee.png");
+}
+.mission .section-desc .change{
+  margin-top: 65px;
+}

@@ -2128,11 +2128,11 @@ select[multiple].input-lg {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }*/
-.btn:hover,
+/*.btn:hover,
 .btn:focus {
   color: #333;
   text-decoration: none;
-}
+}*/
 .btn:active,
 .btn.active {
   background-image: none;
@@ -4188,6 +4188,9 @@ a.thumbnail.active {
 }
 .media-heading {
   margin: 0 0 5px;
+}
+.media-bottom{
+  vertical-align: bottom;
 }
 .media > .pull-left {
   margin-right: 10px;

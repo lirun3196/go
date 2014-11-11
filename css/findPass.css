@@ -195,8 +195,7 @@ html{
   font-size: 1.285714em;
 }
 .nav > li{
-  display: inline-block;
-  
+  display: inline-block; 
 }
 .nav > li > a{
   padding: 9px 20px;

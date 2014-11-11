@@ -44,6 +44,7 @@
 }
 .purchase .row .form-control{
   float: left;
+  margin-bottom: 20px;
 }
 .purchase .row .input-group-addon{
   width: 97px;

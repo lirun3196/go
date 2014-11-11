@@ -5,67 +5,7 @@
 .left{
     background: url("../img/left.png") 0% 0% no-repeat #000;
 }
-/* 江湖圈(jhq) */
-.section.jhq{
-  margin-top: 25px;
-}
-.jhq .section-item:hover{
-  background-color: #ffb9b9;
-}
-.jhq .action{
-  background-image: url("../img/join-grey.png");
-}
-.jhq .action:hover{
-  background-image: url("../img/joinn.png");
-}
-.jhq .actioned{
-  background-image: url("../img/join.png");
-}
-.jhq .level{
-  margin: 5px 0 0;
-}
-/* 装备库(sh) */
-.sh .section-item:hover{
-  background-color: #f9ac33;
-}
-.sh .action{
-  background-image: url("../img/cart-grey.png");
-}
-.sh .action:hover{
-  background-image: url("../img/cartt.png");
-}
-.sh .actioned{
-  background-image: url("../img/cart.png");
-}
-/*秘籍册(eso)*/
-.eso .section-item:hover{
-  background-color: #a3c8e5;
-}
-.eso .action{
-  background-image: url("../img/take-grey.png");
-}
-.eso .action:hover{
-  background-image: url("../img/takee.png");
-}
-.eso .actioned{
-  background-image: url("../img/take.png");
-}
-/*江湖任务(mission)*/
-.mission .section-item:hover{
-  background-color: #71d273;
-}
-.mission .action{
-  background-image: url("../img/receive-grey.png");
-}
-.mission .action:hover{
-  background-image: url("../img/receivee.png");
-}
-.mission .actioned{
-  background-image: url("../img/receive.png");
-}
-.mission .section-desc .change{
-  margin-top: 65px;
-}
+
 /*
  * 后期更改
 */
