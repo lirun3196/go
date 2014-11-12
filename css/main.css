@@ -322,6 +322,7 @@ a:focus,a:active{
 /*内容展示板块*/
 .content{
   width: 1070px; 
+  margin-bottom: 40px;
 }
 .main{
   margin-left: 40px;

@@ -2,144 +2,45 @@
     Created on : 2014-11-5, 15:07:44
     Author     : Lirun
 */
-.esoterica{
-  height: auto;
+.eso.row{
+  margin-top: 30px;
 }
-.esoterica-header{
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ccc;
+.eso .media-body{
+  padding: 0 20px;
 }
-.esoterica-header p:first-child{
-  padding: 10px;
-}
-.esoterica-body{
-  padding: 30px 80px 60px;
-}
-.esoterica-content{
-  background: url("../img/big-book.png") 50% 0% no-repeat transparent;
-  height: 480px;
-  position: relative;
-}
-.esoterica-left{
-  position: absolute;
-  text-align: center;
-  top: 30px;
-  left: 100px;
-  width: 210px;
-}
-.esoterica-right{
-  position: absolute;
-  text-align: center;
-  top: 30px;
-  right: 100px;
-  width: 210px;
-}
-.thumbnail{
-  background-color: transparent;
-  border: none;
-}
-.thumbnail-bg{
-  background: url("../img/use-bg.png") 50% 0% no-repeat transparent;
-  height: 188px;
-  position: relative;
-  cursor: pointer;
-}
-.thumbnail-bg > img{
-  position: absolute;
-  top: 31px;
-  left: 40px;
-  width: 117px;
-  height: 117px;
-  overflow: hidden;
-  max-width: 100%;
-  border-radius: 50%;
-}
-.thumbnail-bg > img:hover{
-  transform: scale(0.9);
-}
-.caption > h5:hover{
-  cursor: pointer;
-  text-decoration: underline;
-}
-.price{
-  margin: 20px 0;
-}
-.use{
-  background: url("../img/use-grey.png") 50% 0% no-repeat transparent;
-  height: 41px;
-  width: 41px;
-  display: inline-block;
-  margin: 0 auto;
-}
-.use:hover{
-  background: url("../img/use-black.png") 50% 0% no-repeat transparent;
-}
-.usage{
-  text-align: left;
-}
-.section-desc .change{
-  margin-top: 65px;
-}
-.section-desc{
-  padding-top: 0;
-}
-.media-body{
-  padding-left: 50px;
-}
-.padding-t{
-  padding-top: 40px;
-}
-.prev-page{
-  position: absolute;
-  bottom: 50px;
-  left: 70px;
-}
-.next-page{
-  position: absolute;
-  bottom: 50px;
-  right: 70px;
-}
-/*弹出框样式*/
-.esoterica-detail .thumbnail{
-  padding: 60px;
-}
-.esoterica-detail h3{
-  text-align: center;
-  margin-bottom: 30px;
-}
-.esoterica-detail .detail{
+.eso .media-body > p{
   font-size: 12px;
   line-height: 24px;
-  color: #666;
-  border-top: 1px dashed #ccc;
-  padding-top: 15px;
-  text-align: justify;
 }
-.esoterica-detail .detail > span{
-  color: #333;
+.eso .media-body > h5{
+  margin-top: 0;
 }
-.using .modal-dialog{
-  margin-top: 15%;
-  width: 350px;
+.eso .section-item{
+  width: 100px;
+  margin: 0;
+  padding: 10px 5px;
 }
-.using .modal-content{
-  padding: 40px 20px;
-  text-align: center;
+.eso .section-item > img {
+width: 85px;
+height: 85px;
+display: inline-block;
 }
-.using p{
+.eso .section-item:hover{
+  background-color: #e0e0e0;
+}
+.esoBtn{
+  width: 70px;
+  height:30px;
+  background-color: #ea5520;
+  margin-top: 20px;
   font-size: 12px;
-  margin-top: 40px;
+  box-shadow: -3px 3px #BDB8B8;
+}
+.eso .level{
+  font-size: 16px;
+}
+.eso .level > img{
+  margin-right: 20px;
+  max-width: 18px;
 }
 /* 底部推荐 */
-.eso .section-item:hover{
-  background-color: #a3c8e5;
-}
-.eso .action{
-  background-image: url("../img/take-grey.png");
-}
-.eso .action:hover{
-  background-image: url("../img/takee.png");
-}
-.eso .actioned{
-  background-image: url("../img/take.png");
-}
