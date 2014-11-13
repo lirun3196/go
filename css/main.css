@@ -63,9 +63,11 @@ a:focus,a:active{
 .row{
   margin: 0;
 }
-.margin-l,
-.margin-r{
+.margin-l{
   margin-left: 10px;
+}
+.margin-r{
+  margin-right: 10px;
 }
 .wraper{
   height: 1580px;
@@ -357,6 +359,7 @@ a:focus,a:active{
   height: 84px;
   margin-top: 20px;
   background-image: url("../img/nav-center.png");
+  clear: both;
 }
 .nav-center li{
   display: inline-block;
@@ -380,7 +383,7 @@ a:focus,a:active{
   max-width: 65px;
   max-height: 44px;
 }
-.nav-center .show-img{
+.show-img img{
   display: inline-block;
 }
 /*黄底导航*/
@@ -407,7 +410,8 @@ a:focus,a:active{
 .section{
   position: relative;
   width: 912px;
-  padding: 30px 15px 20px 20px;
+/*  padding: 30px 15px 20px 20px;*/
+  padding: 40px;
   margin-top: 65px;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -733,8 +737,6 @@ a:focus,a:active{
 /* 拟物化按钮 */
 .btn{
   position: relative;
-  width: 80px;
-  height: 40px;
   background-color: #f58a1a;
   border: 1px solid transparent;
   border-radius: 6px;

@@ -24,13 +24,13 @@
       $(this).parent().prevAll(".section-items").toggleClass("show-item");
     });
     // 中部导航hover效果
-    var i = $(".nav-center a");
+    var i = $(".nav-center").find("li");
     var c = $(".center-active");
-    c.prev("img").addClass("show-img");
+    c.parent().addClass("show-img");
     i.hover(function(event){
       event.stopPropagation();
-      c.prev("img").toggleClass("show-img");
-      $(this).prev("img").toggleClass("show-img");
+      c.parent().toggleClass("show-img");
+      $(this).toggleClass("show-img");
     });
     //广告
 //    var mySwiper = new Swiper('.swiper-container',{

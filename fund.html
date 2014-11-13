@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>近期采购</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  <!--[if lt IE 9]>
-    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/purchase.css">
-  <link rel="stylesheet" href="css/swiper.css">
-</head>
-<body>
-  <div class="wraper">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的基金</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jhb.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+  </head>
+  <body>
+    <div class="wraper">
       <div class="left"></div>
       <div class="right">
         <div class="menu">
@@ -229,224 +230,148 @@
               </div>
             </div>
             <ul class="nav-center">
-              <li><img src="img/center-donate.png" alt=""><a href="index.html">我的江湖</a></li>
-              <li><img src="img/center-donate.png" alt=""><a href="mall.html">江湖商城</a></li>
-              <li><img src="img/center-donate.png" alt=""><a href="esoterica.html">江湖秘籍</a></li>
-              <li><img src="img/center-donate.png" alt=""><a href="donation.html">爱心捐赠</a></li>
-              <li><img src="img/center-donate.png" alt=""><a href="purchase.html" class="center-active">近期采购</a></li>
-              <li><img src="img/center-donate.png" alt=""><a href="fund.html">江湖基金</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="index.html">我的江湖</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="mall.html">江湖商城</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="esoterica.html">江湖秘籍</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="donation.html">爱心捐赠</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="purchase.html">近期采购</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="fund.html" class="center-active">江湖基金</a></li>
             </ul>
-            <div class="section purchase">
-              <img src="img/purchase.png" alt="">
-                  <div class="purchase-header">
+            <div class="section jhb">
+              <img src="img/fund.png" alt="">
+              <ul class="nav nav-tabs bold">
+                <li class="active"><a href="#jhb" data-toggle="tab">江湖宝</a></li>
+                <li><a href="#detailE" data-toggle="tab">收益明细</a></li>
+              </ul>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane active" id="jhb">
+                  <div class="jhb-header">
                     <div class="media">
-                      <a class="pull-left" href="#">
-                        <img class="media-object" src="img/purchase-h.png" alt="">
-                      </a>
+                      <div class="pull-left">
+                        <img src="img/jhb.png" alt="">
+                      </div>
                       <div class="media-body">
-                        <span class="bold">近期采购，</span>用户可提前充值，以远
-                        低于市场的价格预定某件商品，预定成功后该商品将处于锁定状
-                        态，锁定时间长短因商品而异，锁定时间到期后我们将为用户办
-                        理邮寄服务。用户因故取消购买，充值金额将如数退还给用户。
+                        <h1>什么是江湖宝</h1>
+                        <p>江湖宝是LNH智慧团打造的基金增值服务。</p>
+                        <p>江湖宝是根据真实存在的投资项目制定的智能理财工具。</p>
+                        <p>江湖宝的额度可做到精确可控，从而提高您的资金利用率，增加实际收益。</p>
                       </div>
                     </div>
                   </div>
-                  <div class="row row-title">
-                    <div class="col-xs-7">
-                      <p class="bold">请输入您要采购物品的信息！</p>
+                  <div class="jhb-body">
+                    <p class="h5 bold"><span class="fa fa-user margin-r"></span>我的基金 500000积分<span class="margin-l">你目前已经投入了江湖宝 2.6万积分</span></p>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">1000积分最低投入；7天一个循环收益日，系统将会自动返还你的投入。</div>
+                      <table class="table">
+                        <tbody>
+                        <tr>
+                          <td><p class="h3">江湖宝A</p><p class="h5">1-20级</p></td>
+                          <td><p class="h6">收益率</p><p class="h2">1%</p></td>
+                          <td><p class="h6">投入期限</p><p class="h2">7天</p></td>
+                          <td><a class="investBtn btn" data-toggle="modal" data-target=".invest">投入</a></td>
+                        </tr>
+                        <tr>
+                          <td><p class="h3">江湖宝B</p><p class="h5">敬请期待...</p></td>
+                          <td><p class="h6">收益率</p><p class="h2">1%</p></td>
+                          <td><p class="h6">投入期限</p><p class="h2">7天</p></td>
+                          <td><a class="investBtn btn">投入</a></td>
+                        </tr>
+                        <tr class="text-muted">
+                          <td><p class="h3">江湖宝C</p><p class="h5">未开放</p></td>
+                          <td><p class="h6">收益率</p><p class="h2">1%</p></td>
+                          <td><p class="h6">投入期限</p><p class="h2">7天</p></td>
+                          <td><a class="investBtn btn">投入</a></td>
+                        </tr>
+                        </tbody>
+                      </table>
                     </div>
-                    <div class="col-xs-5">
-                      <p class="bold">规则介绍</p>
-                    </div>
-                  </div>
-                  <form action="">
-                  <div class="row">
-                    <div class="col-xs-6">
-                      <div class="input-group input-group-sm">
-                        <span class="input-group-addon">名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称</span>
-                        <input type="text" class="form-control" placeholder="美的电饭煲">
-                      </div>
-                      <div class="input-group input-group-sm">
-                        <span class="input-group-addon">商品类型</span>
-                        <input type="text" class="form-control" placeholder="电器">
-                      </div>
-                      <div class="input-group input-group-sm">
-                        <span class="input-group-addon">品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;牌</span>
-                        <input type="text" class="form-control" placeholder="三星">
-                      </div>
-                      <div class="input-group input-group-sm">
-                        <span class="input-group-addon">价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
-                        <input type="text" class="form-control">
-                      </div>
-                      <div class="input-group input-group-sm">
-                        <span class="input-group-addon">购买时间</span>
-                        <input type="text" class="form-control">
-                      </div>
-                      <div class="input-group input-group-sm">
-                        <span class="input-group-addon">备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注</span>
-                        <textarea rows="7" ></textarea>
+                    <div class="panel panel-default jhb-rule">
+                      <div class="panel-heading">江湖宝规则</div>
+                      <div class="rule-item">
+                      <p><span class="bold">A.</span>有利网致力于为各位投资人提供安全、有担保、
+                        高收益的互联网理财服务,通过有利网的推荐，您可以将手中的富
+                        余资金，出借给由小额贷款金融机构担保的、信用良好的小微企业，
+                        并获得利息回报。有利网致力于为各位投资人提供安全、有担保、
+                        高收益的互联网理财服务,通过有利网的推荐</p>
+                      <p><span class="bold">B.</span>您可以将手中的富余资金，出借给由小额贷款
+                        金融机构担保的、信用良好的小微企业，并获得利息回报。有利
+                        网致力于为各位投资人提供安全、有担保、高收益的互联网理财
+                        服务,通过有利网的推荐，您可以将手中的富余资金，出借给由小
+                        额贷款金融机构担保的报。</p>
+                      <p><span class="bold">C.</span>有利网致力于为各位投资人提供安全、有担保、
+                        高收益的互联网理财服务,通过有利网的推荐，您可以将手中的富
+                        余资金，出借给由小额贷款金融机构担保的、信用良好的小微企
+                        业，并获得利息回</p>
                       </div>
                     </div>
-                    <div class="col-xs-5 col-xs-offset-1">
-                      <p>点击提交会自动扣除500积分点击提交会自动扣除500积分点击
-                        提交会自动扣除500积分点击提交会自动扣除500积分点击提交会
-                        自动扣除500积分点击提交会自动扣除500积分点击提交会自动扣
-                        除500积分点击提交会自动扣除500积分点击提交会自动扣除500
-                        积分点击提交会自动扣除500积分</p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-7">
-                      <button class="submit"></button>
-                    </div>
-                    <div class="col-lg-5"></div>
-                  </div>
-                    </form>
-                  <div class="push">
-                    <p class="bold">推送中订单</p>
-                    <table class="table">
+                  </div><!-- end of jhb-body -->
+                </div>
+                <div class="tab-pane" id="detailE">
+                  <table class="table">
                   <tbody>
-                  <tr>
-                    <th>订单号</th>
-                    <th>状态</th>
-                    <th>操作</th>
-                  </tr>
-                  <tr>
-                    <td><p>Midea/美的 MB-WFS4017TM 4L智能涡轮圆灶釜电饭煲 </p></td>
-                    <td><p>等待处理</p></td>
-                    <td><p><a href="#">充值</a></p></td>
-                  </tr>
-                  <tr>
-                    <td><p>Midea/美的 MB-WFS4017TM 4L智能涡轮圆灶釜电饭煲 </p></td>
-                    <td><p class="pushed">已经成交</p></td>
-                    <td><p><a href="#">取消</a></p></td>
-                  </tr>
-                  <tr>
-                    <td><p>Midea/美的 MB-WFS4017TM 4L智能涡轮圆灶釜电饭煲 </p></td>
-                    <td><p class="pushed">已经受理</p></td>
-                    <td><p><a href="#" class="pay">付款</a></p></td>
-                  </tr>
-                </tbody>
-              </table>
-                  </div>
-                    <div class="row">
-                      <div class="col-lg-2"></div>
-                      <div class="page col-lg-10">
-                        <ul>
-                          <li><a href="#">上一页</a></li>
-                          <li><a href="#" class="pageActive">1</a></li>
-                          <li><a href="#">2</a></li>
-                          <li><a href="#">3</a></li>
-                          <li><a href="#">4</a></li>
-                          <li><a href="#">5</a></li>
-                          <li><a href="#">下一页</a></li>
-                        </ul>
-                        <label>跳转<input type="text" class="page-number">页</label>
-                      </div>
-                    </div>
-                
-                  <!--div class="order-header">
-                    <p class="bold">已付款采购订单</p>
-                  </div>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td colspan="3">
-                          <div class="check-group">
-                          <label class="check-inline" >
-                            <span class="checkIcon checkIconed"></span>
-                            <input type="checkbox" checked>付款时间：<time class="pay-time">2014-10-25 12:00:00 </time>
-                          </label>
-                        </div>
-                        <span>订单编号：</span><span class="order-number">CQJB-002B-201230011</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="content1">
-                          <div class="media">
-                            <a class="pull-left" href="#">
-                              <img class="media-object" src="img/purchase-h.png" alt="">
-                            </a>
-                            <div class="media-body">
-                              <p><span class="bold">物品名称：</span>雷蛇Razer 北海巨妖7.1 头戴式USB游戏耳机</p>
-                              <p><span class="bold">购买时间：</span>2014-12-25</p>
-                              <p><span class="bold">数量：  </span>2个</p>
-                              <p><span class="bold">类型：  </span>黑色</p>
-                              <p class="unit-price"><span class="bold">单价：  </span>50000积分<span class="money">1500金币</span></p>
-                              <p><span class="total">总价</span>：<span>150000积分</span><span class="money">1500金币</span></p>
-                            </div>
-                          </div>
-                        </td>
-                        <td class="content2">
-                          <p>已发货</p>
-                          <p><a href="#" class="logistics">查看物流</a></p>
-                        </td>
-                        <td class="content3">
-                          <div class="btn-group">
-                            <button>确认收货</button>
-                            <button class="return">退货</button>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td colspan="3">
-                          <div class="check-group">
-                          <label class="check-inline" for="checkbox1">
-                            <span class="checkIcon checkIconed"></span>
-                            <input type="checkbox" checked id="checkbox1">付款时间：<time class="pay-time">2014-10-25 12:00:00 </time>
-                          </label>
-                        </div>
-                        <span>订单编号：</span><span class="order-number">CQJB-002B-201230011</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="content1">
-                          <div class="media">
-                            <a class="pull-left" href="#">
-                              <img class="media-object" src="img/purchase-h.png" alt="">
-                            </a>
-                            <div class="media-body">
-                              <p><span class="bold">物品名称：</span>雷蛇Razer 北海巨妖7.1 头戴式USB游戏耳机</p>
-                              <p><span class="bold">购买时间：</span>2014-12-25</p>
-                              <p><span class="bold">数量：  </span>2个</p>
-                              <p><span class="bold">类型：  </span>黑色</p>
-                              <p class="unit-price"><span class="bold">单价：  </span>50000积分<span class="money">1500金币</span></p>
-                              <p><span class="total">总价</span>：<span>150000积分</span><span class="money">1500金币</span></p>
-                            </div>
-                          </div>
-                        </td>
-                        <td class="content2">
-                          <p class="complete">交易完成</p>
-                          <button class="judge">评价</button>
-                        </td>
-                        <td class="content3">
-                          <div class="btn-group">
-                            <button>确认收货</button>
-                            <button class="return">退货</button>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
+                    <tr>
+                      <th>投入时间</th>
+                      <th>投入项目</th>
+                      <th>投入积分</th>
+                      <th>固定收益</th>
+                      <th>返还时间</th>
+                    </tr>
+                    <tr>
+                      <td>2014年10月10日</td>
+                      <td>江湖宝A</td>
+                      <td>150000积分</td>
+                      <td>150积分 （1%）</td>
+                      <td><span class="rTime">2014年09月27日</span></td>
+                    </tr>
+                    <tr>
+                      <td>2014年10月10日</td>
+                      <td>江湖宝A</td>
+                      <td>150000积分</td>
+                      <td>150积分 （1%）</td>
+                      <td><span class="refund">2014年09月27日 (已返还) </span><span class="tBox"></span>开启</td>
+                    </tr>
+                    <tr>
+                      <td>2014年10月10日</td>
+                      <td>江湖宝A</td>
+                      <td>150000积分</td>
+                      <td>150积分 （1%）</td>
+                      <td><span class="refund">2014年09月27日 (已返还) </span><span class="tBox"></span>开启</td>
+                    </tr>
+                    <tr>
+                      <td>2014年10月10日</td>
+                      <td>江湖宝A</td>
+                      <td>150000积分</td>
+                      <td>150积分 （1%）</td>
+                      <td><span class="refund">2014年09月27日 (已返还) </span><span class="tBox"></span>开启</td>
+                    </tr>
+                    <tr>
+                      <td>2014年10月10日</td>
+                      <td>江湖宝A</td>
+                      <td>150000积分</td>
+                      <td>150积分 （1%）</td>
+                      <td><span class="refund">2014年09月27日 (已返还) </span><span class="tBox"></span>开启</td>
+                    </tr>
+                  </tbody>
                   </table>
                   <div class="row">
-                  <div class="col-lg-2"></div>
-                  <div class="page col-lg-10">
+                  <div class="col-xs-2"></div>
+                  <div class="page col-xs-10">
                     <ul>
-                      <li><a href="#">&laquo;</a></li>
+                      <li><a href="#">上一页</a></li>
                       <li><a href="#" class="pageActive">1</a></li>
                       <li><a href="#">2</a></li>
                       <li><a href="#">3</a></li>
                       <li><a href="#">4</a></li>
                       <li><a href="#">5</a></li>
-                      <li><a href="#">&raquo;</a></li>
+                      <li><a href="#">下一页</a></li>
                     </ul>
                     <label>跳转<input type="text" class="page-number">页</label>
                   </div>
-                </div-->                   
+                </div>
+                </div>
+              </div><!-- end of tab-content-->
+            </div>
           </div><!-- end of main -->
         </div><!-- end of content -->
         <div class="ribbon">
@@ -461,10 +386,9 @@
             <li><a href="#" class="r8">独门秘籍</a></li>
           </ul>
         </div> 
-      </div>
-      </div>
-  </div><!-- end of wraper -->
-  <div class="footer">
+      </div><!-- end of right -->
+    </div><!-- end of wraper -->
+    <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
@@ -481,10 +405,20 @@
         </div>
       </div>
     </div>
-    <script src="js/vendor/jquery-1.11.1.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/equip.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>      
-</body>
+    <div class="modal fade invest">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <label class="bold">请输入投入积分</label>
+          <input type="text">
+          <p><span class="red">提示</span>：投入的积分将会暂时无法使用，在7天后加上收益自动返还到你的账户。</p>
+          <a class="confirmIn btn">确定</a>
+          <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
+        </div>
+      </div>
+    </div>
+  <script src="js/vendor/jquery-1.11.1.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/swiper.min.js"></script>
+  </body>
 </html>

@@ -120,3 +120,64 @@ height: 33px;
 .shareBar .fa-share-square-o{
   vertical-align: -2px;
 }
+
+/*我的秘籍*/
+.myEso .pull-left > img{
+  width: 150px;
+  height: 150px;
+}
+.myEso .media-body{
+  padding-left:30px;
+  height: 150px;
+  position: relative;
+  color: #9c9c9c;
+}
+.myEso .shareBar{
+  margin: 0;
+  border: none;
+  text-align: right;
+}
+.myEso .shareBar > p{
+  margin: 0 0 20px;
+  display: block;
+}
+.checkBtn{
+  letter-spacing: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: bolder;
+  background-color: #dc2a1c;
+}
+.myEso .media-body > h4{
+  color: #717171;
+}
+.myEso.row{
+  padding: 35px 0;
+  border-bottom: 1px dashed #ccc;
+}
+.section{
+  margin-top: 30px;
+}
+.nav.nav-pills {
+margin: 10px 0 20px;
+}
+.myEso-header{
+  border-bottom: none;
+  padding-bottom: 30px;
+}
+
+/*eso页面*/
+.myEso-body{
+  color: #a7a7a7;
+}
+.myEso-body:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+.myEso-body > img{
+  float: right;
+  width: 200px;
+  height: 300px;
+  max-width: 200px;
+}

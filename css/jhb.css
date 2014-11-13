@@ -1,0 +1,137 @@
+/* 
+    Created on : 2014-11-13, 9:51:08
+    Author     : Lirun
+*/
+.jhb-header > .media{
+  border: 1px dashed #ccc;
+  border-radius:40px;
+  padding: 30px 60px;
+}
+.jhb-header .media-body{
+  padding-left: 40px;
+}
+.jhb-header .media-body > h1{
+  padding-top: 10px;
+  margin-top: 0;
+}
+.investBtn{
+  font-size: 16px;
+  padding: 8px 20px 8px 30px;
+  letter-spacing: 10px;
+  background-color: #ff7501;
+}
+.jhb-body{
+  padding: 0 20px;
+}
+.jhb-body > .h5{
+  margin: 30px 0 50px;
+}
+.jhb-body .fa{
+  font-size: 24px;
+}
+.jhb-body .table > tbody > tr > td{
+  text-align: center;
+  vertical-align: middle;
+  padding: 40px 0 30px;
+  margin: 0;
+  width: 25%;
+  border-top: 1px dashed #ccc;
+}
+.h2,.h3,.h5,.h6{
+  margin: 0;
+}
+.h2{
+  font-weight: 700;
+}
+.jhb-rule{
+  border-radius: 0;
+  box-shadow: none;
+}
+.panel-default .panel-heading{
+  background-color: #ff7501;
+  border-radius: 0;
+  padding: 10px 25px;
+  color:#fff;
+}
+.jhb-rule{
+  margin: 50px 0;
+  padding-bottom: 20px;
+}
+.panel{
+  border-radius: 0;
+}
+.jhb-rule.panel{
+  border: none;
+}
+.rule-item{
+  border: 1px dashed #ccc;
+  border-top: 0;
+  padding-top: 30px;
+}
+.jhb-rule p{
+  margin-bottom: 30px;
+  padding: 0 40px 0 20px;
+}
+/*收支明细*/
+.tBox{
+  padding-left: 35px;
+  margin-left: 40px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../img/tBox.png") 0 0/31px 31px padding-box no-repeat transparent;
+}
+#detailE td{
+  padding: 4px;
+  vertical-align: middle;
+  border-top: 1px dashed #ddd;
+  height: 41px;
+}
+#detailE tr:nth-child(2) td{
+  border-top:0;
+}
+#detailE tr:last-child td{
+  border-bottom: 1px dashed #ddd;
+}
+#detailE th{
+  background-color: #ff7501;
+  color: #fff;
+  font-weight: bolder;
+}
+.refund{
+  color: #078e00;
+}
+.rTime{
+  color: #d10000;
+}.text-muted{
+  cursor: not-allowed;
+}
+.text-muted .investBtn{
+  color: #fff;
+  background-color: #777;
+}
+/*弹出框样式*/
+.invest .modal-dialog{
+  margin-top: 10%;
+}
+.invest .modal-content{
+  width: 300px;
+  height: 250px;
+  padding: 40px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.invest input{
+  font-size: 14px;
+  width: 100%;
+  margin: 0 0 10px;
+  height: 30px;
+  padding: 8px 12px;
+  line-height: 1;
+}
+.confirmIn{
+  font-size: 16px;
+  letter-spacing: 10px;
+  padding-left: 20px;
+  margin-left: 25%;
+}

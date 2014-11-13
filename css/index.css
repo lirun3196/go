@@ -9,6 +9,9 @@
 /*
  * 后期更改
 */
+.section{
+  padding: 30px 15px 20px 20px;
+}
 /*加好友弹出框*/
 .makefriend  .tag .btn{
 width: 35px;
