@@ -197,10 +197,18 @@ time{
   height: 224px;
   clear: both;
 }
+.donate-body{
+  height: 705px;
+  overflow-y: hidden;
+  position: relative;
+}
+.dCarousel{
+  position: absolute;
+}
 .donate-header .media{
   margin-bottom:15px;
 }
-.media{
+.donate-body .media{
   display: table;
 }
 .donate-body .row{
@@ -218,6 +226,20 @@ time{
 .donate-body .media-body{
   display:table-cell;
   font-size: 12px;
+}
+.caret:hover{
+  color: #ff938b;
+}
+.caret-down{
+  border-top: 32px solid #ff938b;
+  border-right: 18px solid transparent;
+  border-left: 18px solid transparent;
+  color: #E0E0E0;
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+  margin: 0 auto;
+  cursor:pointer;
 }
 .d-btn{
   width: 70px;
