@@ -1,0 +1,66 @@
+.flash-header{
+  text-align: right;
+}
+.flash-body > h5{
+  background-color: #e2e2e2;
+  padding: 10px 0 10px 20px;;
+  font-weight: bold;
+}
+.flash-body > h5 > span{
+  color: #7bc935;
+}
+.flash-body .row > .col-xs-3{
+  padding: 0 10px;
+}
+.flash-body .row > .col-xs-3:first-child{
+  padding: 0 20px 0 0;
+}
+.flash-body .row > .col-xs-3:last-child{
+  padding: 0 0 0 20px;
+}
+.flash-body .thumbnail{
+  padding: 15px;
+  position: relative;
+  height: 317px;
+}
+.flash-body .thumbnail > img{
+  width: 100%;
+}
+.flash-desc{
+  height: 94px;
+}
+.flashBtn{
+  padding: 5px 20px;
+  font-size: 18px;
+  background-color: #F9794C;
+  letter-spacing: 10px;
+  width:100%;
+}
+.flashEnd{
+  background-color: #f2f2f2;
+}
+.flash-body .thumbnail >.layer{
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  cursor: not-allowed;
+  height: 100%;
+  width: 100%;
+  background-color: #f8f8f8;
+  background-color: rgba(248, 248, 248, 0.55);
+}
+.flash-body .thumbnail >.layer > img{
+  position: absolute;
+  top: 30px;
+  left: 10%;
+}
+.flash-footer{
+  width:100%;
+  height: 80px;
+  background-color: #F9794C;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+

@@ -263,7 +263,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12 changeA"><a class="newAddress">使用新地址</a></div>
+              <div class="col-xs-12 changeA"><a class="newAddress" data-toggle="modal" data-target=".addA">使用新地址</a></div>
               <div class="row">
                 <div class="col-xs-2">
                   <h4 class="bold">确认兑换信息</h4>
@@ -347,6 +347,75 @@
               <span><img src="img/home.png" alt="">重庆北部新区金渝大道85号汉国中心B栋20F</span>
             </p>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade addA">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="form-horizontal">
+          <div class="form-group">
+            <label class="col-xs-2">所在区域<span class="red">*</span></label>
+            <div class="col-xs-10 input-group">
+              <select class="pa col-xs-4">
+                <option value="">省份</option>
+                <option value="1">北京</option>
+                <option value="2">重庆</option>
+              </select>
+              <select class="pa col-xs-3 col-xs-offset-1">
+                <option value="">城市</option>
+                <option value="1">南昌</option>
+                <option value="2">陕西</option>
+              </select>
+              <select class="pa col-xs-3 col-xs-offset-1">
+                <option value="">区县</option>
+                <option value="1">渝北</option>
+                <option value="2">沙坪坝</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-2">详细地址<span class="red">*</span></label>
+            <div class="col-xs-10 input-group">
+              <textarea class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-2">手机号码<span class="red">*</span></label>
+            <div class="col-xs-10 input-group">
+              <input type="text" class="form-control" placeholder="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-2">固定电话</label>
+            <div class="col-xs-10 input-group">
+              <input type="text" class="col-xs-3 pa" placeholder="区号">
+              <input type="text" class="col-xs-8 col-xs-offset-1 pa">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-xs-2">收货人<span class="red">*</span></label>
+            <div class="col-xs-10 input-group">
+              <input type="text" class="form-control" placeholder="名字不超过12个汉字">
+            </div>
+          </div>
+            <div class="form-group">
+            <label class="col-xs-2">邮政编码</label>
+            <div class="col-xs-10 input-group">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+          <div class="col-xs-offset-2 col-xs-10">
+            <label class="check-inline" for="checkbox1">
+              <span class="checkIcon checkIconed"></span>
+              <input type="checkbox" checked id="checkbox1">设为默认地址
+            </label>
+          </div>
+          <div class="col-xs-offset-5 col-xs-7">
+            <a class="btn">保存</a>
+          </div>
+          <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
         </div>
       </div>
     </div>
