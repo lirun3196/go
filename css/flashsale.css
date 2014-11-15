@@ -63,4 +63,10 @@
   color: #fff;
   text-align: center;
 }
-
+/*每日抽奖*/
+.lottery .thumbnail{
+  height: auto;
+}
+.lottery .thumbnail .flashBtn{
+  margin-top: 15px;
+}

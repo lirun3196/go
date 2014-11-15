@@ -441,7 +441,6 @@ a:focus,a:active{
 .section-item{
   position: relative;
   width: 135px;
-/*  height: 185px;*/
   padding: 10px 10px 5px;
   margin-right: 18px;
   background-color: #e0e0e0;
@@ -920,4 +919,101 @@ a:focus,a:active{
 }
 .mission .section-desc .change{
   margin-top: 65px;
+}
+
+/*========捐赠详情页========*/
+.item-wraper{
+  width: 135px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.item-wraper > .btn{
+  font-size: 12px;
+  background-color: #ea5520;
+  margin: 15px auto 0;
+  display: block;
+  padding: 5px;
+  width: 60px;
+}
+.donate .section-desc{
+  width: 60px;
+}
+.donate .thumbnail p:first-of-type{
+  margin-top: 10px;
+  text-indent: 2em;
+}
+.donate h2{
+  margin-bottom: 20px;
+}
+.dBar{
+  background-color: #f4f4f4;
+  border: 1px solid #e9e6e6;
+  box-shadow: -2px 2px #aaa;
+  padding: 30px;
+  vertical-align: bottom;
+  margin: 30px 0 40px;
+}
+.dBar  label{
+  font-size: 30px;
+  margin: 0 20px 0 0;
+}
+.dBar  input{
+  font-size: 16px;
+  padding: 10px;
+  line-height: 1;
+}
+.dBar .btn{
+  background-color: #ea5520;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*========好友动态========*/
+.friend{
+  
+}
+.oBar{
+  text-align: right;
+  margin-top: 50px;
+}
+.oBar p{
+  display: inline-block;
+  margin-left: 20px;
+}
+.oBar .fa-heart{
+  color:#f00;
+  font-size: 22px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.oBar .fa-comment{
+  color:#319400;
+  font-size: 22px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.sContent{
+  padding: 5px;
+  background-color: rgba(167, 167, 167, 0.21);
+  border-radius: 4px;
+}
+.friend > .media{
+  border-bottom: 1px dashed #ccc;
+}
+.friend > .media  .thumbnail{
+  border-color: transparent;
+  background-color: rgba(167, 167, 167, 0.21);
+}
+.cFollow{
+  font-size: 12px;
+  color: #64676d;
+  background-color: #dbdbdb;
+  padding: 5px 10px;
+  border: 1px solid #b7b5b5;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+text-align: center;
 }

@@ -60,6 +60,12 @@
 //        },300,"linear");
 //      }
 //    });
+
+var feature = (function(){
+  var holder = function(){
+    
+  };
+})();
 }(jQuery);
 /*var main = {
   onReady:function(){

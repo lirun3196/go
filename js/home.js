@@ -1,10 +1,20 @@
-
++function($){
 //checkbox点击效果
 var check = $(".checkIcon");
 check.on("click",function(){
   $(this).toggleClass("checkIconed");
 });
-$(".dmmj").on("click",function(){
+var c = ["dmmj","jhgl","yxzt","jnmj"];
+$.each(c,function(i,v){
+  var p = "img/bg-" + v + ".png";
+//  alert(p);
+  $("." + v).on("click",function(){
+    $(".desc").hide();
+    $(".bg-show").css("background-image", "url( p )");
+  });
+});
+}(jQuery);
+/* $(".dmmj").on("click",function(){
   $(".desc").hide();
   $(".bg-show").css("background-image","url('img/bg-dmmj.png')");
 });
@@ -23,7 +33,6 @@ $(".yxzt").on("click",function(){
 $(".jnmj").on("click",function(){
   $(".desc").hide();
   $(".bg-show").css("background-image","url('img/bg-jnmj.png')");
-});
-$('input').popover('toggle');
+});*/
 
 

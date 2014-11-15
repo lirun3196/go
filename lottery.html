@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>捐赠对象</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  <!--[if lt IE 9]>
-    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/swiper.css">
-</head>
-<body>
-  <div class="wraper">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>每日抽奖</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/flashsale.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+  </head>
+  <body>
+    <div class="wraper">
       <div class="left"></div>
       <div class="right">
         <div class="menu">
@@ -40,7 +42,6 @@
                   <li>昵称：红衣红发</li>
                   <li>性别：男</li>
                   <li class="tianGang">天罡：天罡星</li>
-                  <!--li>派系：<span class="tianGang">天罡</span></li-->
                   <li>等级：28</li>
                 </ul>
                 <button data-toggle="modal" data-target=".upgrade">升级</button>
@@ -164,11 +165,11 @@
                 </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
-                <span class="menu-item-icon"><img src="img/menu-book.png" alt=""></span>
+              <a href="myEso.html"><div class="menu-item">
+                <span class="menu-item-icon"><img src="img/miji.png" alt=""></span>
                 <span class="menu-item-title">我的秘籍</span>
-               <a href="#"><span class="menu-item-status">新的消息36</span></a>
-              </div>
+               <span class="menu-item-status">新的消息36</span>
+                </div></a>
             </li>
             <li class="list-group-item">
               <div class="menu-item">
@@ -213,18 +214,16 @@
               <li role="presentation"><a href="#">客服服务</a></li>
             </ul>
             <div class="ad">
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <a href="#"><img src="img/ad1.png" alt="广告图"></a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#"><img src="img/ad2.png" alt="广告图"></a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#"><img src="img/ad3.png" alt="广告图"></a>
-                  </div>
+              <div id="ad" class="carousel" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/ad1.png" alt="...">
                 </div>
+                <div class="item">
+                  <img src="img/ad2.png" alt="...">
+                </div>
+              </div>
               </div>
             </div>
             <ul class="nav-center">
@@ -235,165 +234,181 @@
               <li><img src="img/center-index.png" alt=""><a href="purchase.html">近期采购</a></li>
               <li><img src="img/center-index.png" alt=""><a href="fund.html">江湖基金</a></li>
             </ul>
-            <div class="section donate">
-              <h2>捐赠对象</h2>
-              <div class="thumbnail">
-                <img src="img/poster.png" alt="">
-                <p> 孩子，永远是人们心中最温和的软肋。谈起孩子，原本是一个亲切温
-                  馨的事情，而当我们走进贫穷落后的山沟沟里时，贫困孩子，成为了一
-                  个沉重的话题。城里的孩子，都是父母掌中宝心头肉，捧在手里怕摔了
-                  含在嘴里怕化了。出生在贵州偏远的贫困山区里的孩子们，他们从小就
-                </p>
-                <p>对于这些，他们从不抱怨，也不懂得要向谁抱怨，在他们的脑子里，
-                  深深的印着“天命”两个字。只是，当他们第一次背起了小破书包，第
-                  一次拿到了所谓的课本，第一次注视老师的目光，第一次知道身边玩了
-                  很多年的小伙伴今天要改叫“同学”……自此，他们真切地爱上了学堂
-                </p>
-                <p>可是，他们的憧憬与梦想，大多时候成为了母亲病重的呻吟，成为了
-                  父亲低沉的黑脸，成为了一家人每天生存的愁绪，成为屋檐漏水瓦上结
-                  霜的困忧……日复一日，一家人的话题全是一个“钱”上，钱可以给母
-                  亲治病，钱可以让父亲重拾笑脸，钱可以让弟妹好好上学,钱可以让家
-                </p>
+            <div class="section lottery">
+              <img src="" alt="">
+              <div class="flash-header">
+                <img src="img/flashtime.png" alt="">
               </div>
-              <div class="row dBar">
-                <div class="col-xs-offset-1 col-xs-3">
-                  <label>捐赠人民币</label>
-                </div>
-                <div class="col-xs-offset-0 col-xs-5">
-                  <input type="text" class="">
-                </div>
-                <div class="col-xs-offset-1 col-xs-2">
-                  <a class="btn h4">我要捐赠</a>
-                </div>
-              </div>
-              <div class="row dBar">
-                <div class="col-xs-offset-1 col-xs-3">
-                  <label>捐赠积分</label>
-                </div>
-                <div class="col-xs-offset-0 col-xs-5">
-                  <input type="text" class="">
-                </div>
-                <div class="col-xs-offset-1 col-xs-2">
-                  <a class="btn h4">我要捐赠</a>
-                </div>
-              </div>
-              <div class="">
-                <h2>捐赠物品</h2>
-                <div class="sh">
-                  <div class="section-items show-item">
-                    <div class="item-wraper">
-                      <div class="section-item">
-                        <img src="img/friend.png" alt="">
+              <div class="flash-body">
+                <h5 class="big-f">每日<span>综合</span>推荐</h5>
+                <div class="row">
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
                         <span class="alias">一流打手武武松松</span>
                         <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
                         <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
-                        <!--span class="action"></span-->
                       </div>
-                      <a class="btn col-xs-offset-2">我要捐赠</a>
-                    </div>
-                    <div class="item-wraper">
-                      <div class="section-item">
-                        <img src="img/friend.png" alt="">
-                        <span class="alias">一流打手武武松松</span>
-                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
-                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
-                        <!--span class="action"></span-->
-                      </div>
-                      <a class="btn col-xs-offset-2">我要捐赠</a>
-                    </div>
-                    <div class="item-wraper">
-                      <div class="section-item">
-                        <img src="img/friend.png" alt="">
-                        <span class="alias">一流打手武武松松</span>
-                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
-                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
-                        <!--span class="action"></span-->
-                      </div>
-                      <a class="btn col-xs-offset-2">我要捐赠</a>
-                    </div>
-                    <div class="item-wraper">
-                      <div class="section-item">
-                        <img src="img/friend.png" alt="">
-                        <span class="alias">一流打手武武松松</span>
-                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
-                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
-                        <!--span class="action"></span-->
-                      </div>
-                      <a class="btn col-xs-offset-2">我要捐赠</a>
-                    </div>
-                    <div class="item-wraper">
-                      <div class="section-item">
-                        <img src="img/friend.png" alt="">
-                        <span class="alias">一流打手武武松松</span>
-                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
-                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
-                        <!--span class="action"></span-->
-                      </div>
-                      <a class="btn col-xs-offset-2">我要捐赠</a>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
                     </div>
                   </div>
-                  <div class="section-items">
-                    <div class="item-wraper">
-                      <div class="section-item">
-                        <img src="img/friend.png" alt="">
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
                         <span class="alias">一流打手武武松松</span>
                         <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
                         <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
-                        <!--span class="action"></span-->
                       </div>
-                      <a class="btn col-xs-offset-2">我要捐赠</a>
-                    </div>
-                    <div class="item-wraper">
-                      <div class="section-item">
-                        <img src="img/friend.png" alt="">
-                        <span class="alias">一流打手武武松松</span>
-                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
-                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
-                        <!--span class="action"></span-->
-                      </div>
-                      <a class="btn col-xs-offset-2">我要捐赠</a>
-                    </div>
-                    <div class="item-wraper">
-                      <div class="section-item">
-                        <img src="img/friend.png" alt="">
-                        <span class="alias">一流打手武武松松</span>
-                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
-                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
-                        <!--span class="action"></span-->
-                      </div>
-                      <a class="btn col-xs-offset-2">我要捐赠</a>
-                    </div>
-                    <div class="item-wraper">
-                      <div class="section-item">
-                        <img src="img/friend.png" alt="">
-                        <span class="alias">一流打手武武松松</span>
-                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
-                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
-                        <!--span class="action"></span-->
-                      </div>
-                      <a class="btn col-xs-offset-2">我要捐赠</a>
-                    </div>
-                    <div class="item-wraper">
-                      <div class="section-item">
-                        <img src="img/friend.png" alt="">
-                        <span class="alias">一流打手武武松松</span>
-                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
-                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
-                        <!--span class="action"></span-->
-                      </div>
-                      <a class="btn col-xs-offset-2">我要捐赠</a>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
                     </div>
                   </div>
-                  <div class="section-desc">
-                    <p><span class="bold">老男孩推荐</span></p>
-                    <div class="change">
-                      <img src="img/change.png" alt="">
-                      <span class="bold">换一组</span>
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
+                        <span class="alias">一流打手武武松松</span>
+                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
+                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
+                      </div>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
+                    </div>
+                  </div>
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
+                        <span class="alias">一流打手武武松松</span>
+                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
+                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
+                      </div>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
                     </div>
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
+                        <span class="alias">一流打手武武松松</span>
+                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
+                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
+                      </div>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
+                    </div>
+                  </div>
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
+                        <span class="alias">一流打手武武松松</span>
+                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
+                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
+                      </div>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
+                    </div>
+                  </div>
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
+                        <span class="alias">一流打手武武松松</span>
+                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
+                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
+                      </div>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
+                    </div>
+                  </div>
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
+                        <span class="alias">一流打手武武松松</span>
+                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
+                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
+                      </div>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
+                        <span class="alias">一流打手武武松松</span>
+                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
+                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
+                      </div>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
+                    </div>
+                  </div>
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
+                        <span class="alias">一流打手武武松松</span>
+                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
+                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
+                      </div>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
+                    </div>
+                  </div>
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
+                        <span class="alias">一流打手武武松松</span>
+                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
+                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
+                      </div>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
+                    </div>
+                  </div>
+                  <div class="col-xs-3">
+                    <div class="thumbnail">
+                      <img src="img/friend2.png" alt="">
+                      <div>
+                        <span class="alias">一流打手武武松松</span>
+                        <p class="level"><img src="img/yuan1.png" alt="">4000积分</p>
+                        <p class="level"><img src="img/yuan2.png" alt=""><span class="money">5金币</span></p>
+                      </div>
+                      <a class="flashBtn btn">抽奖</a>
+                      <!--span class="action"></span-->
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>       
+              <div class="pageRow">
+                  <div class="col-xs-4">
+                  </div>
+                  <div class="page col-xs-8">
+                    <ul>
+                      <li><a href="#">上一页</a></li>
+                      <li><a href="#" class="pageActive">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                      <li><a href="#">下一页</a></li>
+                    </ul>
+                    <label>跳转<input type="text" class="page-number">页</label>
+                  </div>
+                </div>
+            </div>
           </div><!-- end of main -->
         </div><!-- end of content -->
         <div class="ribbon">
@@ -407,10 +422,10 @@
             <li><a href="#" class="r7">锦囊妙计</a></li>
             <li><a href="#" class="r8">独门秘籍</a></li>
           </ul>
-        </div>  
+        </div> 
       </div><!-- end of right -->
     </div><!-- end of wraper -->
-  <div class="footer">
+    <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
@@ -427,20 +442,10 @@
         </div>
       </div>
     </div>
-    <div class="modal fade thanksgiving" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <h3>感谢您的慷慨捐助</h3>
-          <img src="img/thanksgiving.png" alt="">
-          <p>恭喜您距离江湖大善人又近了一步，您的善举为你赢得了<span class="fig-yellow">530</span>积分，以及公益
-            爱心分<span class="fig-yellow">1500</span>，目前你的善量等级为<span class="fig-yellow">江湖好人</span>距离下个等级还需要4000善良分</p>
-          <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
-        </div>
-      </div>
-    </div>
-    <script src="js/vendor/jquery-1.11.1.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/swiper.min.js"></script>
-</body>
+  <script src="js/vendor/jquery-1.11.1.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  </body>
 </html>
