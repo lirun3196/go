@@ -1070,3 +1070,25 @@ a:focus,a:active{
 .sign-header .media-body{
   padding: 35px 0 0 40px;
 }
+.sign-body{
+  padding: 20px 40px;
+}
+.calendar > li{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 80px;
+  font-size: 24px;
+  border: 1px solid #fff;
+}
+.signed{
+  background: url("../img/signed.png")  50% 50% no-repeat;
+}
+.unsigned{
+  background-color: #ccc;
+}
+.currentD{
+  background-color: #F9AC33;
+}

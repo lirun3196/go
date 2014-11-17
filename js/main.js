@@ -70,6 +70,7 @@
   feature = (function(){
     var signDate = new Date();
     var Month = signDate.getMonth()+1;
+    var now = signDate.getDate;
     var changeC = function(){
       $(".form-control").on("focusin focusout",function(){
         $(this).prev(".input-group-addon").toggleClass("change-bc");
@@ -93,6 +94,18 @@
     sign = function(){
       var current = signDate.getFullYear() + "." + Month; 
       $(".current").text(current);
+      var num = new Array(31);
+      var s = "";
+      $.each(num,function(i){
+        s += "<li>" + i + "</li>";
+      });
+      $(".calendar").html(s);
+      if(i === parseInt(now)){
+        
+      }
+      if(i < parseInt(now)){
+        
+      }
     };
     return {
       changeBc:changeC,
