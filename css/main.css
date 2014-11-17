@@ -2,6 +2,7 @@
     Created on : 2014-10-24, 16:04:02
     Author     : Lirun
 */
+/*========公共部分========*/
 body{
   background: url("../img/slash.jpg") 180px 0 repeat; 
 }
@@ -972,6 +973,43 @@ a:focus,a:active{
 .friend{
   
 }
+.friend-header textarea{
+  height: 80px;
+  width: 100%;
+  border-radius: 0;
+}
+.friend-header .fa {
+  font-size: 48px;
+  background-color: rgba(167, 167, 167, 0.5);
+  color: #fff;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 6px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.friend-header .fa-check:hover{
+  background-color:rgba(238, 162, 54, 1);
+}
+.friend-header .fa-photo:hover{
+  background-color: rgba(66, 139, 202, 1);
+}
+.friend .newM{
+  background-color: #536581;
+  color: #fff;
+  padding:10px;
+  margin-top: 35px;
+}
+.friend .newM h6{
+  margin: 0;
+  line-height: 20px;
+}
+.friend .newM .col-xs-1{
+  text-align: right;
+}
+.friend .newM .fa-refresh{
+  cursor: pointer;
+}
 .oBar{
   text-align: right;
   margin-top: 50px;
@@ -1015,5 +1053,20 @@ a:focus,a:active{
   cursor: pointer;
   display: inline-block;
   width: 100%;
-text-align: center;
+  text-align: center;
+}
+
+/*========签到有礼========*/
+.sign-header{
+  border-bottom: 1px solid #ccc;
+}
+.current{
+  display: inline-block;
+  color: #f30000;
+  margin-left: -15px;
+  font-family: "宋体";
+  font-weight: bold;
+}
+.sign-header .media-body{
+  padding: 35px 0 0 40px;
 }

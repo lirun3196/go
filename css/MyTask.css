@@ -2,7 +2,9 @@
 .left{
     background: url("../img/left-mall.png") 0% 0% no-repeat #000;
 }
-
+.section.mission{
+  padding: 30px 15px 20px;
+}
 /*��������*/
 .RiverTask{
   height: auto;
@@ -63,6 +65,7 @@ margin: 0 120px;
 }
 .checkbox-inline {
     position: relative;
+    margin-right: 10px;
 }
 .checkIcon {
     background: url('../img/check.png') no-repeat scroll 0px 0px transparent;
@@ -77,6 +80,7 @@ margin: 0 120px;
 .check-group input[type="checkbox"] {
     opacity: 0;
     margin: 0px;
+    margin-right: 5px;
 }
 .contop{
 font-weight:bold;
@@ -107,6 +111,36 @@ background-image:url("../img/receiver_red.png");
  .receive:hover{
 background-image:url("../img/receiver_red_hover.png");
 }
+.inreceive{
+ right: 50px;
+top: 20px;
+position: absolute;
+width: 43px;
+height: 44px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image:url("../img/receive-grey.png");
+}
+.inreceive:hover{
+  background-image:url("../img/receive-grey-hover.png");
+}
+.RiverTask-middle .ava{
+  background: url("../img/avaitask.png") no-repeat;
+  width:142px;
+  height:66px;
+}
+.RiverTask-middle .ava:hover{
+  background: url("../img/avaitask_hover.png") no-repeat;
+}
+.RiverTask-middle .inava{
+  background: url("../img/inavtask.png") no-repeat;
+  width:142px;
+  height:66px;
+  float: left;
+}
+.inava:hover{
+  background: url("../img/inavtask-hover.png") no-repeat;
+}
 .Timecontent{
 position: absolute;
 top: 22px;
@@ -124,17 +158,21 @@ font-weight:bold;
 .all{
 color:#534949;
 }
-/*英雄*/
+/*天罡*/
 .hero{
 color:#e28a51;
 }
-/*职业*/
+/*地煞*/
 .Occupation{
 color:#00ae00;
 }
-/*普通*/
+/*积分*/
 .Ordinary{
 color:#6f6f6f;
+}
+/*金币*/
+.yellow{
+  color:#d3b300;
 }
 .section-desc  .bold{
   font-size:12px;
@@ -148,7 +186,8 @@ color:#6f6f6f;
 }
 .RiverTask-footer .col-lg-5 {
     padding-top: 5px;
-	margin-left: 376px;
+    margin-left: 376px;
+    margin: 0px 45px 0px 300px;
 }
 .page-number {
     width: 27px;
@@ -218,42 +257,4 @@ ul, li {
 /*用于jQuery的样式*/
 .hiddenRecord{
   display: none;
-}
-/*弹出层样式*/
-.task-pop .btn{
-  width: 100px;
-  height:40px;
-  background-color: #ea5520;
-  color:#fff;
-  font-size: 18px;
-  letter-spacing: 15px;
-  padding-left: 25px;
-}
-.task-pop .modal-dialog{
-  width: 500px;
-}
-.task-pop .modal-content{
-  padding: 30px;
-}
-.task-pop h4{
-  font-weight: bolder;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.task-pop h5{
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-.task-pop p+h5{
-  margin: 20px 0 10px;
-}
-.task-pop p{
-  font-size: 12px;
-}
-.task-pop img+p{
-  margin-top: 10px;
-}
-.task-pop h5+p > span{
-  margin-right: 20px;
 }
