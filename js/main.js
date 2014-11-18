@@ -68,12 +68,14 @@
 //    });
 
   feature = (function(){
-    var signDate = new Date();
-    var Month = signDate.getMonth()+1;
-    var now = signDate.getDate;
     var changeC = function(){
       $(".form-control").on("focusin focusout",function(){
         $(this).prev(".input-group-addon").toggleClass("change-bc");
+      });
+    },
+    collected = function(){
+      $(".collect , .collected").click(function(){
+        $(this).hide().siblings().show();
       });
     },
     clearP = function(){
@@ -92,26 +94,34 @@
       });
     },
     sign = function(){
+      var signDate = new Date();
+      var Month = signDate.getMonth()+1;
+      var now = signDate.getDate;
       var current = signDate.getFullYear() + "." + Month; 
       $(".current").text(current);
-      var num = new Array(31);
-      var s = "";
-      $.each(num,function(i){
-        s += "<li>" + i + "</li>";
+//      var md = {1:31,2:28,3:31,4:30,5:31,6:30,7:31,8:31,9:30,10:31,11:30,12:31};
+//        var num = [31,28,31,30,31,30,31,31,30,31,30,31];
+//        var s = "";
+//      $.each(md,function(i,v){
+//        if(parseInt(i) === parseInt(Month))
+//        num = parseInt(md[i]);
+//      });
+//      var days = new Array(num);
+//      $.each(days,function(i){
+//        s += "<li>" + (i+1) + "</li>";
+//      });
+//      $(".calendar").html(s);
+      $(".onekey").click(function(){
+        $(".currentD").removeClass().addClass("unsigned signed");
+        $(this).css({"background-color":"#bebebe","cursor":"not-allowed"}).text("签到成功");
       });
-      $(".calendar").html(s);
-      if(i === parseInt(now)){
-        
-      }
-      if(i < parseInt(now)){
-        
-      }
     };
     return {
       changeBc:changeC,
       clearP:clearP,
       hiddenT:hiddenT,
-      sign:sign
+      sign:sign,
+      collected:collected
     };
   })();
 }(jQuery);

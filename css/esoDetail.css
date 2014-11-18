@@ -108,7 +108,11 @@ height: 33px;
   font-size: 16px;
   line-height: 1;
 }
-.shareBar > p{
+.shareBar >div{
+  display: inline-block;
+  width: 117px;
+}
+.shareBar  p{
   display: inline-block;
   margin: 0 40px 0 0;
   cursor: pointer;
@@ -120,7 +124,9 @@ height: 33px;
 .shareBar .fa-share-square-o{
   vertical-align: -2px;
 }
-
+.shareBar > div > .collected{
+  display: none;
+}
 /*我的秘籍*/
 .myEso .pull-left > img{
   width: 150px;

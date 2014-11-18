@@ -1073,22 +1073,147 @@ a:focus,a:active{
 .sign-body{
   padding: 20px 40px;
 }
+.calendar{
+  text-align: center;
+}
 .calendar > li{
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   background-color: #ddd;
   text-align: center;
-  line-height: 80px;
-  font-size: 24px;
-  border: 1px solid #fff;
+  line-height: 95px;
+  font-size: 36px;
+  color: #717c8c;
+  border-right: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  vertical-align: middle;
 }
-.signed{
+.calendar >.signed{
   background: url("../img/signed.png")  50% 50% no-repeat;
 }
-.unsigned{
-  background-color: #ccc;
+.calendar >.unsigned{
+  background-color: #bbb;
+  color: #fff;
 }
-.currentD{
+.calendar >.currentD{
   background-color: #F9AC33;
+  color: #fff;
+}
+.onekey{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  color: #fff;
+  background-color: #F9AC33;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.sign-body > .text-right{
+  padding-right: 30px;
+  margin: 30px 0;
+}
+.sign-body > .text-left{
+  margin: 0 0 10px 30px;
+}
+.sign-body > .table-bordered{
+  width: 92%;
+  text-align: center;
+  margin: 0 auto;
+}
+.sign-body > .table-striped > tbody > tr >th{
+  background-color: #f9ac33;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+.sign-body > .table-bordered th,
+.sign-body > .table-bordered td{
+  padding:5px;
+}
+
+/*========抽奖轮盘========*/
+.ly-plate{
+  position:relative;
+  width:509px;
+  height:509px;
+  margin: 50px auto;
+}
+.rotate-bg{
+  width:509px;
+  height:509px;
+  background:url("../img/ly-plate.png");
+  position:absolute;
+  top:0;
+  left:0
+}
+.ly-plate div.lottery-star{
+  width:214px;
+  height:214px;
+  position:absolute;
+  top:150px;
+  left:147px;
+  /*text-indent:-999em;
+  overflow:hidden;
+  background:url(rotate-static.png);
+  -webkit-transform:rotate(0deg);*/
+  outline:none
+}
+.ly-plate div.lottery-star #lotteryBtn{
+  cursor: pointer;
+  position: absolute;
+  top:0;
+  left:0;
+  *left:-107px
+}
+.lottery > h5{
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 6px;
+  width: 47%;
+  margin: 40px auto;
+  font-weight: bold;
+}
+.lottery .table-bordered{
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+.lottery .table-bordered > tbody > tr > th{
+  width: 50%;
+}
+.lottery .media{
+  padding: 10px;
+  width: 60%;
+  margin: 0 auto;
+}
+.lottery .media > .pull-left{
+  background-color: #e0e0e0;
+  padding: 5px;
+}
+.lottery .media > .media-body{
+  padding-top: 22px;
+}
+.lottery .media > .pull-left > img{
+  max-width: 40px;
+}
+.lottery > .table-bordered > tbody > tr >th{
+  background-color:#ea5520;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+.one,
+.two,
+.three{
+
+}
+.win{
+  background: url("../img/congrate.png") 50% 50% no-repeat transparent;
+  width: 444px;
+  height: 323px;
 }

@@ -269,7 +269,10 @@
                     <h4 class="bold">钢铁是怎样炼成的 全译本 适合中小学初中生 
                         青少版必读.世界经典文学名著典藏 原版原著中文版</h4>
                     <div class="shareBar">
-                      <p><span class="fa fa-star-o"></span>收藏</p>
+                      <div>
+                      <p class="collect"><span class="fa fa-star-o"></span>收藏</p>
+                      <p class="collected"><span class="fa fa-star"></span>已收藏</p>
+                      </div>
                       <p><span class="fa fa-share-square-o"></span>分享</p>
                       <p><span class="fa fa-arrows"></span>推广</p>
                     </div>
@@ -340,8 +343,10 @@
     </div>
   <script src="js/vendor/jquery-1.11.1.min.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/mall.js"></script>
   <script src="js/swiper.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
+  <script>
+    feature.collected();
+  </script>
   </body>
 </html>
