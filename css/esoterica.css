@@ -2,7 +2,7 @@
     Created on : 2014-11-5, 15:07:44
     Author     : Lirun
 */
-.eso.row{
+.mall .eso.row{
   margin-top: 30px;
 }
 .eso .media-body{
@@ -44,3 +44,12 @@ display: inline-block;
   max-width: 18px;
 }
 /* 底部推荐 */
+.sh .section-desc{
+  height: auto;
+  position: absolute;
+  right: -15px;
+  bottom: 5px;
+}
+.sh .section-desc .change{
+  margin-top: 0;
+}

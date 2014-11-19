@@ -1,6 +1,6 @@
 +function ($){
-   // 探测.content高度，以决定.left,.menu的高度
-    var h = $(".right").height();
+   // 探测高度，以决定.left,.menu的高度
+    var h = $(document).height();
     parseInt(h) > 1580 ? $(".left , .menu").height(h) : $(".left , .menu").height(1580);
     // 内容板块hover效果
     var sec=$(".section-item");
@@ -33,14 +33,14 @@
       $(this).toggleClass("show-img");
     });
     //广告
-//    var mySwiper = new Swiper('.swiper-container',{
-//      //pagination: '.pagination',
-//      //paginationClickable: true,
-//      loop: true,
-//      autoplay: true,
-//      speed: 3000,
-//      calculateHeight: true
-//    });
+    var mySwiper = new Swiper('.swiper-container',{
+      //pagination: '.pagination',
+      //paginationClickable: true,
+      loop: true,
+      autoplay: true,
+      speed: 6000,
+      calculateHeight: true
+    });
     //checkbox点击效果
     var check = $(".checkIcon");
     check.on("click",function(){

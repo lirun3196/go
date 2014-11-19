@@ -70,12 +70,13 @@ a:focus,a:active{
 .margin-r{
   margin-right: 10px;
 }
-.wraper{
-  height: 1580px;
+.wraper:after{
+  clear: both;
+  content: "";
+  display: table;
 }
 .left,.right,.menu,.content{
   float: left;
-/*  height: 1580px;*/
   min-height: 1580px;
   height: auto;
 }
@@ -1214,6 +1215,18 @@ a:focus,a:active{
 }
 .win{
   background: url("../img/congrate.png") 50% 50% no-repeat transparent;
-  width: 444px;
-  height: 323px;
+  width: 420px;
+  height: 300px;
+  position: relative;
+  margin: 50% auto 0;
+}
+.win > p,
+.nothing > p{
+  position: absolute;
+  top: 185px;
+  left: 35%;
+  color: #f00;
+  font-size: 18px;
+  font-stretch: expanded;
+  text-shadow: 1px 1px #fff;
 }
