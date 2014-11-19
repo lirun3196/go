@@ -32,15 +32,6 @@
       c.parent().toggleClass("show-img");
       $(this).toggleClass("show-img");
     });
-    //广告
-    var mySwiper = new Swiper('.swiper-container',{
-      //pagination: '.pagination',
-      //paginationClickable: true,
-      loop: true,
-      autoplay: true,
-      speed: 6000,
-      calculateHeight: true
-    });
     //checkbox点击效果
     var check = $(".checkIcon");
     check.on("click",function(){
@@ -93,6 +84,17 @@
         $(".section.mission").toggleClass("hiddenRecord");
       });
     },
+    crou = function(){
+      //广告
+    var mySwiper = new Swiper('.swiper-container',{
+      //pagination: '.pagination',
+      //paginationClickable: true,
+      loop: true,
+      autoplay: true,
+      speed: 6000,
+      calculateHeight: true
+    });
+    },
     sign = function(){
       var signDate = new Date();
       var Month = signDate.getMonth()+1;
@@ -120,6 +122,7 @@
       changeBc:changeC,
       clearP:clearP,
       hiddenT:hiddenT,
+      crou:crou,
       sign:sign,
       collected:collected
     };

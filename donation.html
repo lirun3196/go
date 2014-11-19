@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/donation.css">
+  <link rel="stylesheet" href="css/perfect-scrollbar.min.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/swiper.css">
 </head>
@@ -279,7 +280,7 @@
                     </div>
                   </div>
                   <div class="donate-body">
-                    <div class="dCarousel">
+                    <div>
                       <div class="row">
                       <div class="col-xs-6">
                         <div class="media">
@@ -288,7 +289,7 @@
                             <p class="layer">残疾人士阳光工程</p>
                           </a>
                           <div class="media-body media-bottom">
-                            <h5 class="media-heading">支教分享活动义工招募...</h5>
+                            <h5 class="media-heading">支支教教分享活动义工招募...</h5>
                             <p>开始时间：11月13日 星期四 00:30</p>
                             <p>活动地点：江西省南昌市</p>
                             <p>截止时间：11月12日 星期三 05:00</p>
@@ -485,7 +486,6 @@
                       </div>
                     </div><!-- end of row-->
                     </div>
-                    <span class="caret-down"></span>
                   </div><!-- end of donate-body -->
                   <div class="donate-record">
               <img src="img/donation-record.png" alt="">
@@ -680,8 +680,16 @@
     <script src="js/vendor/bootstrap.min.js"></script>  
     <script src="js/swiper.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/donation.js"></script>
+    <script src="js/perfect-scrollbar.min.js"></script>
     <script>
+      $(function(){
+        $(".donate-body").perfectScrollbar({
+        wheelSpeed: 20,
+        wheelPropagation: true,
+        minScrollbarLength: 10
+      });
+      feature.crou();
+      });
       
     </script>   
 </body>
