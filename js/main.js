@@ -43,20 +43,6 @@
     },function(){
       $(this).removeClass("fa-spin");
     });
-    //点击→轮播
-//    $(".rightArrow, .leftArrow").on("click",function(){
-//      var crousel = $(".crouselContent");
-//      var off = crousel.css("left");
-//      if(parseInt(off) === 0){
-//        crousel.animate({
-//          left:"-695px"
-//        },300,"linear");
-//      }else{
-//        crousel.animate({
-//          left:"0px"
-//        },300,"linear");
-//      }
-//    });
 
   feature = (function(){
     var changeC = function(){

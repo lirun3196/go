@@ -137,6 +137,9 @@ body{
 .form-control{
   border-radius: 0;
 }
+.main-left select{
+  padding: 0;
+}
 .form-horizontal .has-error .form-control-feedback{
   font-size: 18px;
   top: 8px;
@@ -161,10 +164,23 @@ body{
   height: 164px;
   margin-bottom: 30px;
   cursor: pointer;
+  
 }
 .main-middle > .row .over{
+/*  -webkit-animation:trans 1s .2s ease both;
+          animation:trans 1s .2s ease both;*/
   background: url("../img/over.png") 0 0 no-repeat transparent;
 }
+/*@-webkit-keyframes trans{
+  0%{-webkit-transform: rotateY(0deg);}
+  80%{background: url("../img/over.png") 0 0 no-repeat transparent;}
+  100%{-webkit-transform: rotateY(360deg); background: url("../img/over.png") 0 0 no-repeat transparent;}
+}
+@keyframes trans{
+  0%{-webkit-transform: rotateY(0deg);}
+  100%{-webkit-transform: rotateY(360deg);}
+}*/
+
 .main-middle img{
   display: none;
   position: absolute;
@@ -173,7 +189,17 @@ body{
 }
 .main-middle .over > img{
   display: block;
+/*  -webkit-animation:fadeIn 1s .2s ease both;
+      animation:fadeIn 1s .2s ease both;*/
 }
+/*@-webkit-keyframes fadeIn{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+@keyframes fadeIn{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}*/
 /*积分*/
 .main-right{
   margin-top: 480px;
@@ -232,4 +258,54 @@ color: #fff;
   height: 173px;
   position: relative;
   background: url("../img/zhantie2.png") 0 0  no-repeat transparent;
+}
+/*模态框*/
+.modal-dialog{
+  margin-top: 15%;
+}
+.modal-content .close-btn{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid transparent;
+  line-height: 40px;
+  font-size: 50px;
+  box-shadow: -2px 2px rgba(51, 51, 51, 0.37);
+}
+.modal-content .close-btn:hover{
+  color: #fff;
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #000;
+}
+.modal-content > p{
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+.modal-content .btn{
+  width: 99px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: #ea5520;
+}
+.modal-content .btn:hover{
+  background-color: #ea5520;
+}
+.modal-content .btn-wraper{
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  display: inline-block;
+}
+.modal-footer{
+  text-align: center;
+}
+.modal-footer .btn{
+  margin: 0 80px;
 }

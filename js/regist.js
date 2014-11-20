@@ -18,5 +18,5 @@ $.each(i,function(i){
         $(".total").text(parseInt(total) - 5);
       }
     }
-  });
+  }); //end of on
 });
