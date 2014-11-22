@@ -204,6 +204,41 @@ time{
   background: url("../img/myFund.png") 0 0/245px 130px no-repeat transparent;
   width: 245px;
   height: 130px;
+  position: relative;
+}
+.myFund .btn{
+  letter-spacing: 3px;
+  padding: 5px 2px;
+  background-color: #ea5520;
+  margin: 0 0 0 80px;
+  box-shadow: -3px 3px #af4e36;
+}
+.myFund .btn:hover{
+  box-shadow: none;
+}
+.myFund time{
+  display: inline;
+}
+.myFund p:first-of-type{
+  padding: 13px 0 0 15px;;
+  margin: 0;
+}
+.myFund .my{
+  color: #324d34;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.myFund .amount{
+  letter-spacing: 7px;
+  color: #666;
+  font-size: 26px;
+  margin: 6px 0 0 23px;
+  display: inline-block;
+}
+.myFund .deadline{
+  color: #fff;
+  font-size: 6px;
 }
 /*图片朦层*/
 .pull-left{

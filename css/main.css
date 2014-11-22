@@ -197,6 +197,10 @@ a:focus,a:active{
   background: url("../img/menu-item-hover.png") 0% 0% no-repeat;
   color: #000;
 }
+.menu-hover{
+  color: #000;
+  background: url("../img/menu-item-hover.png") 0% 0% no-repeat;
+}
 .menu-item-icon,
 .menu-item-title,
 .menu-item-status{
@@ -427,6 +431,11 @@ a:focus,a:active{
 .section-items{
   display: none;
 }
+.section-items:after{
+  display: table;
+  content: "";
+  clear: both;
+}
 .show-item{
   display: inline-block;
   -webkit-animation:fadeIn 1s .2s ease both;
@@ -570,7 +579,8 @@ a:focus,a:active{
  .nav.nav-tabs{
   position: absolute;
   left: 400px;
-  top: -45px;
+  top: -42px;
+  border: none;
 }
 .nav-tabs > li{
   margin-left: 10px;
@@ -579,8 +589,13 @@ a:focus,a:active{
   background-color: #eee;
   border-radius: 10px 10px 0 0;
   font-size: 1.142857em;
+  border: none;
 }
-
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+  border: none;
+}
 /* 自定义checkbox */
 .check-inline input[type="checkbox"]{
   opacity: 0; 

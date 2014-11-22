@@ -213,6 +213,7 @@ html{
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #fff;
+  min-height: 1200px;
 }
 .content:after{
   display: table;
@@ -424,4 +425,17 @@ margin-bottom: 40px;
 .setting{
   width: 80%;
   margin: 40px auto 0;
+}
+.setting select{
+  padding: 0;
+}
+.setting label:not(.radio-inline){
+  padding: 7px 0;
+  margin: 0;
+}
+.setting .form-group{
+  margin-bottom: 15px;
+}
+.setting .form-horizontal{
+  margin-bottom: 40px;
 }

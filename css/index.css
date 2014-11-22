@@ -11,6 +11,17 @@
 */
 .section{
   padding: 30px 15px 20px 20px;
+  display: table;
+}
+.section-items,
+.section-auto,
+.section-desc{
+  display: table-cell;
+}
+.section-auto .section-item{
+  text-align: justify;
+  height: 188px;
+  width: 100%;
 }
 /*加好友弹出框*/
 .makefriend  .tag .btn{
