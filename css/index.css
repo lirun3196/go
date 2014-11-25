@@ -13,16 +13,6 @@
   padding: 30px 15px 20px 20px;
   display: table;
 }
-.section-items,
-.section-auto,
-.section-desc{
-  display: table-cell;
-}
-.section-auto .section-item{
-  text-align: justify;
-  height: 188px;
-  width: 100%;
-}
 /*加好友弹出框*/
 .makefriend  .tag .btn{
 width: 35px;
@@ -62,4 +52,30 @@ display: inline;
   text-align: left;
   font-size: 12px;
 }
-
+/*推荐不足样式*/
+.section-auto{
+  padding: 80px 0 0 0;
+  height: 188px;
+  background: url("../img/section-auto.png") 20px 0 padding-box no-repeat transparent;
+  min-width: 135px;
+}
+.section-auto > .auto-body{
+  border: 6px solid #ffaea4;
+  border-radius: 6px;
+  width: 100%;
+  height: 108px;
+  padding: 10px;
+  font-size: 12px;
+  color: #ffaea4;
+}
+.section{
+  display: flex;
+}
+.section-auto,
+.show-item,
+.section-desc{
+  display: flex;
+}
+.section-desc{
+  flex-flow:column;
+}

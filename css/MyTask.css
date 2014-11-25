@@ -9,11 +9,6 @@
 .RiverTask{
   height: auto;
 }
-.RiverTask .nav {
-    position: absolute;
-    left: 400px;
-    top: -45px;
-}
 .nav-tabs > li{
   margin-left: 10px;
 }

@@ -156,3 +156,71 @@ border: 1px solid #ccc;
 box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
 transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
+
+/*========支付页面========*/
+.table-radius{
+  border:8px solid #dbdbdb;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.table-bordered.payDetail{
+  width: 100%;
+}
+.table-bordered > tbody > tr > th{
+  background-color: #ededed;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px 0;
+  font-weight: normal;
+}
+.table-bordered > tbody > tr > td{
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px 0;
+}
+.banks{
+  margin: 20px 0 40px;
+}
+.banks img{
+  width: 150px;
+  height: 40px;
+}
+.banks > .radio-inline{
+  width: 33%;
+  margin: 0 0 20px;
+}
+.margin-bottom{
+  margin-bottom: 50px;
+}
+/*充值弹出框*/
+.payModal .modal-dialog{
+  margin-top: 15%;
+}
+.payModal .modal-content{
+  width: 500px;
+}
+.payModal .modal-body,
+.payModal .modal-footer{
+  padding: 0 80px;
+}
+.payModal .modal-header,
+.payModal .modal-footer{
+  border: none;
+}
+.payModal .modal-header{
+  padding: 5px 15px;
+}
+.fa-warning:before{
+  color: #ffb120;
+  margin-right: 8px;
+  font-size: 16px;
+}
+.payModal p > .btn{
+  padding: 8px 14px;
+  width: auto;
+  height:auto;
+  margin-top: 5px;
+}
+.payModal p > .btn:first-of-type{
+  margin-right: 90px;
+}

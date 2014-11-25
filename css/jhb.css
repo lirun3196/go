@@ -16,15 +16,16 @@
 }
 .investBtn{
   font-size: 16px;
-  padding: 8px 20px 8px 30px;
-  letter-spacing: 10px;
+  width: 100px;
+  height: 40px;
+  line-height: 26px;
   background-color: #ff7501;
 }
 .jhb-body{
   padding: 0 20px;
 }
 .jhb-body > .h5{
-  margin: 30px 0 50px;
+  margin: 40px 0 20px;
 }
 .jhb-body .fa{
   font-size: 24px;
@@ -105,10 +106,12 @@
   color: #d10000;
 }.text-muted{
   cursor: not-allowed;
+  color: #B2ACAC;
 }
 .text-muted .investBtn{
   color: #fff;
-  background-color: #777;
+  background-color: #B2ACAC;
+  cursor: not-allowed;
 }
 /*弹出框样式*/
 .invest .modal-dialog{

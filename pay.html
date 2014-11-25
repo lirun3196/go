@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>江湖商城</title>
+    <title>支付</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -12,7 +12,7 @@
     <![endif]-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/esoDetail.css">
+    <link rel="stylesheet" href="css/process.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/swiper.css">
   </head>
@@ -42,7 +42,6 @@
                   <li>昵称：红衣红发</li>
                   <li>性别：男</li>
                   <li class="tianGang">天罡：天罡星</li>
-                  <!--li>派系：<span class="tianGang">天罡</span></li-->
                   <li>等级：28</li>
                 </ul>
                 <button data-toggle="modal" data-target=".upgrade">升级</button>
@@ -80,14 +79,14 @@
             </li>
             <li class="list-group-item">
               <div class="menu-wealth gold">
-                <span class="type black">金币</span>
+                <span class="type black">道行</span>
                 <span class="amount gold">9999999999999</span>
                 <span><a href="#" class="recharge gold" data-toggle="modal" data-target=".refill">充值</a></span>
               </div>
             </li>
             <li class="list-group-item">
               <div class="menu-wealth point">
-                <span class="type point">积分</span>
+                <span class="type point">修为</span>
                 <span class="amount point">9999999999999</span>
                 <span><a href="#" class="recharge point" data-toggle="modal" data-target=".exchange">兑换</a></span>
               </div>
@@ -138,25 +137,25 @@
               </div>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
+              <a href="friend.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-con.png" alt=""></span>
                 <span class="menu-item-title">好友动态</span>
-                <a href="#"><span class="menu-item-status">新的动态36</span></a>
-              </div>
+                <span class="menu-item-status">新的动态36</span>
+              </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
+              <a href="attention.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-love.png" alt=""></span>
                 <span class="menu-item-title">特别关注</span>
-                <a href="#"><span class="menu-item-status special">[24/46]</span></a>
-              </div>
+                <span class="menu-item-status special">[24/46]</span>
+              </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
+              <a href="birthday.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-cake.png" alt=""></span>
                 <span class="menu-item-title">生日提醒</span>
-                <a href="#"><span class="menu-item-status">新的消息36</span></a>
-              </div>
+                <span class="menu-item-status">新的消息36</span>
+              </div></a>
             </li>
             <li class="list-group-item">
               <a href="equip.html"><div class="menu-item">
@@ -166,25 +165,25 @@
                 </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
-                <span class="menu-item-icon"><img src="img/menu-book.png" alt=""></span>
+              <a href="myEso.html"><div class="menu-item">
+                <span class="menu-item-icon"><img src="img/miji.png" alt=""></span>
                 <span class="menu-item-title">我的秘籍</span>
-               <a href="#"><span class="menu-item-status">新的消息36</span></a>
-              </div>
+               <span class="menu-item-status">新的消息36</span>
+                </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
+              <a href="myTask.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-book.png" alt=""></span>
                 <span class="menu-item-title">江湖任务</span>
-               <a href="#"><span class="menu-item-status">新的消息36</span></a>
-              </div>
+               <span class="menu-item-status">新的消息36</span>
+              </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
+              <a href="arena.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/leitai.png" alt=""></span>
                 <span class="menu-item-title">江湖擂台</span>
-                <a href="#"><span class="menu-item-status">新的消息36</span></a>
-              </div>
+                <span class="menu-item-status">新的消息36</span>
+              </div></a>
             </li>
           </ul>
           <div class="d-code">
@@ -210,112 +209,101 @@
         <div class="content">
           <div class="main cl">
             <ul class="nav nav-pills" role="tablist">
-              <li role="presentation"><a href="#">个人设置</a></li>
+              <li role="presentation"><a href="setting.html">个人设置</a></li>
               <li role="presentation"><a href="#">安全中心</a></li>
               <li role="presentation"><a href="#">客服服务</a></li>
             </ul>
             <div class="ad">
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <a href="#"><img src="img/ad1.png" alt="广告图"></a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#"><img src="img/ad2.png" alt="广告图"></a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#"><img src="img/ad3.png" alt="广告图"></a>
-                  </div>
+              <div id="ad" class="carousel" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/ad1.png" alt="...">
                 </div>
+                <div class="item">
+                  <img src="img/ad2.png" alt="...">
+                </div>
+              </div>
               </div>
             </div>
             <ul class="nav-center">
-              <li><img src="img/center-mall.png" alt=""><a href="index.html">我的江湖</a></li>
-              <li><img src="img/center-mall.png" alt=""><a href="mall.html"   class="center-active">江湖商城</a></li>
-              <li><img src="img/center-mall.png" alt=""><a href="esoterica.html">江湖秘籍</a></li>
-              <li><img src="img/center-mall.png" alt=""><a href="donation.html">爱心捐赠</a></li>
-              <li><img src="img/center-mall.png" alt=""><a href="purchase.html">近期采购</a></li>
-              <li><img src="img/center-mall.png" alt=""><a href="fund.html">江湖基金</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="index.html">我的江湖</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="mall.html">江湖商城</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="esoterica.html">江湖秘籍</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="donation.html">爱心捐赠</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="purchase.html">近期采购</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="fund.html">江湖基金</a></li>
             </ul>
-            <div class="section esoDetail">
-                <div class="eso-header">
-                  <div class="detail_Nav">
-                  <div class="Nav_Home">
-                    <!--img src="img/Detail_Home.png" alt=""-->
-                    <span class="fa fa-home"></span>
-                  </div>
-                    <div class="bs-example">
-                    <ol class="breadcrumb">
-                      <li>
-                        <a>当前位置：</a>
-                      </li>
-                      <li>
-                        <a href="#">江湖秘籍</a>&nbsp;<span>></span>
-                      </li>
-                       <li>
-                        <a href="#">教育</a>&nbsp;<span>></span>
-                      </li>
-                      <li>
-                        <a class="active">励志</a>
-                      </li>
-                    </ol>
-                  </div>
+            <div class="section process">
+              <div class="row">
+                <div class="col-xs-2">
+                  <h4 class="bold">请选择收货地址</h4>
                 </div>
-                <div class="media">
-                  <div class="pull-left">
-                      <img src="img/friend.png" alt="">
-                  </div>
-                  <div class="media-body">
-                    <h4 class="bold">钢铁是怎样炼成的 全译本 适合中小学初中生 
-                        青少版必读.世界经典文学名著典藏 原版原著中文版</h4>
-                    <div class="shareBar">
-                      <div>
-                      <p class="collect"><span class="fa fa-star-o"></span>收藏</p>
-                      <p class="collected"><span class="fa fa-star"></span>已收藏</p>
-                      </div>
-                      <p><span class="fa fa-share-square-o"></span>分享</p>
-                      <p><span class="fa fa-arrows"></span>推广</p>
-                    </div>
-                    <p class="big-f"><span class="bold">作者：</span><span class="author">尼古拉·奥斯特洛夫斯基</span></p>
-                    <p class="descript">本书描写保尔·柯察金作为一个普通工人的儿子，经历第一次世界大战、
-                      十月革命、国内战争和国民经 济恢复时期的严峻生活，把对旧生活自
-                      发的反抗改变为自觉的阶级意志</p>
-                    <div class="row">
-                      <div class="col-xs-5">
-                        <p class="level">￥<span class="red margin-l bold">5612</span></p>
-                        <p class="level">道行<span class="money margin-l-5 bold">54578</span></p>
-                        <p class="level">修为<span class="text-muted margin-l-5 bold">5486</span></p>
-                      </div>
-                      <div class="col-xs-6 text-right">
-                        <a class="esoDetailBtn btn">购买</a>
-                      </div>
-                    </div>
-                  </div>
+                <div class="col-xs-10">
+                  <p class="dashed"></p>
                 </div>
               </div>
-              <div class="eso-body">
-                <p class="goodsLabel">
-                  <span class="btn">联想 / Lenovo </span>
-                  <span class="btn">G510AT</span>
-                  <span class="btn">3.23kg</span>
-                  <span class="btn">中国大陆</span>
-                  <span class="btn">性能级独显</span>
-                  <span class="btn">非触控 </span>
-                  <span class="btn">厚度（>25mm）</span>  
-                  <span class="btn">Intel i5尺寸：15英寸</span>  
-                </p>
-                <h5></h5>
-                <p></p>
+              <div class="table-radius">
+                <table class="table-bordered payDetail">
+                <tbody>
+                  <tr>
+                    <th>订单编号</th>
+                    <th>订单详情</th>
+                    <th>订单金额</th>
+                    <th>订单时间</th>
+                    <th>应付金额</th>
+                  </tr>
+                  <tr>
+                    <td>D1234564654646</td>
+                    <td>宜兴紫砂杯上好紫金... </td>
+                    <td>￥256.00</td>
+                    <td>2014-11-22&nbsp;&nbsp;12:00:00</td>
+                    <td><span class="bold red">￥256.00</span></td>
+                  </tr>
+                </tbody>
+              </table>
               </div>
+              <p class="red margin-bottom">提示：您的订单还没有付款，支付成功后才能生效</p>
+              <div class="row">
+                <div class="col-xs-2">
+                  <h4 class="bold">请选择支付类型</h4>
+                </div>
+                <div class="col-xs-10">
+                  <p class="dashed"></p>
+                </div>
+              </div>
+              <div class="banks">
+                <label class="radio-inline">
+                  <input type="radio" name="payWay" id="inlineRadio1" value="option1"><img src="img/banks/banks.png" alt="">
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="payWay" id="inlineRadio2" value="option2"><img src="img/banks/banks.png" alt="">
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="payWay" id="inlineRadio3" value="option3"><img src="img/banks/banks.png" alt="">
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="payWay" id="inlineRadio4" value="option4"><img src="img/banks/banks.png" alt="">
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="payWay" id="inlineRadio5" value="option5"><img src="img/banks/banks.png" alt="">
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="payWay" id="inlineRadio6" value="option6"><img src="img/banks/banks.png" alt="">
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="payWay" id="inlineRadio7" value="option7"><img src="img/banks/banks.png" alt="">
+                </label>
+              </div>
+              <p class="text-center"><a class="confirm btn" id="pay">确认支付</a></p>
             </div>
-            
           </div><!-- end of main -->
         </div><!-- end of content -->
         <div class="ribbon">
           <ul>
-            <li><a href="#" class="r1">签到有礼</a></li>
-            <li><a href="#" class="r2">免费抽奖</a></li>
-            <li><a href="#" class="r3">限时抢购</a></li>
+            <li><a href="sign.html" class="r1">签到有礼</a></li>
+            <li><a href="lottery.html" class="r2">免费抽奖</a></li>
+            <li><a href="flashsale.html" class="r3">限时抢购</a></li>
             <li><a href="#" class="r4">系统消息</a></li>
             <li><a href="#" class="r5">龙门战帖</a></li>
             <li><a href="#" class="r6">行侠攻略</a></li>
@@ -342,12 +330,32 @@
         </div>
       </div>
     </div>
+    <div class="modal fade payModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="bold">网上付款</h5>
+          </div>
+          <div class="modal-body">
+            <p><span class="fa fa-warning"></span><span class="bold">请您在打开的网上银行页面上完成充值</span></p>
+            <p><span class="red">重要提示：</span><span>请在支付之后查询是否成功充值；如果您有
+              未付款付款，请到相应页面去完成结算。</span></p>
+          </div>
+          <div class="modal-footer">
+            <p class="text-left"><a class="btn">已完成付款</a><a class="btn">付款遇到问题</a></p>
+          </div>
+          <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
+        </div>
+      </div>
+    </div>
   <script src="js/vendor/jquery-1.11.1.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/swiper.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
   <script>
-    feature.collected();
+    $("#pay").on("click",function(){
+      $(".payModal").modal();
+    });
   </script>
   </body>
 </html>

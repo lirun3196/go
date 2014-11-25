@@ -1,7 +1,8 @@
 .taskD > h4{
   text-align: center;
 }
-.task-body > h5{
+.task-body > h5,
+.task-footer > h5{
   border-bottom: 1px solid #ccc;
   font-size: 16px;
   padding-bottom: 10px;
@@ -15,12 +16,13 @@
   margin: 20px 0;
 }
 .task-footer{
-  border-top: 1px solid #ccc;
   padding-top: 20px;
 }
 .task-footer > .level{
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
 }
 .taskBtn{
   font-size: 18px;
@@ -28,4 +30,5 @@
   letter-spacing: 10px;
   padding-left: 20px;
   margin-left: 45%;
+  margin-top: 30px;
 }

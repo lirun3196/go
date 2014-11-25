@@ -31,7 +31,12 @@ a:focus,a:active{
 }
 .money{
   color: #ca5f00;
-/*  padding: 0 3px;*/
+}
+.level > .money{
+  color: #f58a1a;
+}
+.fig-green{
+  color: #4f9901;
 }
 .gold{
   color: #e2d41b;
@@ -51,6 +56,9 @@ a:focus,a:active{
 .black{
   color: #000;
 }
+.similarity{
+  color: #db5353;
+}
 /*字体:normal值为14px*/
 .small-f{
   font-size: 0.85724em;
@@ -67,8 +75,24 @@ a:focus,a:active{
 .margin-l{
   margin-left: 10px;
 }
+.margin-l-5{
+  margin-left: 5px;
+}
+.margin-r-5{
+  margin-right: 5px;
+}
 .margin-r{
   margin-right: 10px;
+}
+/*和V3.3版一样的媒体对象*/
+.cc-body .media{
+  display: table-row;
+  width: 100%;
+}
+.cc-body .media > .pull-left,
+.cc-body .media > .pull-right,
+.cc-body .media > .media-body{
+  display: table-cell;
 }
 .wraper:after{
   clear: both;
@@ -161,7 +185,7 @@ a:focus,a:active{
 .menu-wealth .recharge{
   text-decoration: underline;
 }
-/*金币*/
+/*道行*/
 .menu-wealth.gold{
   background: url('../img/wealth.png') 240px 75px repeat scroll transparent;
 }
@@ -171,7 +195,7 @@ a:focus,a:active{
 .menu-wealth .recharge.gold{
   color: #f00;
 }
-/*积分*/
+/*修为*/
 .menu-wealth.point{
   background:url('../img/wealth.png') 240px 133px repeat scroll transparent;
 }
@@ -814,6 +838,9 @@ a:focus,a:active{
   font-size: 14px;
   padding: 40px 0 0;
 }
+.upgrade .modal-content{
+  text-align: center;
+}
 .upgrade h4{
   margin: 30px 0;
 }
@@ -915,8 +942,11 @@ a:focus,a:active{
 .jhq .actioned{
   background-image: url("../img/join.png");
 }
-.jhq .level{
+.jhq .level:first-of-type{
   margin: 10px 0 0;
+  text-align: center;
+}
+.jhq .level:last-of-type{
   text-align: center;
 }
 /* 装备库(sh) */
@@ -984,6 +1014,9 @@ a:focus,a:active{
   font-size: 18px;
   font-weight: bold;
 }
+.dBar .h4{
+  margin-top: 2px;
+}
 
 /*========好友动态========*/
 .friend{
@@ -1027,8 +1060,9 @@ a:focus,a:active{
   cursor: pointer;
 }
 .oBar{
-  text-align: right;
-  margin-top: 50px;
+/*  text-align: right;
+  margin: 50px auto 0;
+  display: inline-block;*/
 }
 .oBar p{
   display: inline-block;
@@ -1052,7 +1086,7 @@ a:focus,a:active{
   border-radius: 4px;
 }
 .friend > .media{
-  border-bottom: 1px dashed #ccc;
+  margin-bottom: 20px;
 }
 .friend > .media  .thumbnail{
   border-color: transparent;
@@ -1070,6 +1104,56 @@ a:focus,a:active{
   display: inline-block;
   width: 100%;
   text-align: center;
+}
+/*评论内容*/
+.cc{
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.cc > .cc-body{
+  padding: 0 2%;
+}
+.cc > .cc-body .media > .pull-left > img{
+  max-width: 50px;
+}
+.cc > .cc-footer{
+  background-color: #fbfbfb;
+  border-top: 1px solid #eee;
+  padding:0 2% 10px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.cc > .cc-footer textarea{
+  width: 100%;
+  max-width: 100%;
+  margin: 15px auto;
+}
+.comment-Btn{
+  padding: 5px 15px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.cc-body .media-body{
+  vertical-align: middle;
+}
+.cc-body .media-body .h5{
+  margin: 0 0 15px;
+}
+.comment-s{
+  margin-top: 10px;
+  background-color: #efefef;
+  padding: 10px 2% 0;
+}
+.comment-s .media{
+  margin-top: 10px;
+}
+.comment-c{
+  margin: 10px 0;
+}
+.like,
+.reply{
+  cursor: pointer;
 }
 
 /*========签到有礼========*/

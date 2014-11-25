@@ -146,8 +146,8 @@
   border-bottom: 10px solid #f7f7f7;
   margin: 10px;
 }
-.btn-group > button{
-  display: block;
+.content2  button,
+.content3  button{
   width: 90px;
   height:25px;
   border-radius: 6px;
@@ -220,9 +220,9 @@
   text-align: center;
   width: 13%;
 }
-#order .content2 p:first-child{
+/*#order .content2 p:first-child{
   margin-bottom: 30px;
-}
+}*/
 #order .content3{
   width: 17%;
 }
