@@ -59,15 +59,18 @@ a:focus,a:active{
 .similarity{
   color: #db5353;
 }
+.footer-gold{
+  color: #c09f7a;
+}
 /*字体:normal值为14px*/
 .small-f{
-  font-size: 0.85724em;
+  font-size: 12px;
 }
 .normal-f{
-  font-size: 1em;
+  font-size: 14px;
 }
 .big-f{
-  font-size: 1.142857em;
+  font-size: 16px;
 }
 .row{
   margin: 0;
@@ -93,6 +96,40 @@ a:focus,a:active{
 .cc-body .media > .pull-right,
 .cc-body .media > .media-body{
   display: table-cell;
+}
+/*三角形*/
+.eval-right{
+ border: 1px solid #D2D2D2;
+ line-height: 100px;
+ margin-left: 140px;
+ height: auto;
+ line-height: 30px;
+ position: relative;
+ border-radius:4px;
+}
+.triangle span{
+    display:block;
+    width:0;
+    height:0;
+    border-width:0 10px 10px;
+    border-style:solid;
+    border-color:transparent transparent #d2d2d2;
+    position:absolute;
+    top:-10px;
+    left:60px;
+    margin-left:-10px;
+    position:absolute;
+}
+.triangle em{
+    display:block;
+    width:0;
+    height:0;
+    border-width:0 10px 10px;
+    border-style:solid;
+    border-color:transparent transparent #fff;
+    position:absolute;
+    top:1px;
+    left:-10px;
 }
 .wraper:after{
   clear: both;
@@ -384,11 +421,9 @@ a:focus,a:active{
 /*中部导航*/
 .nav-center{
   position: relative;
-  left: 240px;
-  width:782px;
-  height: 84px;
-  margin-top: 20px;
-  background-image: url("../img/nav-center.png");
+  height: 50px;
+  margin: 40px auto 80px;
+  background-color: #000;
   clear: both;
 }
 .nav-center li{
@@ -397,10 +432,10 @@ a:focus,a:active{
 .nav-center li a{
   display: inline-block;
   font-size: 1.14286em;
-  line-height: 84px;
+  line-height: 50px;
   color: #fff;
   font-weight: bolder;
-  padding: 0 15px;
+  padding: 0 25px;
 }
 .nav-center li a:hover{
   color: #F9AC33;
@@ -410,8 +445,7 @@ a:focus,a:active{
 }
 .nav-center img{
   display: none;
-  max-width: 65px;
-  max-height: 44px;
+  max-height: 50px;
 }
 .show-img img{
   display: inline-block;
@@ -699,13 +733,20 @@ a:focus,a:active{
   min-width: 1350px;
   height: 120px;
   background-color: #000;
-  font-size: 0.92857em;
+  font-size: 12px;
   clear: both;
 }
-.container{
-  width: 880px;
+.footer > .container{
+  width: 1080px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding: 20px 0;
+}
+.footer .links a{
+  border-right: 1px solid #ddd9be;
+  padding-right: 10px;
+}
+.footer .links span:last-child > a{
+  border-right: 0;
 }
 .footer span{
   display: inline-block;
@@ -717,9 +758,6 @@ a:focus,a:active{
 }
 .footer-info img{
   margin-right: 3px;
-}
-.footer-info a{
-  color: #ddd9be;
 }
 .footer-info a:hover{
   text-decoration: underline;
@@ -1109,6 +1147,7 @@ a:focus,a:active{
 .cc{
   border: 1px solid #ccc;
   border-radius: 6px;
+  position: relative;
 }
 .cc > .cc-body{
   padding: 0 2%;
