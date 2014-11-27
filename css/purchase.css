@@ -21,11 +21,8 @@
 #myPurchase .row{
   margin-bottom: 15px;
 }
-.purchase .row p{
-  margin: 0;
-}
 .purchase .row-title{
-  margin: 40px 0;
+  margin: 40px 0 15px;
 }
 .purchase .row-title p{
   color: #333;
@@ -85,6 +82,13 @@
   color: #33b5f9;
   text-decoration: underline;
 }
+.rules > p{
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: #000;
+  text-align: justify;
+}
 .submit{
   width:99px;
   height: 42px;
@@ -92,13 +96,13 @@
   display: inline-block;
   cursor: pointer;
   border:1px solid transparent;
-  margin-left: 180px;
+  margin: 40px 0 0 180px;
 }
 .submit:hover{
   background: url("../img/submitt.png") no-repeat 0 0 transparent;
 }
 .push{
-  border-top: 1px solid #ccc;
+/*  border-top: 1px solid #ccc;*/
   margin-top: 40px;
   padding-top: 30px;
   font-size: 12px;
@@ -116,6 +120,7 @@
 .push > .table  tr > th{
   background-color: #f58a1a;
   color: #fff;
+  font-size: 14px;
 }
 .pushed{
   color: #00a900;

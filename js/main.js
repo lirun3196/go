@@ -13,9 +13,7 @@
     var screenW = $(window).width();
     var contentW = 1530;
     if(contentW > screenW){
-      $(".left").animate({
-        width: 0
-        }, 800 );
+      $(".left").width(0);
     }else{
       $(".wraper,.footer").css("min-width","1530px");
     };
@@ -77,8 +75,6 @@
     crou = function(){
       //广告
     var mySwiper = new Swiper('.swiper-container',{
-      //pagination: '.pagination',
-      //paginationClickable: true,
       loop: true,
       autoplay: true,
       speed: 6000,
@@ -96,22 +92,24 @@
         $(this).css({"background-color":"#bebebe","cursor":"not-allowed"}).text("签到成功");
       });
     };
-//    com = function(){
-//      $(".oBar").on("click",".reply",function(){
-////        $(this).siblings(".cc").children(".conWraper").focus();
-//$(".conWraper").focus();
-//      });
-//    };
+    com = function(){
+      $(".reply").on("click",function(){
+        $(this).next().slideToggle();
+      });
+      $(".imgWraper").on("click",".fa-times",function(){
+        $(".imgWraper").hide();
+      });
+    };
     return {
       changeBc:changeC,
       clearP:clearP,
       hiddenT:hiddenT,
       crou:crou,
       sign:sign,
-      collected:collected
-//      com:com
+      collected:collected,
+      com:com
     };
-  })();
+  }());
 }(jQuery);
 
 

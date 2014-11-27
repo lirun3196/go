@@ -11,7 +11,9 @@
 */
 .section{
   padding: 30px 15px 20px 20px;
-  display: table;
+}
+.section-desc{
+  float: right;
 }
 /*加好友弹出框*/
 .makefriend  .tag .btn{
@@ -58,6 +60,8 @@ display: inline;
   height: 188px;
   background: url("../img/section-auto.png") 20px 0 padding-box no-repeat transparent;
   min-width: 135px;
+  display: none;
+  vertical-align: top;
 }
 .section-auto > .auto-body{
   border: 6px solid #ffaea4;
@@ -68,7 +72,7 @@ display: inline;
   font-size: 12px;
   color: #ffaea4;
 }
-.section{
+/*.section{
   display: flex;
 }
 .section-auto,
@@ -78,4 +82,4 @@ display: inline;
 }
 .section-desc{
   flex-flow:column;
-}
+}*/

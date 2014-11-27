@@ -253,8 +253,10 @@
                       </div>
                       <div class="media-body">
                         <h1>什么是练功房？</h1>
-                        <p>练功房里可以进行武功的锻炼修为。</p>
-                        <p>在修炼时间内需要使用你的修为，修炼完毕后可增加您的修为。</p>
+                        <p class="small-f">静思可以增智，冥想可以静心。浮躁江湖里练功房是一处静
+                          地，远离江湖纷争的同时还可以提升你的修为。你只要将账户
+                          中的修为存入“练功房”就可以获得一定收益，每次1000修为
+                          起存，修为轻松赚；</p>
                       </div>
                     </div>
                   </div>
@@ -265,20 +267,29 @@
                       <table class="table">
                         <tbody>
                         <tr>
-                          <td><p class="h3">长拳</p><p class="h5">1-20级</p></td>
-                          <td><p class="h6">修炼时间</p><p class="h2">7天</p></td>
-                          <td><p class="h6">修为增加</p><p class="h2">500</p></td>
-                          <td><a class="investBtn btn" data-toggle="modal" data-target=".invest">修 炼</a></td>
+                          <td class="col-xs-4">
+                            <label class="margin-r margin-l">投入修为</label><input type="text">
+                            <span class="tip">您输入的修为值少于1000</span>
+                          </td>
+                          <td class="col-xs-2"><p class="h6">修炼时间</p><p class="h2">7天</p></td>
+                          <td class="col-xs-3"><p class="h6">修为增加</p><p class="h2">-</p></td>
+                          <td class="col-xs-3"><a class="investBtn btn">修 炼</a></td>
                         </tr>
                         <tr>
-                          <td><p class="h3">华山剑法</p><p class="h5">21-50级</p></td>
+                          <td class="col-xs-4">
+                            <label class="margin-r margin-l">投入修为</label><input type="text">
+                            <span class="tip">您输入的修为值少于1000</span>
+                          </td>
                           <td><p class="h6">修炼时间</p><p class="h2">10天</p></td>
-                          <td><p class="h6">修为增加</p><p class="h2">1000</p></td>
+                          <td><p class="h6">修为增加</p><p class="h2">-</p></td>
                           <td><a class="investBtn btn">修 炼</a></td>
                         </tr>
                         <tr class="text-muted">
-                          <td><p class="h3">狂风刀法</p><p class="h5">51-72级</p></td>
-                          <td><p class="h6">修炼时间</p><p class="h2">12天</p></td>
+                          <td class="col-xs-4">
+                            <label class="margin-r margin-l">投入修为</label><input type="text" disabled>
+                            <span class="tip">您输入的修为值少于1000</span>
+                          </td>
+                          <td><p class="h6">修炼时间</p><p class="h2">15天</p></td>
                           <td><p class="h6">修为增加</p><p class="h2">1500</p></td>
                           <td><a class="investBtn btn">修为不够</a></td>
                         </tr>
@@ -288,25 +299,13 @@
                     <div class="panel panel-default jhb-rule">
                       <div class="panel-heading">练功房规则</div>
                       <div class="rule-item">
-                      <p><span class="bold">A.</span>有利网致力于为各位投资人提供安全、有担保、
-                        高收益的互联网理财服务,通过有利网的推荐，您可以将手中的富
-                        余资金，出借给由小额贷款金融机构担保的、信用良好的小微企业，
-                        并获得利息回报。有利网致力于为各位投资人提供安全、有担保、
-                        高收益的互联网理财服务,通过有利网的推荐</p>
-                      <p><span class="bold">B.</span>您可以将手中的富余资金，出借给由小额贷款
-                        金融机构担保的、信用良好的小微企业，并获得利息回报。有利
-                        网致力于为各位投资人提供安全、有担保、高收益的互联网理财
-                        服务,通过有利网的推荐，您可以将手中的富余资金，出借给由小
-                        额贷款金融机构担保的报。</p>
-                      <p><span class="bold">C.</span>有利网致力于为各位投资人提供安全、有担保、
-                        高收益的互联网理财服务,通过有利网的推荐，您可以将手中的富
-                        余资金，出借给由小额贷款金融机构担保的、信用良好的小微企
-                        业，并获得利息回</p>
+                      <p>你的层次决定了你练功的时间，也就是说你的等级不同，选择的练功期限也不同。练功分为七天、十天、十五天几种周期，对应的修为收益率为10%、15%、20%。到期后，系统将自动结算收益并返还到你的账户中，练功期间你可选择提前取出，但练功被打断你就无法获得修为收益，望君三思而后行。</p>
                       </div>
                     </div>
                   </div><!-- end of jhb-body -->
                 </div>
                 <div class="tab-pane" id="detailE">
+                   <p class="h5 bold"><span class="fa fa-user margin-r fig-yellow"></span>我的修为<span class="margin-l-5">500000</span></p>
                   <table class="table">
                   <tbody>
                     <tr>
@@ -328,7 +327,7 @@
                       <td>长拳</td>
                       <td>150000修为</td>
                       <td>150修为</td>
-                      <td><span class="rTime">2014年09月27日</span></td>
+                      <td><span class="rTime">2014年09月27日</span><span class="tBox-g"></span></td>
                     </tr>
                     <tr>
                       <td>2014年10月10日</td>
@@ -401,17 +400,6 @@
               <span><img src="img/home.png" alt="">重庆北部新区金渝大道85号汉国中心B栋20F</span>
             </p>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade invest">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <label class="bold">请输入投入修为</label>
-          <input type="text">
-          <p><span class="red">提示</span>：修炼中的修为暂时无法使用，会在修炼成功后加上增加修为一并自动返还到你的帐户。</p>
-          <a class="confirmIn btn">确定</a>
-          <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
         </div>
       </div>
     </div>

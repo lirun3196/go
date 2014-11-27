@@ -292,6 +292,7 @@ a:focus,a:active{
 }
 /*用户信息*/
 .user-info{
+  background-color: #200604;
   background-color: rgba(0,0,0,0.5);
   border-radius: 8px;
   border-right: 2px solid rgba(0, 0, 0, 0.43);
@@ -384,7 +385,7 @@ a:focus,a:active{
   background-color: #200604;
   background-color: rgba(0,0,0,0.5);
   width: 120px;
-  height:122px;
+  height:120px;
   padding: 5px;
   border-radius: 5px;
 }
@@ -771,6 +772,11 @@ a:focus,a:active{
   height: 116px;
   display: inline-block;
 }
+.section-item > a > img{
+  width: 116px;
+  height: 116px;
+  display: inline-block;
+}
 //点击→轮播
 .donate-carousel{
   margin-top: 20px;
@@ -876,8 +882,13 @@ a:focus,a:active{
   font-size: 14px;
   padding: 40px 0 0;
 }
+.upgrade .modal-dialog{
+  margin: 10% auto 0;
+}
 .upgrade .modal-content{
   text-align: center;
+  margin: 0 auto;
+  width: 600px;
 }
 .upgrade h4{
   margin: 30px 0;
@@ -956,10 +967,12 @@ a:focus,a:active{
 }
 .exchange .modal-dialog{
   width: 400px;
+  margin: 10% auto 0;
 }
 .exchange .modal-content{
   text-align: center;
   padding-bottom: 40px;
+  margin: 0 auto;
 }
 .exchange .modal-content p{
   margin-bottom: 20px;
@@ -1065,7 +1078,8 @@ a:focus,a:active{
   width: 100%;
   border-radius: 0;
 }
-.friend-header .fa {
+.friend-header .fa-photo,
+.friend-header .fa-check{
   font-size: 48px;
   background-color: rgba(167, 167, 167, 0.5);
   color: #fff;
@@ -1080,6 +1094,27 @@ a:focus,a:active{
 }
 .friend-header .fa-photo:hover{
   background-color: rgba(66, 139, 202, 1);
+}
+.imgWraper{
+  text-align: center;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 10px;
+  position: relative;
+}
+.friend-header .imgWraper .fa-times{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #ccc;
+}
+.friend-header .imgWraper .fa-times:hover{
+  color: #bbb;
+}
+.imgWraper > img{
+  max-height: 150px;
 }
 .friend .newM{
   background-color: #536581;
@@ -1097,22 +1132,7 @@ a:focus,a:active{
 .friend .newM .fa-refresh{
   cursor: pointer;
 }
-.oBar{
-/*  text-align: right;
-  margin: 50px auto 0;
-  display: inline-block;*/
-}
-.oBar p{
-  display: inline-block;
-  margin-left: 20px;
-}
-.oBar .fa-heart{
-  color:#f00;
-  font-size: 22px;
-  margin-right: 5px;
-  cursor: pointer;
-}
-.oBar .fa-comment{
+.reply .fa-comment{
   color:#319400;
   font-size: 22px;
   margin-right: 5px;
@@ -1190,9 +1210,10 @@ a:focus,a:active{
 .comment-c{
   margin: 10px 0;
 }
-.like,
 .reply{
   cursor: pointer;
+  margin-left: 20px;
+  display: inline-block;
 }
 
 /*========签到有礼========*/
