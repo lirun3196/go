@@ -216,7 +216,7 @@
               <li role="presentation"><a href="#">客服服务</a></li>
             </ul>
             <div class="ad">
-              <div id="ad" class="carousel" data-ride="carousel">
+              <div class="carousel">
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
@@ -247,20 +247,19 @@
                 <div class="tab-pane active" id="myDonate">
                   <div class="donate-header">
                     <div class="donate-carousel">
-                      <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <a href="#"><img src="img/donation-c1.png" alt="广告图"></a>
+                      <div class="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <a href="#"><img src="img/donation-c1.png" alt=""></a>
                           </div>
-                          <div class="swiper-slide">
-                            <a href="#"><img src="img/donation-c2.png" alt="广告图"></a>
+                          <div class="item">
+                            <a href="#"><img src="img/donation-c2.png" alt=""></a>
                           </div>
-                          <div class="swiper-slide">
-                            <a href="#"><img src="img/donation-c3.png" alt="广告图"></a>
-                          </div>
-                      </div>
+                        </div>
                       </div>
                     </div>
+                    
                     <div class="media">
                       <div class="pull-right">
                         <div class="myFund">
@@ -524,7 +523,7 @@
                     <td><p class="bold">个人修为800</p></td>
                     <td>
                       <p class="bold">李爷爷</p>
-                      <p>&lbrack;<a href="benefit.html" class="link-color">捐助过程</a>&rbrack;</p>
+                      <p>[<a href="benefit.html" class="link-color">捐助过程</a>]</p>
                     </td>
                   </tr>
                   <tr>
@@ -550,7 +549,7 @@
                     <td><p class="bold">个人修为800</p></td>
                     <td>
                       <p class="bold">李爷爷</p>
-                      <p>&lbrack;<a href="benefit.html" class="link-color">捐助过程</a>&rbrack;</p>
+                      <p>[<a href="benefit.html" class="link-color">捐助过程</a>]</p>
                     </td>
                   </tr>
                 </tbody>
@@ -628,16 +627,16 @@
                 </tbody>
               </table>
                   <div class="row">
-                  <div class="col-lg-2"><span class="take-reward"></span></div>
+                  <div class="col-lg-2"></div>
                   <div class="page col-lg-10">
                     <ul>
-                      <li><a href="#">&laquo;</a></li>
+                      <li><a href="#">上一页</a></li>
                       <li><a href="#" class="pageActive">1</a></li>
                       <li><a href="#">2</a></li>
                       <li><a href="#">3</a></li>
                       <li><a href="#">4</a></li>
                       <li><a href="#">5</a></li>
-                      <li><a href="#">&raquo;</a></li>
+                      <li><a href="#">下一页</a></li>
                     </ul>
                     <label>跳转<input type="text" class="page-number">页</label>
                   </div>
@@ -687,11 +686,13 @@
     <script>
       $(function(){
         $(".donate-body").perfectScrollbar({
-        wheelSpeed: 20,
+        wheelSpeed: 10,
         wheelPropagation: true,
-        minScrollbarLength: 10
+        minScrollbarLength: 5
       });
-      feature.crou();
+      $('.carousel').carousel({
+        interval: 4000
+      });
       feature.sign();
       });
       

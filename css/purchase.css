@@ -159,8 +159,8 @@
   background-color: #fff;
   border: 1px solid #a7a7a7;
 }
-.btn-group button:last-child{
-  margin-top: 30px;
+.btn-group button + .return{
+  margin-top: 10px;
 }
 .btn-group .return{
   background-color: #ea5520;
@@ -209,7 +209,7 @@
 #order table tr:first-child{
   border-bottom: 1px solid #A7A7A7;
 }
-#order table tr:last-child td{
+#order table tr + tr td{
   border-left: 1px solid #A7A7A7;
 }
 #order table tr:last-child td:nth-last-child(-n+1){
@@ -225,9 +225,7 @@
   text-align: center;
   width: 13%;
 }
-/*#order .content2 p:first-child{
-  margin-bottom: 30px;
-}*/
 #order .content3{
   width: 17%;
+  text-align: center;
 }

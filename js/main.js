@@ -72,15 +72,6 @@
         $(".section.mission").toggleClass("hiddenRecord");
       });
     },
-    crou = function(){
-      //广告
-    var mySwiper = new Swiper('.swiper-container',{
-      loop: true,
-      autoplay: true,
-      speed: 6000,
-      calculateHeight: true
-    });
-    },
     sign = function(){
       var signDate = new Date();
       var Month = signDate.getMonth()+1;
@@ -104,7 +95,6 @@
       changeBc:changeC,
       clearP:clearP,
       hiddenT:hiddenT,
-      crou:crou,
       sign:sign,
       collected:collected,
       com:com

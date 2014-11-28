@@ -201,7 +201,7 @@ time{
   margin: 0 0 3px 3px;
 }
 .myFund{
-  background: url("../img/myFund.png") 0 0/245px 130px no-repeat transparent;
+  background: url("../img/myFund.png") 0 0 no-repeat transparent;
   width: 245px;
   height: 130px;
   position: relative;
@@ -219,7 +219,7 @@ time{
 .myFund time{
   display: inline;
 }
-.myFund p:first-of-type{
+.myFund > p:first-child{
   padding: 13px 0 0 15px;;
   margin: 0;
 }
@@ -238,7 +238,7 @@ time{
 }
 .myFund .deadline{
   color: #fff;
-  font-size: 6px;
+  font-size: 11px;
 }
 /*图片朦层*/
 .pull-left{

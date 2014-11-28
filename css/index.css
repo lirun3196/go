@@ -58,7 +58,7 @@ display: inline;
 .section-auto{
   padding: 80px 0 0 0;
   height: 188px;
-  background: url("../img/section-auto.png") 20px 0 padding-box no-repeat transparent;
+  background: url("../img/section-auto.png") 20px 0 no-repeat transparent;
   min-width: 135px;
   display: none;
   vertical-align: top;

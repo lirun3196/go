@@ -39,7 +39,6 @@
 .mall .form-control{
   border: 1px dashed #ccc;
   border-right: none;
-  border-left: none;
   border-radius: 18px;
   height: 40px;
 }

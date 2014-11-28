@@ -40,10 +40,10 @@
   display: block;
   visibility:hidden;
   color: #FF0000;
+  padding: 5px 0 0 54px
 }
 .jhb-body input{
   height: 34px;
-  line-height: 34px;
   padding: 6px 12px;
   width: 160px;
 }
@@ -99,21 +99,24 @@
 /*收支明细*/
 .tBox{
   padding-left: 35px;
-  margin-left: 40px;
   height: 32px;
   display: inline-block;
   vertical-align: middle;
-  background: url("../img/tBox.png") 0 0/31px 31px padding-box no-repeat transparent;
+  background: url("../img/tBox.png") 0 0 no-repeat transparent;
   cursor: pointer;
 }
 .tBox-g{
   padding-left: 35px;
-  margin-left: 40px;
   height: 32px;
   display: inline-block;
   vertical-align: middle;
-  background: url("../img/tBox-g.png") 0 0/31px 31px padding-box no-repeat transparent;
+  background: url("../img/tBox-g.png") 0 0 no-repeat transparent;
   cursor: not-allowed;
+}
+.rTime.col-xs-8,
+.refund.col-xs-8{
+  height: 32px;
+  line-height: 32px;
 }
 #detailE td{
   padding: 4px;

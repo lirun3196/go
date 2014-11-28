@@ -658,6 +658,7 @@ a:focus,a:active{
 /* 自定义checkbox */
 .check-inline input[type="checkbox"]{
   opacity: 0; 
+  visibility: hidden;
   margin: 0;
   position: relative;
   z-index: 1;
@@ -1081,7 +1082,7 @@ a:focus,a:active{
 .friend-header .fa-photo,
 .friend-header .fa-check{
   font-size: 48px;
-  background-color: rgba(167, 167, 167, 0.5);
+  background-color: #DAD4D4;
   color: #fff;
   height: 80px;
   line-height: 80px;
@@ -1090,10 +1091,10 @@ a:focus,a:active{
   cursor: pointer;
 }
 .friend-header .fa-check:hover{
-  background-color:rgba(238, 162, 54, 1);
+  background-color:#EEA236;
 }
 .friend-header .fa-photo:hover{
-  background-color: rgba(66, 139, 202, 1);
+  background-color: #428BCA;
 }
 .imgWraper{
   text-align: center;
@@ -1109,6 +1110,7 @@ a:focus,a:active{
   font-size: 16px;
   background-color: transparent;
   color: #ccc;
+  cursor: pointer;
 }
 .friend-header .imgWraper .fa-times:hover{
   color: #bbb;
@@ -1140,7 +1142,7 @@ a:focus,a:active{
 }
 .sContent{
   padding: 5px;
-  background-color: rgba(167, 167, 167, 0.21);
+  background-color: #F0EBEB;
   border-radius: 4px;
 }
 .friend > .media{
@@ -1148,7 +1150,7 @@ a:focus,a:active{
 }
 .friend > .media  .thumbnail{
   border-color: transparent;
-  background-color: rgba(167, 167, 167, 0.21);
+  background-color: #F0EBEB;
 }
 .cFollow{
   font-size: 12px;
