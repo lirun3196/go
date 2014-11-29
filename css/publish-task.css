@@ -1,0 +1,76 @@
+.left{
+    background: url("../img/left.png") 0% 0% no-repeat #000;
+}
+.section.publish-task{
+  padding: 30px 15px 20px;
+  height:1000px;
+}
+.pubtask-content{
+  margin:0 auto;
+  margin-top:50px;
+  width:600px;
+  text-align: center;
+}
+.row{
+  margin:20px 0px;
+  vertical-align: middle;
+}
+.row .col-md-2{
+  background: #f58a1a;
+  height:auto;
+  padding:4px;
+  float:left;
+}
+.col-md-2 .task-font{
+  color:#fff;
+}
+.form-control{
+  float:left;
+  height:30px;
+  border-radius: 0px;
+  width: 500px;
+}
+.row textarea {
+  border: 1px solid #CCC;
+  max-width: 500px;
+  max-height: 300px;
+  min-width: 500px;
+  min-height: 300px;
+  float: left;
+}
+.form-control:focus,.row textarea:focus{
+   border-color: #f58a1a;
+   box-shadow: none;
+}
+.row .annex{
+  font-weight: bold;
+  float:left;
+  padding-left:30px;
+}
+.row .add-annex{
+  float:left;
+  padding: 0px 10px 0px 20px;
+}
+.add-annex a{
+  text-decoration:underline;
+}
+.publish-task-btn{
+  position: relative;
+  height: 38px;
+  width: 92px;
+  background-color: #f58a1a;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: -3px 3px #dbdbdb;
+  color: #fff;
+  margin: 30px;
+  padding:3px;
+}
+.publish-task-btn:hover{
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #f58a1a;
+  color: #fff;
+}
+

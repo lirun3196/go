@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>江湖擂台</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/arena.css">
+  </head>
+  <body>
+    <div class="wraper">
+      <div class="left"></div>
+      <div class="right">
+        <div class="menu">
+          <img src="img/cloud.png" alt="" class="cloud">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <img src="img/logo-fig.png" alt="">
+            </li>
+            <li class="list-group-item">
+              <div class="logo-boy">
+                <img src="img/logo-boy.png" alt="">
+              </div>
+            </li>
+            <li class="list-group-item">
+              <img src="img/menu-bar.png" alt="">
+            </li>
+            <li class="list-group-item version">2014年11月10日 晴</li>
+            <li class="list-group-item">
+              <div class="user-info clearfix">
+                <img src="img/user.png" alt="">
+                <ul>
+                  <li>昵称：红衣红发</li>
+                  <li>性别：男</li>
+                  <li class="tianGang">天罡：天罡星</li>
+                  <li>等级：28</li>
+                </ul>
+                <button data-toggle="modal" data-target=".upgrade">升级</button>
+                <div class="modal fade upgrade" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h4 class="col-xs-12 bold">等级晋升</h4>
+                    <p class="row"><span class="col-xs-4 col-xs-offset-2 bold">当前金币值</span><span class="align-left col-xs-4 col-xs-offset-1">100，521</span></p>
+                    <p class="row"><span class="col-xs-4 col-xs-offset-2 bold">当前积分值</span><span class="align-left col-xs-4 col-xs-offset-1">100，213，330</span></p>
+                    <p class="row">
+                      <span class="col-xs-4 col-xs-offset-2 bold">&nbsp;&nbsp;&nbsp;&nbsp;选择级别</span>
+                      <select class="align-left col-xs-2 col-xs-offset-1">
+                        <option value="1">LV.1</option>
+                        <option value="2">LV.2</option>
+                      </select>
+                    </p>
+                    <p class="row"><span class="col-xs-4 col-xs-offset-2 bold">&nbsp;&nbsp;&nbsp;&nbsp;消耗积分</span><span class="align-left col-xs-4 col-xs-offset-1">32，000</span></p>
+                    <button class="btn">猛戳升级</button> 
+                    <div class="upgrade-footer small-f">
+                      <p>升级不是想升就能升，是人品与综合实力的体现！</p>
+                      <p>升级是给有准备的人的，但是失败后您还可以获得5%的积分奖励！</p>
+                    </div>
+                    <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="perfection">
+                <span class="change-per"></span>
+                <span class="perfectness">完善度</span>
+                <span class="percentage">50%</span> 
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-wealth gold">
+                <span class="type black">金币</span>
+                <span class="amount gold">9999999999999</span>
+                <span><a href="#" class="recharge gold" data-toggle="modal" data-target=".refill">充值</a></span>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-wealth point">
+                <span class="type point">积分</span>
+                <span class="amount point">9999999999999</span>
+                <span><a href="#" class="recharge point" data-toggle="modal" data-target=".exchange">兑换</a></span>
+              </div>
+              <div class="modal fade refill" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h4 class="col-xs-12">金币充值</h4>
+                    <p class="row"><span class="col-xs-2 align-left">充值账号</span><span class="align-left col-xs-5 col-xs-offset-1">670596764.jiqita</span></p>
+                    <p class="row"><label class="col-xs-2 align-left">充值额度</label><input type="text" class="col-xs-5 col-xs-offset-1"><p>
+                    <p class="row"><span class="col-xs-2 align-left">充值方式</span>
+                      <button class="pay-btn col-xs-2 col-xs-offset-1">快钱</button>
+                      <button class="pay-btn col-xs-2">支付宝</button>
+                      <button class="pay-btn col-xs-2">微支付</button>
+                    </p>
+                    <select>
+                      <option value="1">更多支付方式</option>
+                      <option value="2">微信支付</option>
+                    </select>
+                    <div class="row align-left">
+                      <div class="col-xs-4">
+                        <h5>扫一扫  立刻支付</h5>
+                        <span class="fig-code"></span>
+                      </div>
+                      <div class="banks col-xs-8">
+                        <button class="button"></button><button class="button"></button>
+                        <button class="button"></button><button class="button"></button>
+                        <button class="button"></button><button class="button"></button>
+                      </div>
+                    </div>
+                    <button class="btn">确认充值</button>  
+                    <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade exchange" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <h4 class="col-xs-12">积分兑换</h4>
+                    <p class="row"><span class="col-xs-4 col-xs-offset-2">金币值</span><span class="align-left col-xs-4 col-xs-offset-1">10,000</span></p>
+                    <p class="row"><span class="col-xs-4 col-xs-offset-2">积分值</span><span class="align-left col-xs-4 col-xs-offset-1">987,654，000</span></p>
+                    <p><span class="line"></span><span class="small-f red hint">提示：1金币可以兑换100积分</span><span class="line"></span></p>
+                    <p class="row"><label class="col-xs-4 col-xs-offset-2">输入兑换金额</label><input type="text" class="col-xs-4"><p>
+                    <p class="blue">兑换后将获得积分值10,000</p>
+                    <button class="btn">确认兑换</button> 
+                    <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <a href="friend.html"><div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-con.png" alt=""></span>
+                <span class="menu-item-title">好友动态</span>
+                <span class="menu-item-status">新的动态36</span>
+              </div></a>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-love.png" alt=""></span>
+                <span class="menu-item-title">特别关注</span>
+                <a href="#"><span class="menu-item-status special">[24/46]</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <a href="birthday.html"><div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-cake.png" alt=""></span>
+                <span class="menu-item-title">生日提醒</span>
+                <span class="menu-item-status">新的消息36</span>
+              </div></a>
+            </li>
+            <li class="list-group-item">
+              <a href="equip.html"><div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-person.png" alt=""></span>
+                <span class="menu-item-title">我的装备</span>
+                <span class="menu-item-status">新的消息36</span>
+                </div></a>
+            </li>
+            <li class="list-group-item">
+              <a href="myEso.html"><div class="menu-item">
+                <span class="menu-item-icon"><img src="img/miji.png" alt=""></span>
+                <span class="menu-item-title">我的秘籍</span>
+               <span class="menu-item-status">新的消息36</span>
+                </div></a>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/menu-book.png" alt=""></span>
+                <span class="menu-item-title">江湖任务</span>
+               <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="menu-item">
+                <span class="menu-item-icon"><img src="img/leitai.png" alt=""></span>
+                <span class="menu-item-title">江湖擂台</span>
+                <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
+            </li>
+          </ul>
+          <div class="d-code">
+            <ul class="nav nav-tabs bold">
+              <li class="active"><a href="#ios" data-toggle="tab">IOS版</a></li>
+              <li><a href="#android" data-toggle="tab">Android版</a></li>
+              <li><a href="#weixin" data-toggle="tab">微信公众号</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane active" id="ios">
+                <img src="img/d-code.png" alt="">
+              </div>
+              <div class="tab-pane" id="android">
+                <img src="img/android.png" alt="">
+              </div>
+              <div class="tab-pane" id="weixin">
+                <img src="img/weixin.png" alt="">
+              </div>
+            </div><!-- end of tab-content-->
+          </div> 
+        </div>
+        <div class="content">
+          <div class="main cl">
+            <ul class="nav nav-pills" role="tablist">
+              <li role="presentation"><a href="#">个人设置</a></li>
+              <li role="presentation"><a href="#">安全中心</a></li>
+              <li role="presentation"><a href="#">客服服务</a></li>
+            </ul>
+            <div class="ad">
+              <div id="ad" class="carousel" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/ad1.png" alt="...">
+                </div>
+                <div class="item">
+                  <img src="img/ad2.png" alt="...">
+                </div>
+              </div>
+              </div>
+            </div>
+            <ul class="nav-center">
+              <li><img src="img/center-index.png" alt=""><a href="index.html"  class="center-active">我的江湖</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="mall.html">江湖商城</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="esoterica.html">江湖秘籍</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="donation.html">爱心捐赠</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="purchase.html">近期采购</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="fund.html">江湖基金</a></li>
+            </ul>
+             <div class="section arena">
+              <img src="img/arena.png" alt="">
+              <div class="arena-header">
+                                    <div class="media">
+                                        <a class="pull-left" href="#">
+                                            <img class="media-object" src="img/arena_header.png" alt="">
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="bold">江湖擂台，</span>用户可在此对特别关注好友发起各类挑战，获胜方将获得系统提供的丰富奖金及礼品，助你和你的好友在
+                                            切磋中共同进步，在比拼中建立友情。
+                                        </div>
+                                    </div>
+                                </div>
+              <!--内容一-->
+              <div class="arena-content">
+                  <div class="media">
+                      <a class="pull-left ava" href="#">
+                        <img src="img/arena-font.png" alt="">
+                        <p class="bold">2014-11-9&nbsp;&nbsp;&nbsp;14:25:17</p>
+                      </a>
+                      <div class="media-body">
+                        <div class="content-left">
+                          <a href="#"><img src="img/user.png" alt=""></a>
+                          <!--<p>系统将在<span class="red">0</span>天<span class="red">19</span>小时<span class="red">24</span>分钟后默认为您拒绝</p>-->
+                        </div>
+                        <div class="content-right">
+                          <span>老男孩001  天罡8级   道行<span class="orange">500</span>   修为50000</span>
+                          <p class="Dekaron">向你发起了挑战!</p>
+                        </div>
+                      </div>
+                     <div class="media-body">系统将在<span class="red">0</span>天<span class="red">19</span>小时<span class="red">24</span>分钟后默认为您拒绝</div>
+                  </div>
+              </div>
+              <div class="arena-btn">
+                <button class="btn-y" data-toggle="modal" data-target=".challenge">应战</button>
+                <button class="btn-n" data-toggle="modal" data-target=".avoid-battle">避战</button>
+              </div>
+              <!--内容二-->
+               <div class="arena-content">
+                  <div class="media">
+                      <a class="pull-left ava" href="#">
+                        <img src="img/arena-font.png" alt="">
+                        <p class="bold">2014-11-9&nbsp;&nbsp;&nbsp;14:25:17</p>
+                      </a>
+                      <div class="media-body">
+                        <div class="content-left">
+                          <a href="#"><img src="img/user.png" alt=""></a>
+                          <!--<p>系统将在<span class="red">0</span>天<span class="red">19</span>小时<span class="red">24</span>分钟后默认为您拒绝</p>-->
+                        </div>
+                        <div class="content-right">
+                          <span>老男孩001  天罡8级   道行<span class="orange">500</span>   修为50000</span>
+                          <p class="Dekaron">向你发起了挑战!</p>
+                        </div>
+                      </div>
+                     <div class="media-body">系统将在<span class="red">0</span>天<span class="red">19</span>小时<span class="red">24</span>分钟后默认为您拒绝</div>
+                  </div>
+              </div>
+              <div class="arena-btn">
+                <button class="btn-y" data-toggle="modal" data-target=".challenge">应战</button>
+                <button class="btn-n" data-toggle="modal" data-target=".avoid-battle">避战</button>
+              </div>
+              <!--内容三-->
+               <div class="arena-content">
+                  <div class="media">
+                      <a class="pull-left ava" href="#">
+                        <img src="img/arena-font.png" alt="">
+                        <p class="bold">2014-11-9&nbsp;&nbsp;&nbsp;14:25:17</p>
+                      </a>
+                      <div class="media-body">
+                        <div class="content-left">
+                          <a href="#"><img src="img/user.png" alt=""></a>
+                          <!--<p>系统将在<span class="red">0</span>天<span class="red">19</span>小时<span class="red">24</span>分钟后默认为您拒绝</p>-->
+                        </div>
+                        <div class="content-right">
+                          <span>老男孩001  天罡8级   道行<span class="orange">500</span>   修为50000</span>
+                          <p class="Dekaron">向你发起了挑战!</p>
+                        </div>
+                      </div>
+                     <div class="media-body">系统将在<span class="red">0</span>天<span class="red">19</span>小时<span class="red">24</span>分钟后默认为您拒绝</div>
+                  </div>
+              </div>
+              <div class="arena-btn">
+                <button class="btn-y" data-toggle="modal" data-target=".challenge">应战</button>
+                <button class="btn-n" data-toggle="modal" data-target=".avoid-battle">避战</button>
+              </div>
+            </div>
+          </div><!-- end of main -->
+        </div><!-- end of content -->
+        <div class="ribbon">
+          <ul>
+            <li><a href="#" class="r1">签到有礼</a></li>
+            <li><a href="#" class="r2">免费抽奖</a></li>
+            <li><a href="#" class="r3">限时抢购</a></li>
+            <li><a href="#" class="r4">系统消息</a></li>
+            <li><a href="#" class="r5">龙门战帖</a></li>
+            <li><a href="#" class="r6">行侠攻略</a></li>
+            <li><a href="#" class="r7">锦囊妙计</a></li>
+            <li><a href="#" class="r8">独门秘籍</a></li>
+          </ul>
+        </div> 
+      </div><!-- end of right -->
+    </div><!-- end of wraper -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="img/logo-fig.png" alt="">
+          </div>
+          <div class="col-lg-8 col-lg-offset-1 footer-info">
+            <p class="company">北京(重庆)老男孩科技有限公司</p>
+            <p>
+              <span><img src="img/phone.png" alt="">023-67886226</span>
+              <span><img src="img/net.png" alt=""><a href="http://www.bjlnh.com" target="_blank">www.bjlnh.com</a></span>
+              <span><img src="img/home.png" alt="">重庆北部新区金渝大道85号汉国中心B栋20F</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade ">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          
+          <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
+        </div>
+      </div>
+    </div>
+      <!-- 应战-->
+    <div class="modal fade challenge">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="cha">您已应战 !</div>
+          <div>任务内容:</div>
+          <div>阿甘邀请你参加马拉松大比拼任务。</div>
+          <div>胜利条件:</div>
+          <div>在应战后24小时之内绕着故宫跑20圈。</div>
+          <div>有效时间:</div>
+          <div>22小时14分钟54秒</div>
+          <div>战利品:修为900000</div>
+          <div class="cha-bottom"><span class="zlp">战利品:</span><span class="xw">修为</span><span class="xw-num">90000</span></div>
+          <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
+        </div>
+      </div>
+    </div>
+   <!--应战结束-->
+   <!-- 避战-->
+    <div class="modal fade avoid-battle">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div>你已避战，系统将扣除<span class="num-avobat">200</span>修为你避开此次好友挑战。</div>
+          <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
+        </div>
+      </div>
+    </div>
+   <!--避战结束-->
+  <script src="js/vendor/jquery-1.11.1.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/swiper.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,428 @@
+*{
+ padding:0;
+ margin:0;
+ border:0;
+}
+.left{
+  background: url("../img/left-donation.png") 0% 0% no-repeat #000;
+}
+.Prodetail{
+    height: auto;
+    width: auto;
+}
+/*上方导航*/
+.bord{
+   margin-top:20px;
+   color:#282828
+}
+.detail_sc{
+  color:red;
+  text-decoration: none;
+  font-size:14px;
+}
+/*推广、分享按�?*/
+.shareBar{
+  padding: 5px;
+  margin: 20px 0 40px;
+  border-bottom: 1px dashed #ccc;
+  border-top: 1px dashed #ccc;
+  color:#990a07;
+  font-size: 14px;
+  line-height: 1;
+}
+.shareBar > p{
+  display: inline-block;
+  margin: 0 40px 0 0;
+  cursor: pointer;
+}
+.shareBar .fa{
+  font-size: 20px;
+  margin-right: 5px;
+}
+.shareBar .fa-share-square-o{
+  vertical-align: -2px;
+}
+.detail_Nav{
+  height: 35px;
+  border: 1px solid #E2E2E2;
+}
+.Nav_Home{
+text-align: center;
+background-color: #F9AC33;
+width: 52px;
+padding: 6px;
+height: 33px;
+}
+.breadcrumb{
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+.breadcrumb a{
+ color: #1C1C1C;
+}
+.breadcrumb > li + li:before {
+    content: " ";
+}
+.breadcrumb > li span{
+  margin-left:10px;
+  color:#969696;
+}
+.bs-example{
+  display: inline;
+  position: relative;
+  left: 52px;
+  top: -34px;
+}
+/*商品详细页轮�?*/
+   
+        /* 主框�? */
+     .details-content {
+     height: 450px;
+     width: 800px;
+     margin: 20px 0px 10px;
+     border-bottom: 1px solid #EEE;
+        }
+        /* 左边的内�? */
+        .details-left {
+            width: 352px;
+            overflow: hidden;
+            float: left;
+        }
+        /* 右边的内�? */
+        .details-right {
+            width: 390px;
+            float: right;
+            
+        }
+
+            .details-right .name {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                height: 16px;
+                color: #494949;
+                letter-spacing: 2px;
+            }
+
+                .details-right .name span {
+                    letter-spacing: 1px;
+                }
+
+        #mark {
+            position: absolute;
+            display: block;
+            width: 350px;
+            height: 350px;
+            background-color: #fff;
+            filter: alpha(opacity=0);
+            opacity: 0;
+            z-index: 10;
+        }
+
+        #float-box {
+            display: none;
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            background: #ffffcc;
+            border: 2px solid #ccc;
+            filter: alpha(opacity=50);
+            opacity: 0.5;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        #big-box {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 480px;
+            width: 350px;
+            height: 350px;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+            #big-box img {
+                position: absolute;
+                width: 700px;
+                height: 700px;
+                z-index: 5;
+            }
+
+/*商品详细页轮播结�?*/
+.Exchange{
+  height: 42px;
+  line-height: 42px;
+  width: 99px;
+  color: #FFF;
+  cursor: pointer;
+  background:url("../img/Exchange.png") no-repeat;
+  float: left;
+  text-align: center;
+  margin:30px 15px;
+  font-size: 16px;
+}
+.Exchange:hover{
+  background:url("../img/Exchange_hover.png") no-repeat;
+  text-align: center;
+}
+.Give{
+   height: 42px;
+  line-height: 42px;
+  width: 99px;
+  color: #FFF;
+  cursor: pointer;
+  background:url("../img/Give.png") no-repeat;
+  float: left;
+  padding-left:20px;
+  margin:30px 15px;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+.Give:hover{
+  background:url("../img/Give_hover.png") no-repeat;
+  padding-left:20px;
+}
+.Dona{
+  height: 42px;
+  line-height: 42px;
+  width: 99px;
+  color: #FFF;
+  cursor: pointer;
+  background:url("../img/Dona.png") no-repeat;
+  float: left;
+  padding-left:20px;
+  margin:30px 15px;
+  font-size: 16px;   
+}
+.Dona:hover{
+  background:url("../img/Dona_hover.png") no-repeat;
+}
+.nav.nav-tabs {
+    left: 50px;
+}
+.name .orange{
+  color:#f58a1a;
+}
+.name .blue{
+color:#5485ae;
+}
+ /* 拟物化按�? */
+.btn{
+  position: relative;
+  height: 35px;
+  background-color: #f58a1a;
+  border: 1px solid transparent;
+  box-shadow: -3px 3px #dbdbdb;
+  color: #fff;
+  margin:5px;
+  width:auto;
+  padding: 5px 15px;
+  border-radius: 0px;
+}
+.btn:hover{
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #f58a1a;
+  color: #fff;
+}
+/*�?*/
+.name .min{
+height: 23px;
+background: url(../img/reduce.png) no-repeat;
+cursor:pointer;
+width: 23px;
+vertical-align: top;
+}
+.name .min:hover{
+  background: url(../img/reduce-hover.png) no-repeat;
+}
+/*�?*/
+.name .add{
+height: 23px;
+background: url(../img/add.png) no-repeat;
+cursor: pointer;
+width: 23px;
+vertical-align: top;
+}
+.name .add:hover{
+  background: url(../img/add-hover.png) no-repeat;
+}
+.name .text_box{
+height: 23px;
+border: 1px solid #9c9c9c;
+width:74px;
+text-align: center;
+color:#9c9c9c;
+font-size:14px;
+}
+.Prodetail_tab{
+    height: auto;
+    width: auto;
+    position: relative;
+    padding: 20px 10px 10px;
+}
+.details-right .bold{
+  font-size: 18px;
+}
+/*用户评价*/
+.eval-person{
+  padding: 10px 0px;
+}
+.eval-left{
+  width: 85px;
+  float: left !important;
+  cursor: pointer;
+}
+.eval-left-bottom{
+  text-align: center;
+}
+.eval-left-bottom .disha{
+  color:#004986;
+}
+
+.eval-right{
+ border: 1px solid #D2D2D2;
+ line-height: 100px;
+ margin-left: 140px;
+ height: auto;
+ line-height: 30px;
+ position: relative;
+ border-radius:4px;
+}
+.triangle span{
+   display: block;
+   width: 0px;
+   height: 0px;
+   border-width: 10px 10px 10px 0px;
+   border-style: solid;
+   border-color: transparent #D2D2D2 transparent transparent;
+   left: 0px;
+   position: absolute;
+   top: 40%;
+}
+.triangle em{
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-width: 10px 10px 10px 0px;
+  border-style: solid;
+  border-color: transparent #FFF transparent transparent;
+  position: absolute;
+  top: -10px;
+  left: 1px;
+}
+.eval-date{
+  border-bottom: 1px solid #e2e2e2;
+  height:30px;
+  text-align:right;
+  vertical-align: bottom;
+  padding:0px 10px;
+  line-height:30px;
+  color:#a7a7a7;
+  font-size:12px;
+}
+.eval-content{
+  text-indent: 30px;
+  font-size:14px;
+  padding:10px;
+  height:auto;
+}
+/*页码*/
+.RiverTask-footer {
+  font-size: 0.85714em;
+  padding: 10px 0px 5px;
+}
+
+/*赠�?�弹�?*/
+.give .modal-dialog{
+  width: 360px;
+  height: auto;
+}
+.give_top{
+  margin:20px 20px;
+  font-size:18px;
+  font-weight: bold;
+}
+.selefriends{
+  margin:30px;
+}
+.selefriends select{
+  height: 30px;
+  border: 1px solid #CCC;
+  text-align: center;
+  width: 240px;
+}
+.Sure_Give{
+  background: url('../img/Sure_Give.png')no-repeat;
+  height:42px;
+  width: 99px;
+  cursor: pointer;
+  margin:40px auto;
+}
+.Sure_Give:hover{
+  background: url('../img/Sure_Give_hover.png')no-repeat;
+}
+
+/*分享弹窗*/
+.share .modal-dialog{
+  width: 420px;
+  height: auto;
+  padding: 20px;
+}
+ .share_top{
+  margin:10px 20px;
+}
+.sharebig{
+  font-size: 14px;
+}
+.sharesmall{
+  font-size: 12px;
+}
+.share_content{
+  margin:10px 20px;
+}
+.share_content textarea{
+  border: 1px solid #CCC;
+  max-width: 300px;
+  max-height: 100px;
+  min-width: 300px;
+  min-height: 100px;
+  width: 300px;
+}
+.share_middle{
+   margin:10px 20px;
+}
+.modal-content .goods-thumbnail{
+  margin: 10px 0px 20px 18px;
+}
+.share_bottom{
+  margin: 20px 0px 0px 20px;
+}
+.btnshare{
+  background: url(../img/btnshare.png) no-repeat;
+  width:98px;
+  height:41px;
+  margin:10px auto;
+  cursor: pointer;
+}
+.btnshare:hover{
+  background: url(../img/btnshare_hover.png) no-repeat;
+  width:98px;
+  height:41px;
+}
+.modal-content .spec-scroll{
+  height: 50px;
+}
+.modal-content .spec-scroll{
+  margin-left: 10px;
+}
+/*分享弹窗结束*/
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DDD #DDD transparent;
+}

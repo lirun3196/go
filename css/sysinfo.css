@@ -1,0 +1,57 @@
+
+.left{
+    background: url("../img/left-donation.png") 0% 0% no-repeat #000;
+}
+.section.sysinfo{
+  padding: 20px 15px 20px;
+}
+/*系统通知*/
+.sysinfo .nav.nav-tabs {
+  left: 0px;
+  top: 0px;
+  position: inherit;
+  margin-top:20px;
+  border-bottom: 1px solid #DDD;
+}
+.sysinfo-one{
+  padding:10px 20px;
+  border-bottom: 1px dotted #ccc;
+}
+.sysinfo-num{
+  color:#ffb900;
+  font-weight: bold;
+}
+.sysinfo .media-object{
+  width:50px;
+  height:50px;
+}
+.sysinfo .sysinfo-person{
+  color:#4ebffa;
+}
+#sysnotice .sysinfo-line{
+  color:#aaaaaa;
+  cursor: pointer;
+}
+#sysnotice .sysinfo-line:hover{
+  color:#f9ac33;
+}
+#sysaffiche .sysinfo-line{
+  color:#aaaaaa;
+}
+.sysinfo .sysinfo-red{
+  color:#ff0000;
+}
+.sysinfo .sysinfo-item{
+  margin:0px;
+}
+/*页码*/
+.RiverTask-footer {
+    font-size: 0.85714em;
+    margin-top: 30px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DDD #DDD transparent;
+}
+

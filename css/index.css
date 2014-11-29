@@ -54,6 +54,9 @@ display: inline;
   text-align: left;
   font-size: 12px;
 }
+.makefriend .level{
+  text-align: center;
+}
 /*推荐不足样式*/
 .section-auto{
   padding: 80px 0 0 0;

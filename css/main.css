@@ -87,6 +87,9 @@ a:focus,a:active{
 .margin-r{
   margin-right: 10px;
 }
+.text-indent{
+  text-indent: 2em;
+}
 /*和V3.3版一样的媒体对象*/
 .cc-body .media{
   display: table-row;
@@ -308,6 +311,7 @@ a:focus,a:active{
   max-width: 80px;
   max-height: 80px;
   float: left;
+  border-radius: 6px;
 }
 .user-info>button{
   width: 42px;
@@ -327,7 +331,7 @@ a:focus,a:active{
 }
 .user-info ul{
   float: left;
-  margin-left: 10px;
+  margin: 3px 0 0 10px;
   text-align: left;
 }
 .user-info li{
@@ -399,24 +403,33 @@ a:focus,a:active{
   width: 912px;
 }
 /*顶部导航*/
+.navWraper{
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  margin: 10px 0 40px;
+}
+.navWraper:after{
+  display: table;
+  content: "";
+  clear: both;
+}
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus{
   color: #fff;
   background-color: #000;
 }
 .nav.nav-pills{
-  margin: 10px 0 40px;
   float: right;
   display: inline-block;
 }
 .nav.nav-pills a{
   color: #000;
-  padding: 5px 15px;
+  padding: 3px 10px;
 }
 /*广告*/
 .ad{
   width: 912px;
-  height: 100px;
+  height: 130px;
   clear: both;
 }
 /*中部导航*/
@@ -436,7 +449,7 @@ a:focus,a:active{
   line-height: 50px;
   color: #fff;
   font-weight: bolder;
-  padding: 0 25px;
+  padding: 0 30px;
 }
 .nav-center li a:hover{
   color: #F9AC33;
@@ -445,7 +458,6 @@ a:focus,a:active{
   color: #F9AC33;
 }
 .nav-center img{
-  display: none;
   max-height: 50px;
 }
 .show-img img{
@@ -527,21 +539,44 @@ a:focus,a:active{
   width: 85px;
   height: 185px;
   margin-left: 5px;
-  padding-top: 10px;
   display: inline-block;
   font-size: 0.857142em;
 }
 
 .section-desc .change{
-  margin-top: 80px;
+  margin-top: 55px;
   display: block;
   text-align: center;
   text-decoration: none;
   color: #000;
   cursor: pointer;
 }
+/*内容板块新增*/
+/*右侧描述背景块*/
+.jhq-bg,
+.zbk-bg,
+.mjc-bg,
+.jhrw-bg{
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  padding: 2px 0;
+}
+.jhq-bg{
+  background-color: #ffb9b9;
+}
+.zbk-bg{
+  background-color: #f9ac33;
+}
+.mjc-bg{
+  background-color: #a3c8e5;
+}
+.jhrw-bg{
+  background-color: #71d273;
+}
 /*渐进增强：“换一组”的旋转效果,IE低版本无效*/
-.change>img:hover{
+/*.change>img:hover*/
+.changeimgrotation{
   -webkit-animation: fa-spin 2s infinite linear;
           animation: fa-spin 2s infinite linear;
 }
@@ -1170,6 +1205,8 @@ a:focus,a:active{
   border: 1px solid #ccc;
   border-radius: 6px;
   position: relative;
+  width: 735px;
+  float: right;
 }
 .cc > .cc-body{
   padding: 0 2%;

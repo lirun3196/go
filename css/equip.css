@@ -19,6 +19,7 @@
 
 .equip-wraper{
   display: inline-block;
+  margin-bottom: 50px;
 }
 .equip-wraper .section-item{
   margin-right: 27px;

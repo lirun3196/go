@@ -83,8 +83,8 @@ time{
 }
 .table > tbody > tr > th{
   font-size: 1.16667em;
-  background-color: #ffc3bf;
-  border: 1px solid #e5838c;
+  background-color: #ed693a;
+  border-left: 1px solid #ccc;
 }
  .table tbody{
   border: 1px solid #dbdbdb;

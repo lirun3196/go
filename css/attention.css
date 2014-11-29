@@ -1,0 +1,247 @@
+*{
+  padding:0;
+  margin:0;
+  border:0;
+}
+
+.left{
+    background: url("../img/left.png") 0% 0% no-repeat #000;
+}
+/*特别关注*/
+.section.attention{
+    height: auto;
+    padding:0px;
+}
+/*左边内容*/
+/*.attention-left{
+  width:233px;
+  height:1000px;
+  border-right: 2px solid #7c1a08;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}*/
+.attention-left{
+width: 233px;
+/*border-right: 2px solid #7C1A08;
+overflow-y: scroll;
+overflow-x: hidden;*/
+float: left;
+position: relative;
+}
+.left-content{
+  margin-top: 60px;
+  text-align: center;
+  height: 1000px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.left-content .per-number{
+  color:#ff000c;
+}
+.per-number .on-num{
+  color:#000;
+}
+.number-one{
+  width:100%;
+/*  height:100px;*/
+  height:auto;
+  margin-top:10px;
+}
+.media-body {
+    font-size: 0.85714em;
+    padding-left: 10px;
+    text-align: justify;
+    padding-top:10px;
+}
+.attention-header .pull-left{
+  padding-left:10px;
+  padding-top:5px;
+}
+.media-object{
+  border-radius: 10px;
+}
+/* 拟物化按钮 */
+.attention-btn{
+  display: none;
+}
+.btn-y{
+  position: relative;
+  height: 30px;
+  width:69px;
+  background-color: #f58a1a;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: -3px 3px #dbdbdb;
+  color: #fff;
+  margin:0px 10px 10px;
+  padding:3px 3px;
+}
+.btn-y:hover{
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #f58a1a;
+  color: #fff;
+}
+.btn-n{
+  position: relative;
+  height: 30px;
+  width:69px;
+  background-color: #dbdbdb;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: -3px 3px #dbdbdb;
+  color: #fff;
+  margin:0px 10px 10px;
+  padding:3px 3px;
+}
+.btn-n:hover{
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #dbdbdb;
+  color: #fff;
+}
+/* 拟物化按钮结束*/
+/*左边内容结束*/
+/*右边内容*/
+.attention-right{
+/* height: auto;
+ width: 676px;
+ position: absolute;
+ top:0;
+ right:0;*/
+overflow-y: auto;
+overflow-x: hidden;
+width: 676px;
+padding-bottom: 30px;
+}
+.attention-right .content-top{
+  margin-top:30px;
+  margin-left:50px;
+  height: 168px;
+}
+.attention-right .media-object{
+  border-radius: 10px;
+  border:2px solid #8a4437;
+}
+.attention-top{
+  width: 200px;
+  float: left;
+}
+.attention-top .per-number{
+  color:#a7a7a7;
+}
+.attention-top p{
+  margin: 0px 0px 5px;
+}
+.attention-top .media-body{
+    padding-top:0px;
+}
+.attention-top .un-online{
+  color:#f7671d;
+  margin-left:10px;
+}
+.attention-top .bold{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2px;
+}
+/*他的标签*/
+.panel-danger > .panel-heading {
+    color: #FFF;
+    background-color: #953C3C;
+    border-color: #953C3C;
+}
+.panel.panel-danger{
+  width: 380px;
+  float: right;
+  margin-right: 20px;
+  margin-top: -15px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+.panel-body tr td{
+  width: 100px;
+  color: #A94442;
+}
+/*切换*/
+.nav.nav-tabs {
+  left: 0px;
+  top: 0px;
+  position: inherit;
+  border-bottom: 1px solid #DDD;
+}
+/*TA的说说*/
+.talk-cont{
+  height: auto;
+  padding: 30px 20px 40px;
+  border-bottom: 1px dotted #CCC;
+}
+.talk-cont .main-content{
+  border:1px solid #eee;
+  padding:10px 10px;
+  text-indent:25px;
+  line-height: 30px;
+}
+.talk-bottom{
+  color:#474747;
+  margin:10px 0px 0px 10px;
+}
+.talk-bottom .timenum{
+  width: 200px;
+  float: left;
+}
+.talk-bottom .compraise{
+  float:right;
+  padding-right:20px;
+}
+.compraise ul li{
+  float:left;
+  margin:0px 10px;
+  cursor: pointer;
+}
+.compraise ul li img{
+  margin-right:5px;
+}
+.comment{
+  color:#319400;
+}
+.praise{
+  color:#ff3600;
+}
+/*TA的江湖*/
+.attention-same{
+  height:auto;
+  padding:20px 0px 20px;
+}
+.section-item{
+  height: 200px;
+}
+.show-item{
+  margin:20px;
+}
+.thesame-logo{
+   float: left;
+   margin-right: 20px;
+   background: url(../img//thesame-logo.png) no-repeat;
+   height:115px;
+   width:43px;
+}
+.golcoin{
+  color:#ca5f00;
+}
+.thesame-logo div {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.2;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.attention-same .section-item:hover {
+    background-color: #ca9d9d;
+}
+/*右边内容结束*/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DDD #DDD transparent;
+}

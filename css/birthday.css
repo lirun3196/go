@@ -1,0 +1,144 @@
+
+.left{
+    background: url("../img/left.png") 0% 0% no-repeat #000;
+}
+/*生日提醒*/
+.section.birthday{
+    height: auto;
+    padding: 20px 40px;
+}
+.birthday-all{
+  height: auto;
+  border-top: 1px dotted #626262;
+  margin:25px;
+}
+.birthday-top{
+  width:100%;
+  height:auto;
+}
+.media-body {
+    font-size: 0.85714em;
+    padding-left: 10px;
+    text-align: justify;
+}
+.birthday-left{
+  width:200px;
+  float: left;
+  margin-top: 20px;
+}
+.birthday-left .per-number {
+    color: #A7A7A7;
+}
+.birthday-left p {
+    margin: 0px 0px 5px;
+}
+.birthday-left-bottom{
+  line-height:25px;
+  margin-top: 10px;
+}
+.countdown-line{
+  color:#ec2327;
+  font-size:14px;
+}
+.countdown-line2{
+  font-size: 12px;
+}
+.countdown-line2 .data{
+  color:#4f9901;
+}
+.countdown-line2 .number{
+  color:#fff;
+  font-weight: bold;
+  background-color:#ec2327;
+  height:30px;
+  width:30px;
+  font-style:italic;
+  font-size:18.31px;
+  padding: 1px 10px;
+  margin:0px 3px;
+  font-family:"Microsoft YaHei" ! important;
+  -moz-border-radius: 3px;      /* Gecko browsers */
+  -webkit-border-radius: 3px;   /* Webkit browsers */
+  border-radius:3px;            /* W3C syntax */
+}
+.birthday-right{
+  top: 10px;
+  position: relative;
+  left: 100px;
+}
+.birthday-right-top{
+  margin-bottom: 5px;
+}
+.birthday-right-top .bold{
+  float:left;
+  margin-right:10px;
+}
+.birthday-right-top .group{
+  position: relative;
+  left: 300px;
+}
+.group .change{
+  text-decoration: none;
+  cursor: pointer;
+}
+.birthday-right .section-item:hover {
+    background-color: #f9ac33;
+}
+.section-line{
+  display: inline-block;
+}
+/* 拟物化按钮 */
+.bir-btn{
+  position: relative;
+  height: 33px;
+  width:69px;
+  background-color: #ff6600;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: -3px 3px #dbdbdb;
+  color: #fff;
+  margin:10px auto;
+  padding:3px 3px;
+  display: block;
+}
+.bir-btn:hover{
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #ff6600;
+  color: #fff;
+}
+.birthday-bottom .greetings{
+  font-size:16px;
+  font-weight: bold;
+  color:#ec2327;
+  float:left;
+}
+.birthday-bottom .gre-content{
+  width:500px;
+}
+.gre-content{
+  margin:10px 20px;
+  position: relative;
+  top: -20px;
+  left: 50px;
+}
+.gre-content textarea{
+  border: 1px solid #CCC;
+  max-width: 300px;
+  max-height: 60px;
+  min-width: 650px;
+  min-height: 60px;
+  width: 650px;
+  background-color: #E0E0E0;
+  -moz-border-radius: 5px;      /* Gecko browsers */
+  -webkit-border-radius: 5px;   /* Webkit browsers */
+  border-radius:5px;            /* W3C syntax */
+}
+.golcoin{
+  color:#f98148;
+}
+.coin{
+  color:#ff0000;
+}
+

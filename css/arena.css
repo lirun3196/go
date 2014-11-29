@@ -1,0 +1,161 @@
+.left{
+    background: url("../img/left.png") 0% 0% no-repeat #000;
+}
+/*江湖擂台*/
+.section.arena{
+    height: auto;
+    padding: 30px 40px 30px;
+}
+
+.arena-header .media-body{
+  font-size: 0.85714em;
+  padding-left: 40px;
+  text-align: justify;
+  line-height: 20px;
+  padding-top: 30px;
+}
+.arena-header{
+  padding-bottom:10px;
+}
+/*正文内容*/
+.arena-content{
+  border-top: 1px dotted #ccc;
+}
+.arena-content {
+    padding: 10px 0px 10px;
+    border-bottom: 1px dotted #CCC;
+    position:relative;
+    font-size: 12px;
+}
+.arena-content .ava{
+  background: url("../img/avaitask.png") no-repeat;
+  width:142px;
+  height: 80px;
+}
+.ava>img{
+  padding: 15px 15px;
+}
+.ava>p{
+  padding: 0px 5px;
+}
+.arena-content .ava:hover{
+  background: url("../img/avaitask_hover.png") no-repeat;
+}
+.arena-content .inava{
+  background: url("../img/inavtask.png") no-repeat;
+  width:142px;
+  height:66px;
+  float: left;
+}
+.inava:hover{
+  background: url("../img/inavtask-hover.png") no-repeat;
+}
+
+.arena-content .media-body{
+   margin-left: 240px;
+     width: 380px;
+}
+.media-body img{
+  width: 60px;
+  height: 60px;
+}
+.red{
+  color:#890a07;
+}
+.content-left{
+  width:60px;
+  float:left;
+}
+.content-right{
+  margin-left: 10px;
+  float: left;
+}
+.content-right .orange{
+  color:#d16200;
+}
+.Dekaron{
+  font-weight: bold;
+  font-size:16px;
+  margin-top:10px;
+}
+.arena-btn{
+  float: right;
+  top: -80px;
+  position: relative;
+  left: -10px;
+}
+ /* 拟物化按钮 */
+.btn-y{
+  position: relative;
+  height: 33px;
+  width:59px;
+  background-color: #f58a1a;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: -3px 3px #dbdbdb;
+  color: #fff;
+  margin:10px 10px;
+  padding:3px 3px;
+}
+.btn-y:hover{
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #f58a1a;
+  color: #fff;
+}
+.btn-n{
+  position: relative;
+  height: 33px;
+  width:59px;
+  background-color: #dbdbdb;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: -3px 3px #dbdbdb;
+  color: #fff;
+  margin:10px 10px;
+  padding:3px 3px;
+}
+.btn-n:hover{
+  box-shadow:none;
+  top: 3px;
+  left:-3px;
+  background-color: #dbdbdb;
+  color: #fff;
+}
+/*应战*/
+.challenge .modal-content{
+  padding:30px 0px;
+  text-align: center;
+  line-height: 25px;
+}
+.modal-content .cha{
+  font-size:22px;
+  color:#761711;
+  margin-bottom: 5px;
+}
+.modal-content .cha-bottom{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top:5px;
+}
+.zlp{
+  color:#6a150f;
+  margin-right:10px;
+}
+.xw{
+  margin-right:5px;
+}
+.xw-num{
+  color:#888888;
+}
+/*避战*/
+.avoid-battle .modal-content{
+  padding:80px 0px;
+  font-size:16px;
+  text-align: center;
+}
+.modal-content .num-avobat{
+  color:#ff0000;
+}
+

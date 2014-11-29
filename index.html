@@ -45,7 +45,6 @@
                   <li>等级：28</li>
                 </ul>
                 <button data-toggle="modal" data-target=".upgrade">升级</button>
-                
               </div>
             </li>
             <li class="list-group-item">
@@ -59,6 +58,7 @@
               <div class="menu-wealth gold">
                 <span class="type black">道行</span>
                 <span class="amount gold">9999999999999</span>
+                <span><a href="recharge.html" class="recharge point">充值</a></span>
               </div>
             </li>
             <li class="list-group-item">
@@ -79,7 +79,7 @@
               <a href="attention.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-love.png" alt=""></span>
                 <span class="menu-item-title">特别关注</span>
-                <span class="menu-item-status special">[24/46]</span>
+                <span class="menu-item-status special"></span>
               </div></a>
             </li>
             <li class="list-group-item">
@@ -140,13 +140,16 @@
         </div>
         <div class="content">
           <div class="main cl">
+            <div class="navWraper">
             <ul class="nav nav-pills" role="tablist">
               <li role="presentation"><a href="setting.html">个人设置</a></li>
-              <li role="presentation"><a href="#">安全中心</a></li>
-              <li role="presentation"><a href="#">客服服务</a></li>
+              <li role="presentation"><a href="security.html">安全中心</a></li>
+              <li role="presentation"><a href="cs.html">客服服务</a></li>
+              <li role="presentation"><a href="#">新手指南</a></li>
             </ul>
+            </div>
             <div class="ad">
-              <div id="ad" class="carousel" data-ride="carousel">
+              <div class="carousel" data-ride="carousel">
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
@@ -159,15 +162,17 @@
               </div>
             </div>
             <ul class="nav-center">
-              <li><img src="img/center-index.png" alt=""><a href="index.html"  class="center-active">我的江湖</a></li>
-              <li><img src="img/center-index.png" alt=""><a href="mall.html">江湖商城</a></li>
-              <li><img src="img/center-index.png" alt=""><a href="esoterica.html">江湖秘籍</a></li>
-              <li><img src="img/center-index.png" alt=""><a href="donation.html">爱心捐赠</a></li>
-              <li><img src="img/center-index.png" alt=""><a href="purchase.html">近期采购</a></li>
-              <li><img src="img/center-index.png" alt=""><a href="fund.html">练功房</a></li>
+              <li><img src="img/center-index.png" alt=""></li>
+              <li><a href="index.html"  class="center-active">我的江湖</a></li>
+              <li><a href="mall.html">江湖商城</a></li>
+              <li><a href="esoterica.html">江湖秘籍</a></li>
+              <li><a href="donation.html">爱心捐赠</a></li>
+              <li><a href="purchase.html">近期采购</a></li>
+              <li><a href="fund.html">练功房</a></li>
             </ul>
+            
             <div class="section jhq">
-              <img src="img/jhq.png" alt="">
+              <img src="img/jhq-append.png" alt="">
               <div class="section-items show-item">
               <div class="section-item">
                 <img src="img/friend.png" alt="">
@@ -192,7 +197,7 @@
               </div>
               
               <div class="section-desc">
-                <p><span class="bold">江湖圈，</span>LNH智慧团给你推荐适合你的好友。</p>
+                <p><span class="bold jhq-bg">江湖圈</span>系统根据标签，自动匹配的和你有相似标签的江湖好友。</p>
                 <div class="change">
                   <img src="img/change.png" alt="">
                   <span class="bold">换一组</span>
@@ -200,13 +205,12 @@
               </div>         
             </div>
             <div class="section sh">
-              <img src="img/storehouse.png" alt="">
+              <img src="img/zbk-append.png" alt="">
               <div class="section-items show-item">
               
               <div class="section-item">
                 <img src="img/friend.png" alt="">
                 <span class="alias">一流打手武武松松</span>
-                <p class="level">￥<span class="red margin-l-5">5612</span></p>
                 <p class="level">道行<span class="money margin-l-5">5</span></p>
                 <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
                 <!--span class="action"></span-->
@@ -214,7 +218,6 @@
               <div class="section-item">
                 <img src="img/friend.png" alt="">
                 <span class="alias">一流打手武武松松</span>
-                <p class="level">￥<span class="red margin-l-5">5612</span></p>
                 <p class="level">道行<span class="money margin-l-5">5</span></p>
                 <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
                 <!--span class="action"></span-->
@@ -222,7 +225,6 @@
               <div class="section-item">
                 <img src="img/friend2.png" alt="">
                 <span class="alias">一流打手武武松松</span>
-                <p class="level">￥<span class="red margin-l-5">5612</span></p>
                 <p class="level">道行<span class="money margin-l-5">5</span></p>
                 <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
                 <!--span class="action"></span-->
@@ -230,9 +232,8 @@
               <div class="section-item">
                 <img src="img/friend.png" alt="">
                 <span class="alias">一流打手武武松松</span>
-                <p class="level">￥<span class="red margin-l-5">5612</span></p>
-                <p class="level">道行<span class="money margin-l-5">5</span></p>
-                <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
+                <p class="level">道行<span class="money margin-l-5">5545</span></p>
+                <p class="level">修为<span class="text-muted margin-l-5">5969</span></p>
                 <!--span class="action"></span-->
               </div>
               </div>
@@ -242,7 +243,7 @@
                 </div>
               </div>
               <div class="section-desc">
-                <p><span class="bold">装备库，</span>LNH智慧团给你推荐最需要的物品。</p>
+                <p><span class="bold zbk-bg">装备库</span>系统根据标签，自动匹配的与你相关的商品或服务。</p>
                 <div class="change">
                   <img src="img/change.png" alt="">
                   <span class="bold">换一组</span>
@@ -250,13 +251,12 @@
               </div>
             </div>
             <div class="section eso">
-              <img src="img/esoterica.png" alt="">            
+              <img src="img/mjc-append.png" alt="">            
               <div class="section-items show-item">
-                
+
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
-                  <p class="level">￥<span class="red margin-l-5">5612</span></p>
                   <p class="level">道行<span class="money margin-l-5">5</span></p>
                   <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
                   <!--span class="action"></span-->
@@ -264,7 +264,6 @@
                 <div class="section-item">
                   <img src="img/friend2.png" alt="">
                   <span class="alias">一流打手武武松松</span>
-                  <p class="level">￥<span class="red margin-l-5">5612</span></p>
                   <p class="level">道行<span class="money margin-l-5">5</span></p>
                   <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
                   <!--span class="action"></span-->
@@ -272,7 +271,6 @@
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
-                  <p class="level">￥<span class="red margin-l-5">5612</span></p>
                   <p class="level">道行<span class="money margin-l-5">5</span></p>
                   <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
                   <!--span class="action"></span-->
@@ -284,7 +282,7 @@
                 </div>
               </div>
               <div class="section-desc">
-                <p><span class="bold">秘籍册，</span>LNH智慧团给你推荐最实用的优惠卷。</p>
+                <p><span class="bold mjc-bg">秘籍册</span>系统根据标签，自动匹配的各类适合你的原创精华文章。</p>
                 <div class="change">
                   <img src="img/change.png" alt="">
                   <span class="bold">换一组</span>
@@ -292,12 +290,11 @@
               </div>
             </div>
             <div class="section mission">
-              <img src="img/mission.png" alt="">
+              <img src="img/jhrw-append.png" alt="">
               <div class="section-items show-item">
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
-                  <p class="level">￥<span class="red margin-l-5">5612</span></p>
                   <p class="level">道行<span class="money margin-l-5">5</span></p>
                   <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
                   <!--span class="action"></span-->
@@ -305,7 +302,6 @@
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
-                  <p class="level">￥<span class="red margin-l-5">5612</span></p>
                   <p class="level">道行<span class="money margin-l-5">5</span></p>
                   <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
                   <!--span class="action"></span-->
@@ -313,7 +309,6 @@
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
-                  <p class="level">￥<span class="red margin-l-5">5612</span></p>
                   <p class="level">道行<span class="money margin-l-5">5</span></p>
                   <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
                   <!--span class="action"></span-->
@@ -322,7 +317,6 @@
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
                   <span class="alias">一流打手武武松松</span>
-                  <p class="level">￥<span class="red margin-l-5">5612</span></p>
                   <p class="level">道行<span class="money margin-l-5">5</span></p>
                   <p class="level">修为<span class="text-muted margin-l-5">5</span></p>
                   <!--span class="action"></span-->
@@ -334,7 +328,7 @@
                 </div>
               </div>
               <div class="section-desc">
-                <p><span class="bold">江湖任务，</span>LNH智慧团给你推荐最适合你的江湖任务。</p>
+                <p><span class="bold jhrw-bg">江湖任务</span>系统根据标签，自动匹配的与你技能相关的任务。</p>
                 <div class="change">
                   <img src="img/change.png" alt="">
                   <span class="bold">换一组</span>
@@ -348,7 +342,7 @@
             <li><a href="sign.html" class="r1">签到有礼</a></li>
             <li><a href="lottery.html" class="r2">免费抽奖</a></li>
             <li><a href="flashsale.html" class="r3">限时抢购</a></li>
-            <li><a href="#" class="r4">系统消息</a></li>
+            <li><a href="sysinfo.html" class="r4">系统消息</a></li>
             <li><a href="#" class="r5">江湖规则</a></li>
             <li><a href="#" class="r6">行侠攻略</a></li>
             <li><a href="#" class="r7">锦囊妙计</a></li>
@@ -357,6 +351,7 @@
         </div> 
       </div><!-- end of right -->
     </div><!-- end of wraper -->
+    
     <div class="footer">
       <div class="container">
         <div class="row">
@@ -386,6 +381,7 @@
         </div>
       </div>
     </div>
+    
     <div class="modal fade upgrade" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -395,9 +391,6 @@
           <p class="row">
             <span class="col-xs-4 col-xs-offset-2 bold">升级方式</span>
             <span class="align-left col-xs-4 col-xs-offset-1">
-              <label class="radio-inline">
-                <input type="radio" name="upgrade" value="1">人民币
-              </label>
               <label class="radio-inline">
                 <input type="radio" name="upgrade" value="2" checked>修为
               </label>
@@ -412,7 +405,7 @@
           </p>
           <p class="row"><span class="col-xs-4 col-xs-offset-2 bold">花&nbsp;&nbsp;&nbsp;&nbsp;费</span><span class="align-left col-xs-4 col-xs-offset-1">32，000</span></p>
           <button class="btn">猛戳升级</button> 
-          <div class="upgrade-footer small-f">
+          <div class="upgrade-footer small-f bold">
             <p>升级不是想升就能升，是人品与综合实力的体现！</p>
             <p>升级是给有准备的人的，但是失败后您还可以获得5%的修为奖励！</p>
           </div>
@@ -423,10 +416,10 @@
     <div class="modal fade exchange" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <h4 class="col-xs-12">修为兑换</h4>
+          <h4 class="col-xs-12 bold">修为兑换</h4>
           <p class="row"><span class="col-xs-4 col-xs-offset-2">道行</span><span class="align-left col-xs-4 col-xs-offset-1">10,000</span></p>
           <p class="row"><span class="col-xs-4 col-xs-offset-2">修为</span><span class="align-left col-xs-4 col-xs-offset-1">987,654，000</span></p>
-          <p><span class="line"></span><span class="small-f red hint">提示：1道行可以兑换100修为</span><span class="line"></span></p>
+          <p><span class="line"></span><span class="small-f red hint bold">提示：1道行可以兑换100修为</span><span class="line"></span></p>
           <p class="row"><label class="col-xs-4 col-xs-offset-2">输入道行额度</label><input type="text" class="col-xs-4"><p>
           <p class="blue">兑换后将获得修为10,000</p>
           <button class="btn">确认兑换</button> 
@@ -439,7 +432,7 @@
         <div class="modal-content">
           <div>
             <img src="img/friend.png" alt="">
-            <p class="level"><span class="tianGang">天罡</span>36级</p>
+            <p class="level text-center"><span class="tianGang">天罡</span>36级</p>
             <span class="alias">一流打手武松</span>
             <p>相似度<span class="fig-yellow">85%</span></p>
             <div class="hislabel">

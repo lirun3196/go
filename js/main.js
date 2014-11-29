@@ -18,18 +18,18 @@
       $(".wraper,.footer").css("min-width","1530px");
     };
     // "换一组"
-    $(".change").on("click",function(){
-      $(this).parent().prevAll(".section-items").toggleClass("show-item");
-    });
+//    $(".change").on("click",function(){
+//      $(this).parent().prevAll(".section-items").toggleClass("show-item");
+//    });
     // 中部导航hover效果
-    var i = $(".nav-center").find("li");
-    var c = $(".center-active");
-    c.parent().addClass("show-img");
-    i.hover(function(event){
-      event.stopPropagation();
-      c.parent().toggleClass("show-img");
-      $(this).toggleClass("show-img");
-    });
+//    var i = $(".nav-center").find("li");
+//    var c = $(".center-active");
+//    c.parent().addClass("show-img");
+//    i.hover(function(event){
+//      event.stopPropagation();
+//      c.parent().toggleClass("show-img");
+//      $(this).toggleClass("show-img");
+//    });
     //checkbox点击效果
     var check = $(".checkIcon");
     check.on("click",function(){

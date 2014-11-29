@@ -79,14 +79,14 @@
             </li>
             <li class="list-group-item">
               <div class="menu-wealth gold">
-                <span class="type black">道行</span>
+                <span class="type black">金币</span>
                 <span class="amount gold">9999999999999</span>
                 <span><a href="#" class="recharge gold" data-toggle="modal" data-target=".refill">充值</a></span>
               </div>
             </li>
             <li class="list-group-item">
               <div class="menu-wealth point">
-                <span class="type point">修为</span>
+                <span class="type point">积分</span>
                 <span class="amount point">9999999999999</span>
                 <span><a href="#" class="recharge point" data-toggle="modal" data-target=".exchange">兑换</a></span>
               </div>
@@ -144,11 +144,11 @@
               </div></a>
             </li>
             <li class="list-group-item">
-              <a href="attention.html"><div class="menu-item">
+              <div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-love.png" alt=""></span>
                 <span class="menu-item-title">特别关注</span>
-                <span class="menu-item-status special">[24/46]</span>
-              </div></a>
+                <a href="#"><span class="menu-item-status special">[24/46]</span></a>
+              </div>
             </li>
             <li class="list-group-item">
               <a href="birthday.html"><div class="menu-item">
@@ -172,18 +172,18 @@
                 </div></a>
             </li>
             <li class="list-group-item">
-              <a href="myTask.html"><div class="menu-item menu-hover">
+              <div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-book.png" alt=""></span>
                 <span class="menu-item-title">江湖任务</span>
-               <span class="menu-item-status">新的消息36</span>
-              </div></a>
+               <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
             </li>
             <li class="list-group-item">
-              <a href="arena.html"><div class="menu-item">
+              <div class="menu-item">
                 <span class="menu-item-icon"><img src="img/leitai.png" alt=""></span>
                 <span class="menu-item-title">江湖擂台</span>
-                <span class="menu-item-status">新的消息36</span>
-              </div></a>
+                <a href="#"><span class="menu-item-status">新的消息36</span></a>
+              </div>
             </li>
           </ul>
           <div class="d-code">
@@ -227,7 +227,7 @@
               </div>
             </div>
             <ul class="nav-center">
-              <li><img src="img/center-index.png" alt=""><a href="index.html">我的江湖</a></li>
+              <li><img src="img/center-index.png" alt=""><a href="index.html"  class="center-active">我的江湖</a></li>
               <li><img src="img/center-index.png" alt=""><a href="mall.html">江湖商城</a></li>
               <li><img src="img/center-index.png" alt=""><a href="esoterica.html">江湖秘籍</a></li>
               <li><img src="img/center-index.png" alt=""><a href="donation.html">爱心捐赠</a></li>
@@ -235,7 +235,7 @@
               <li><img src="img/center-index.png" alt=""><a href="fund.html">江湖基金</a></li>
             </ul>
               <div class="section RiverTask">
-                        <img src="img/river_task.png" alt="">
+                        <img src="img/mission.png" alt="">
                         <ul class="nav nav-tabs bold">
                             <li class="active"><a href="#receiveTask" data-toggle="tab">接任务</a></li>
                             <li><a href="#Tasking" data-toggle="tab">进行中</a></li>
@@ -275,15 +275,15 @@
                                             </label>
                                              <label class="checkbox-inline" for="checkbox3">
                                                 <span class="checkIcon"></span>
-                                                <input type="checkbox" id="checkbox4"><font class="yellow">金币</font>
+                                                <input type="checkbox" id="checkbox4"><font class="yellow">道行</font>
                                             </label>
                                             <label class="checkbox-inline" for="checkbox3">
                                                 <span class="checkIcon"></span>
-                                                <input type="checkbox" id="checkbox5"><font class="Ordinary">积分</font>
+                                                <input type="checkbox" id="checkbox5"><font class="Ordinary">修为</font>
                                             </label>
                                             <label class="checkbox-inline" for="checkbox3">
                                                 <span class="checkIcon"></span>
-                                                <input type="checkbox" id="checkbox6"><font class="yellow">金币</font><font class="Ordinary">+积分</font>
+                                                <input type="checkbox" id="checkbox6"><font class="yellow">道行</font><font class="Ordinary">+修为</font>
                                             </label>
                                         </div>
                                     </div>
@@ -295,7 +295,7 @@
                                                 <span class="Timecontent"><span class="time">2014-10-25</span><br><span class="bold">期限7天</span></span>
                                             </a>
                                             <div class="media-body">
-                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000积分</span>
+                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000修为</span>
                                             </div>
                                         </div>
                                         <span class="receive"></span>
@@ -307,7 +307,7 @@
                                                 <span class="Timecontent"><span class="time">2014-10-25</span><br><span class="bold">期限7天</span></span>
                                             </a>
                                             <div class="media-body">
-                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000积分</span>
+                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000修为</span>
                                             </div>
                                         </div>
                                         <span class="receive"></span>
@@ -319,7 +319,7 @@
                                                 <span class="Timecontent"><span class="time">2014-10-25</span><br><span class="bold">期限7天</span></span>
                                             </a>
                                             <div class="media-body">
-                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000积分</span>
+                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000修为</span>
                                             </div>
                                         </div>
                                         <span class="inreceive"></span>
@@ -331,7 +331,7 @@
                                                 <span class="Timecontent"><span class="time">2014-10-25</span><br><span class="bold">期限7天</span></span>
                                             </a>
                                             <div class="media-body">
-                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：50000积分</span>
+                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000修为</span>
                                             </div>
                                         </div>
                                         <span class="receive"></span>
@@ -343,7 +343,7 @@
                                                 <span class="Timecontent"><span class="time">2014-10-25</span><br><span class="bold">期限7天</span></span>
                                             </a>
                                             <div class="media-body">
-                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000积分</span>
+                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000修为</span>
                                             </div>
                                         </div>
                                         <span class="receive"></span>
@@ -351,21 +351,20 @@
 
                                 </div>
                                 <div class="RiverTask-footer">
-                                    <div class="row">
-                                        <div class="col-lg-5 col-lg-offset-1 ">
-                                            <ul class="page">
-                                                <li><a href="#">上一页</a></li>
-                                                <li><a href="#" class="pageActive">1</a></li>
-                                                <li><a href="#">2</a></li>
-                                                <li><a href="#">3</a></li>
-                                                <li><a href="#">4</a></li>
-                                                <li><a href="#">5</a></li>
-                                                <li><a href="#">下一页</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <label>跳转<input type="text" class="page-number">页</label>
-                                        </div>
+                                    <div class="pageRow">
+                                       <div class="col-xs-2"></div>
+                                        <div class="page col-xs-10">
+                                       <ul>
+                                         <li><a href="#">上一页</a></li>
+                                         <li><a href="#" class="pageActive">1</a></li>
+                                         <li><a href="#">2</a></li>
+                                         <li><a href="#">3</a></li>
+                                         <li><a href="#">4</a></li>
+                                         <li><a href="#">5</a></li>
+                                         <li><a href="#">下一页</a></li>
+                                       </ul>
+                                       <label>跳转<input type="text" class="page-number">页</label>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -385,9 +384,10 @@
                                                 <span class="Timecontent"><span class="time">2014-10-25</span><br><span class="bold">期限7天</span></span>
                                             </a>
                                             <div class="media-body">
-                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000积分</span>
+                                              <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：道行<span class="daoheng">500</span> 修为50000</span>
                                             </div>
                                         </div>
+                                      <a href="mytask_next.html"><span class="hand"></span></a>
                                     </div>
 
                                     <div class="RiverTask-middle">
@@ -396,9 +396,10 @@
                                                 <span class="Timecontent"><span class="time">2014-10-25</span><br><span class="bold">期限7天</span></span>
                                             </a>
                                             <div class="media-body">
-                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000积分</span>
+                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：道行<span class="daoheng">500</span> 修为50000</span>
                                             </div>
                                         </div>
+				          <a href="mytask_next.html"><span class="hand"></span></a>
                                     </div>
 
                                     <div class="RiverTask-middle">
@@ -407,9 +408,10 @@
                                                 <span class="Timecontent"><span class="time">2014-10-25</span><br><span class="bold">期限7天</span></span>
                                             </a>
                                             <div class="media-body">
-                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000积分</span>
+                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：道行<span class="daoheng">500</span> 修为50000</span>
                                             </div>
                                         </div>
+					   <a href="mytask_next.html"><span class="hand"></span></a>
                                     </div>
 
                                     <div class="RiverTask-middle">
@@ -418,9 +420,10 @@
                                                 <span class="Timecontent"><span class="time">2014-10-25</span><br><span class="bold">期限7天</span></span>
                                             </a>
                                             <div class="media-body">
-                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：50000积分</span>
+                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：道行<span class="daoheng">500</span> 修为50000</span>
                                             </div>
                                         </div>
+					    <a href="mytask_next.html"><span class="hand"></span></a>
                                     </div>
 
                                     <div class="RiverTask-middle">
@@ -429,28 +432,28 @@
                                                 <span class="Timecontent"><span class="time">2014-10-25</span><br><span class="bold">期限7天</span></span>
                                             </a>
                                             <div class="media-body">
-                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：150000积分</span>
+                                                <span class="contop"><a href="#">快活林酒店需要找人采购新的“鲜肉”</a></span><br><span class="conmiddle">简述：最近包子卖的太好了，鲜肉严重不足，请肉贩子们快活跃起来，赶快联系我！</span><br><span class="conbottom">奖励：道行<span class="daoheng">500</span> 修为50000</span>
                                             </div>
                                         </div>
+					   <a href="mytask_next.html"><span class="hand"></span></a>
                                     </div>
                                 </div>
                                 <!-- ///////页码/////-->
                                 <div class="RiverTask-footer">
-                                    <div class="row">
-                                        <div class="col-lg-5 col-lg-offset-1 ">
-                                            <ul class="page">
-                                                <li><a href="#">上一页</a></li>
-                                                <li><a href="#" class="pageActive">1</a></li>
-                                                <li><a href="#">2</a></li>
-                                                <li><a href="#">3</a></li>
-                                                <li><a href="#">4</a></li>
-                                                <li><a href="#">5</a></li>
-                                                <li><a href="#">下一页</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <label>跳转<input type="text" class="page-number">页</label>
-                                        </div>
+                                     <div class="pageRow">
+                                       <div class="col-xs-2"></div>
+                                        <div class="page col-xs-10">
+                                       <ul>
+                                         <li><a href="#">上一页</a></li>
+                                         <li><a href="#" class="pageActive">1</a></li>
+                                         <li><a href="#">2</a></li>
+                                         <li><a href="#">3</a></li>
+                                         <li><a href="#">4</a></li>
+                                         <li><a href="#">5</a></li>
+                                         <li><a href="#">下一页</a></li>
+                                       </ul>
+                                       <label>跳转<input type="text" class="page-number">页</label>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -459,7 +462,7 @@
                     </div>
                  <!-- 推荐任务-->
                     <div class="section mission">
-              <img src="img/Recom_task.png" alt="">
+              <img src="img/recomm-task.png" alt="">
               <div class="section-items show-item">
                 <div class="section-item">
                   <img src="img/friend.png" alt="">
@@ -587,10 +590,8 @@
     </div>
   <script src="js/vendor/jquery-1.11.1.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/MyTask.js"></script>
   <script src="js/main.js"></script>
   <script src="js/swiper.min.js"></script>
-  <script>
-    feature.hiddenT();
-  </script>
   </body>
 </html>
