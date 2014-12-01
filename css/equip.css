@@ -16,7 +16,23 @@
   margin: 20px 0;
   padding: 30px 0;
 }
-
+#collected .header{
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+#collected .media-body{
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+#collected .media-body h6{
+  letter-spacing: 5px;
+}
+#collected .media-body p{
+  margin-left: 40px;
+  font-size: 12px;
+}
 .equip-wraper{
   display: inline-block;
   margin-bottom: 50px;

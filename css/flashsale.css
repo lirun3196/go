@@ -1,5 +1,5 @@
-.flash-header{
-  text-align: right;
+.left{
+    background: url("../img/left.png") 0% 0% no-repeat #000;
 }
 .flash-body > h5{
   background-color: #e2e2e2;
@@ -56,12 +56,11 @@
   left: 10%;
 }
 .flash-footer{
+  margin: 20px auto;
+}
+.flash-footer img{
   width:100%;
   height: 80px;
-  background-color: #F9794C;
-  font-size: 30px;
-  color: #fff;
-  text-align: center;
 }
 /*每日抽奖*/
 .lottery .thumbnail{

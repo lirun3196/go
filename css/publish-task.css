@@ -73,4 +73,27 @@
   background-color: #f58a1a;
   color: #fff;
 }
-
+.talk{
+  float: left;
+  padding-left: 100px;
+}
+.talk-top{
+    color:#2a2929;
+    float:left;
+}
+.talk textarea {
+  border: 1px solid #CCC;
+  max-width: 500px;
+  max-height: 70px;
+  min-width: 500px;
+  min-height: 70px;
+  float: left;
+  margin-top:10px;
+}
+.talk textarea:focus{
+   border-color: #f58a1a;
+   box-shadow: none;
+}
+.container .row {
+    margin: 0px;
+}

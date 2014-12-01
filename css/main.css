@@ -35,9 +35,6 @@ a:focus,a:active{
 .level > .money{
   color: #f58a1a;
 }
-.fig-green{
-  color: #4f9901;
-}
 .gold{
   color: #e2d41b;
 }
@@ -52,6 +49,12 @@ a:focus,a:active{
 }
 .fig-yellow{
   color: #ea5520;
+}
+.fig-grey{
+  color: #a7a7a7;
+}
+.fig-green{
+  color: #4f9901;
 }
 .black{
   color: #000;
@@ -86,6 +89,9 @@ a:focus,a:active{
 }
 .margin-r{
   margin-right: 10px;
+}
+.margin-tb{
+  margin: 10px 0;
 }
 .text-indent{
   text-indent: 2em;
@@ -781,6 +787,7 @@ a:focus,a:active{
 .footer .links a{
   border-right: 1px solid #ddd9be;
   padding-right: 10px;
+  color: #ddd9be;
 }
 .footer .links span:last-child > a{
   border-right: 0;
@@ -1336,36 +1343,16 @@ a:focus,a:active{
 /*========抽奖轮盘========*/
 .ly-plate{
   position:relative;
-  width:509px;
-  height:509px;
-  margin: 50px auto;
-}
-.rotate-bg{
-  width:509px;
-  height:509px;
-  background:url("../img/ly-plate.png");
-  position:absolute;
-  top:0;
-  left:0
-}
-.ly-plate div.lottery-star{
-  width:214px;
-  height:214px;
-  position:absolute;
-  top:150px;
-  left:147px;
-  /*text-indent:-999em;
-  overflow:hidden;
-  background:url(rotate-static.png);
-  -webkit-transform:rotate(0deg);*/
-  outline:none
+  width:654px;
+  height:440px;
+  background:url("../img/lottery2.png");
+  margin: 50px auto 30px;
 }
 .ly-plate div.lottery-star #lotteryBtn{
   cursor: pointer;
   position: absolute;
   top:0;
   left:0;
-  *left:-107px
 }
 .lottery > h5{
   border: 1px solid #ccc;
@@ -1384,19 +1371,27 @@ a:focus,a:active{
   width: 50%;
 }
 .lottery .media{
-  padding: 10px;
-  width: 60%;
+  padding: 5px;
   margin: 0 auto;
 }
+.l-btn-wraper{
+  position: absolute;
+  top: 65%;
+  left: 45%;
+}
+.lottery-btn{
+  box-shadow: -2px 2px #bfbfbf;
+}
 .lottery .media > .pull-left{
+  padding: 0 10px 0 80px;
+}
+.lottery td .media > .pull-left img{
+  height: 40px;
+  width: 40px;
   background-color: #e0e0e0;
-  padding: 5px;
 }
 .lottery .media > .media-body{
-  padding-top: 22px;
-}
-.lottery .media > .pull-left > img{
-  max-width: 40px;
+  padding-top: 10px;
 }
 .lottery > .table-bordered > tbody > tr >th{
   background-color:#ea5520;
@@ -1418,13 +1413,12 @@ a:focus,a:active{
   position: relative;
   margin: 50% auto 0;
 }
-.win > p,
-.nothing > p{
+.win > p{
   position: absolute;
   top: 185px;
-  left: 35%;
+  left: 24%;
   color: #f00;
-  font-size: 18px;
+  font-size: 14px;
   font-stretch: expanded;
   text-shadow: 1px 1px #fff;
 }

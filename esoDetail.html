@@ -42,33 +42,9 @@
                   <li>昵称：红衣红发</li>
                   <li>性别：男</li>
                   <li class="tianGang">天罡：天罡星</li>
-                  <!--li>派系：<span class="tianGang">天罡</span></li-->
                   <li>等级：28</li>
                 </ul>
                 <button data-toggle="modal" data-target=".upgrade">升级</button>
-                <div class="modal fade upgrade" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <h4 class="col-xs-12 bold">等级晋升</h4>
-                    <p class="row"><span class="col-xs-4 col-xs-offset-2 bold">当前金币值</span><span class="align-left col-xs-4 col-xs-offset-1">100，521</span></p>
-                    <p class="row"><span class="col-xs-4 col-xs-offset-2 bold">当前积分值</span><span class="align-left col-xs-4 col-xs-offset-1">100，213，330</span></p>
-                    <p class="row">
-                      <span class="col-xs-4 col-xs-offset-2 bold">&nbsp;&nbsp;&nbsp;&nbsp;选择级别</span>
-                      <select class="align-left col-xs-2 col-xs-offset-1">
-                        <option value="1">LV.1</option>
-                        <option value="2">LV.2</option>
-                      </select>
-                    </p>
-                    <p class="row"><span class="col-xs-4 col-xs-offset-2 bold">&nbsp;&nbsp;&nbsp;&nbsp;消耗积分</span><span class="align-left col-xs-4 col-xs-offset-1">32，000</span></p>
-                    <button class="btn">猛戳升级</button> 
-                    <div class="upgrade-footer small-f">
-                      <p>升级不是想升就能升，是人品与综合实力的体现！</p>
-                      <p>升级是给有准备的人的，但是失败后您还可以获得5%的积分奖励！</p>
-                    </div>
-                    <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
-                  </div>
-                </div>
-                </div>
               </div>
             </li>
             <li class="list-group-item">
@@ -80,111 +56,66 @@
             </li>
             <li class="list-group-item">
               <div class="menu-wealth gold">
-                <span class="type black">金币</span>
+                <span class="type black">道行</span>
                 <span class="amount gold">9999999999999</span>
-                <span><a href="#" class="recharge gold" data-toggle="modal" data-target=".refill">充值</a></span>
+                <span><a href="recharge.html" class="recharge point">充值</a></span>
               </div>
             </li>
             <li class="list-group-item">
               <div class="menu-wealth point">
-                <span class="type point">积分</span>
+                <span class="type point">修为</span>
                 <span class="amount point">9999999999999</span>
                 <span><a href="#" class="recharge point" data-toggle="modal" data-target=".exchange">兑换</a></span>
               </div>
-              <div class="modal fade refill" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <h4 class="col-xs-12">金币充值</h4>
-                    <p class="row"><span class="col-xs-2 align-left">充值账号</span><span class="align-left col-xs-5 col-xs-offset-1">670596764.jiqita</span></p>
-                    <p class="row"><label class="col-xs-2 align-left">充值额度</label><input type="text" class="col-xs-5 col-xs-offset-1"><p>
-                    <p class="row"><span class="col-xs-2 align-left">充值方式</span>
-                      <button class="pay-btn col-xs-2 col-xs-offset-1">快钱</button>
-                      <button class="pay-btn col-xs-2">支付宝</button>
-                      <button class="pay-btn col-xs-2">微支付</button>
-                    </p>
-                    <select>
-                      <option value="1">更多支付方式</option>
-                      <option value="2">微信支付</option>
-                    </select>
-                    <div class="row align-left">
-                      <div class="col-xs-4">
-                        <h5>扫一扫  立刻支付</h5>
-                        <span class="fig-code"></span>
-                      </div>
-                      <div class="banks col-xs-8">
-                        <button class="button"></button><button class="button"></button>
-                        <button class="button"></button><button class="button"></button>
-                        <button class="button"></button><button class="button"></button>
-                      </div>
-                    </div>
-                    <button class="btn">确认充值</button>  
-                    <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
-                  </div>
-                </div>
-              </div>
-              <div class="modal fade exchange" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <h4 class="col-xs-12">积分兑换</h4>
-                    <p class="row"><span class="col-xs-4 col-xs-offset-2">金币值</span><span class="align-left col-xs-4 col-xs-offset-1">10,000</span></p>
-                    <p class="row"><span class="col-xs-4 col-xs-offset-2">积分值</span><span class="align-left col-xs-4 col-xs-offset-1">987,654，000</span></p>
-                    <p><span class="line"></span><span class="small-f red hint">提示：1金币可以兑换100积分</span><span class="line"></span></p>
-                    <p class="row"><label class="col-xs-4 col-xs-offset-2">输入兑换金额</label><input type="text" class="col-xs-4"><p>
-                    <p class="blue">兑换后将获得积分值10,000</p>
-                    <button class="btn">确认兑换</button> 
-                    <span class="btn-wraper"><button class="close-btn" data-dismiss="modal">×</button></span>
-                  </div>
-                </div>
-              </div>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
+              <a href="friend.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-con.png" alt=""></span>
                 <span class="menu-item-title">好友动态</span>
-                <a href="#"><span class="menu-item-status">新的动态36</span></a>
-              </div>
+                <span class="menu-item-status"></span>
+              </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
+              <a href="attention.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-love.png" alt=""></span>
                 <span class="menu-item-title">特别关注</span>
-                <a href="#"><span class="menu-item-status special">[24/46]</span></a>
-              </div>
+                <span class="menu-item-status special"></span>
+              </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
+              <a href="birthday.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-cake.png" alt=""></span>
                 <span class="menu-item-title">生日提醒</span>
-                <a href="#"><span class="menu-item-status">新的消息36</span></a>
-              </div>
+                <span class="menu-item-status"></span>
+              </div></a>
             </li>
             <li class="list-group-item">
               <a href="equip.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-person.png" alt=""></span>
                 <span class="menu-item-title">我的装备</span>
-                <span class="menu-item-status">新的消息36</span>
+                <span class="menu-item-status"></span>
                 </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
-                <span class="menu-item-icon"><img src="img/menu-book.png" alt=""></span>
+              <a href="myEso.html"><div class="menu-item">
+                <span class="menu-item-icon"><img src="img/miji.png" alt=""></span>
                 <span class="menu-item-title">我的秘籍</span>
-               <a href="#"><span class="menu-item-status">新的消息36</span></a>
-              </div>
+               <span class="menu-item-status"></span>
+                </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
+              <a href="myTask.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/menu-book.png" alt=""></span>
                 <span class="menu-item-title">江湖任务</span>
-               <a href="#"><span class="menu-item-status">新的消息36</span></a>
-              </div>
+               <span class="menu-item-status"></span>
+              </div></a>
             </li>
             <li class="list-group-item">
-              <div class="menu-item">
+              <a href="arena.html"><div class="menu-item">
                 <span class="menu-item-icon"><img src="img/leitai.png" alt=""></span>
                 <span class="menu-item-title">江湖擂台</span>
-                <a href="#"><span class="menu-item-status">新的消息36</span></a>
-              </div>
+                <span class="menu-item-status"></span>
+              </div></a>
             </li>
           </ul>
           <div class="d-code">
@@ -199,43 +130,45 @@
                 <img src="img/d-code.png" alt="">
               </div>
               <div class="tab-pane" id="android">
-                <img src="img/android.png" alt="">
+                <img src="img/d-code.png" alt="">
               </div>
               <div class="tab-pane" id="weixin">
-                <img src="img/weixin.png" alt="">
+                <img src="img/d-code.png" alt="">
               </div>
             </div><!-- end of tab-content-->
           </div> 
         </div>
         <div class="content">
           <div class="main cl">
+            <div class="navWraper">
             <ul class="nav nav-pills" role="tablist">
-              <li role="presentation"><a href="#">个人设置</a></li>
-              <li role="presentation"><a href="#">安全中心</a></li>
-              <li role="presentation"><a href="#">客服服务</a></li>
+              <li role="presentation"><a href="setting.html">个人设置</a></li>
+              <li role="presentation"><a href="security.html">安全中心</a></li>
+              <li role="presentation"><a href="cs.html">客服服务</a></li>
+              <li role="presentation"><a href="#">新手指南</a></li>
             </ul>
+            </div>
             <div class="ad">
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <a href="#"><img src="img/ad1.png" alt="广告图"></a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#"><img src="img/ad2.png" alt="广告图"></a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#"><img src="img/ad3.png" alt="广告图"></a>
-                  </div>
+              <div class="carousel" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/ad1.png" alt="...">
                 </div>
+                <div class="item">
+                  <img src="img/ad2.png" alt="...">
+                </div>
+              </div>
               </div>
             </div>
             <ul class="nav-center">
-              <li><img src="img/center-mall.png" alt=""><a href="index.html">我的江湖</a></li>
-              <li><img src="img/center-mall.png" alt=""><a href="mall.html"   class="center-active">江湖商城</a></li>
-              <li><img src="img/center-mall.png" alt=""><a href="esoterica.html">江湖秘籍</a></li>
-              <li><img src="img/center-mall.png" alt=""><a href="donation.html">爱心捐赠</a></li>
-              <li><img src="img/center-mall.png" alt=""><a href="purchase.html">近期采购</a></li>
-              <li><img src="img/center-mall.png" alt=""><a href="fund.html">江湖基金</a></li>
+              <li><img src="img/center-index.png" alt=""></li>
+              <li><a href="index.html"  class="center-active">我的江湖</a></li>
+              <li><a href="mall.html">江湖商城</a></li>
+              <li><a href="esoterica.html">江湖秘籍</a></li>
+              <li><a href="donation.html">爱心捐赠</a></li>
+              <li><a href="purchase.html">近期采购</a></li>
+              <li><a href="fund.html">练功房</a></li>
             </ul>
             <div class="section esoDetail">
                 <div class="eso-header">
@@ -271,7 +204,7 @@
                     <div class="shareBar">
                       <div>
                       <p class="collect"><span class="fa fa-star-o"></span>收藏</p>
-                      <p class="collected"><span class="fa fa-star"></span>已收藏</p>
+                      <p class="collected"><span class="fa fa-star"></span>取消收藏</p>
                       </div>
                       <p><span class="fa fa-share-square-o"></span>分享</p>
                       <p><span class="fa fa-arrows"></span>推广</p>
@@ -280,14 +213,15 @@
                     <p class="descript">本书描写保尔·柯察金作为一个普通工人的儿子，经历第一次世界大战、
                       十月革命、国内战争和国民经 济恢复时期的严峻生活，把对旧生活自
                       发的反抗改变为自觉的阶级意志</p>
+                    <p class="small-f red margin-tb">跨门派购买，系统将扣除200修为。</p>
                     <div class="row">
                       <div class="col-xs-5">
-                        <p class="level">￥<span class="red margin-l bold">5612</span></p>
+                        
                         <p class="level">道行<span class="money margin-l-5 bold">54578</span></p>
                         <p class="level">修为<span class="text-muted margin-l-5 bold">5486</span></p>
                       </div>
                       <div class="col-xs-6 text-right">
-                        <a class="esoDetailBtn btn">购买</a>
+                        <a class="esoDetailBtn btn">已兑换</a>
                       </div>
                     </div>
                   </div>
@@ -304,8 +238,8 @@
                   <span class="btn">厚度（>25mm）</span>  
                   <span class="btn">Intel i5尺寸：15英寸</span>  
                 </p-->
-                <h3>内容</h3>
-                <p>的风格</p>
+                <h4 class="bold text-muted">内容简介</h4>
+                <p class="fig-grey">的风格</p>
               </div>
             </div>
             
@@ -313,11 +247,11 @@
         </div><!-- end of content -->
         <div class="ribbon">
           <ul>
-            <li><a href="#" class="r1">签到有礼</a></li>
-            <li><a href="#" class="r2">免费抽奖</a></li>
-            <li><a href="#" class="r3">限时抢购</a></li>
-            <li><a href="#" class="r4">系统消息</a></li>
-            <li><a href="#" class="r5">龙门战帖</a></li>
+            <li><a href="sign.html" class="r1">签到有礼</a></li>
+            <li><a href="lottery.html" class="r2">免费抽奖</a></li>
+            <li><a href="flashsale.html" class="r3">限时抢购</a></li>
+            <li><a href="sysinfo.html" class="r4">系统消息</a></li>
+            <li><a href="#" class="r5">江湖规则</a></li>
             <li><a href="#" class="r6">行侠攻略</a></li>
             <li><a href="#" class="r7">锦囊妙计</a></li>
             <li><a href="#" class="r8">独门秘籍</a></li>
@@ -328,24 +262,35 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
-            <img src="img/logo-fig.png" alt="">
+          <div class="col-xs-4">
+            <img src="img/logo-fig-r.png" alt="">
           </div>
-          <div class="col-lg-8 col-lg-offset-1 footer-info">
-            <p class="company">北京(重庆)老男孩科技有限公司</p>
+          <div class="col-xs-7 col-xs-offset-1 footer-info">
+            <p class="links">
+              <span><a href="">老男孩官网</a></span>
+              <span><a href="">关于我们</a></span>
+              <span><a href="">项目介绍</a></span>
+              <span><a href="">相关法律</a></span>
+              <span><a href="">商务合作</a></span>
+              <span><a href="">联系我们</a></span>
+            </p>
             <p>
-              <span><img src="img/phone.png" alt="">023-67886226</span>
-              <span><img src="img/net.png" alt=""><a href="http://www.bjlnh.com" target="_blank">www.bjlnh.com</a></span>
-              <span><img src="img/home.png" alt="">重庆北部新区金渝大道85号汉国中心B栋20F</span>
+              <span class="company">重庆老男孩科技有限公司版权所有</span>
+              <span>ICP备案号：渝备02321313号</span>
+              <span>增值业务许可证：增2938123812号</span>
+            </p>
+            <p class="normal-f">
+              <span class="footer-gold"><img src="img/phone.png" alt="">023-67886226</span>
+              <span class="footer-gold"><img src="img/net.png" alt=""><a href="http://www.bjlnh.com" target="_blank">www.bjlnh.com</a></span>
+              <span class="footer-gold"><img src="img/home.png" alt="">重庆北部新区金渝大道85号汉国中心B栋20F</span>
             </p>
           </div>
         </div>
       </div>
     </div>
   <script src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/swiper.min.js"></script>
-  <script src="js/vendor/bootstrap.min.js"></script>
   <script>
     feature.collected();
   </script>

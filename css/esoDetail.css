@@ -43,15 +43,14 @@
 .descript{
   color: #9c9c9c;
 }
-.esoDetailBtn{
-  width: 100px;
-  height: 40px;
-  letter-spacing: 20px;
-  padding-left: 20px;
-  font-size: 18px;
+.esoDetailBtn {
+    letter-spacing: 5px;
+    padding-left: 18px;
+    font-size: 18px;
 }
+
 .eso-body{
-  
+  padding: 20px 0 0 40px;
 }
 .eso-body .goodsLabel{
   padding: 0 5%;
@@ -104,7 +103,7 @@ height: 33px;
 /*推广、分享按钮*/
 .shareBar{
   padding: 5px;
-  margin: 20px 0 40px;
+  margin: 20px 0 30px;
   border-bottom: 1px dashed #ccc;
   border-top: 1px dashed #ccc;
   color:#990a07;
@@ -113,7 +112,7 @@ height: 33px;
 }
 .shareBar >div{
   display: inline-block;
-  width: 117px;
+  width: 137px;
 }
 .shareBar  p{
   display: inline-block;
@@ -150,15 +149,17 @@ height: 33px;
   margin: 0 0 20px;
   display: block;
 }
-.checkBtn{
-  letter-spacing: 10px;
-  padding-left: 20px;
-  font-size: 16px;
+.checkBtn {
+  letter-spacing: 7px;
+  padding: 3px 5px 3px 12px;
+  font-size: 12px;
   font-weight: bolder;
   background-color: #dc2a1c;
+  border-radius: 3px;
 }
 .myEso .media-body > h4{
   color: #717171;
+  font-size: 16px;
 }
 .myEso.row{
   padding: 35px 0;
